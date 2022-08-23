@@ -1,0 +1,60 @@
+[08/23/2022 18:13:52]:           __             _       
+[08/23/2022 18:13:52]:   _ __   / /  ___   __ _(_)_ __  
+[08/23/2022 18:13:52]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[08/23/2022 18:13:52]:  | | | / /__| (_) | (_| | | | | |
+[08/23/2022 18:13:52]:  |_| |_\____/\___/ \__, |_|_| |_|
+[08/23/2022 18:13:52]:                   |___/            
+[08/23/2022 18:13:52]:  By: www.nickuc.com - V 10.1.2 DEVELOPMENT
+[08/23/2022 18:13:52]: 
+[08/23/2022 18:13:52]: §3[nLogin] [DEBUG] Detecting hardware and software configurations...
+[08/23/2022 18:13:52]: §3[nLogin] [DEBUG] All settings were loaded in 127 ms.
+[08/23/2022 18:13:52]: §3[nLogin] [DEBUG] Loading the messages_ru.yml message file...
+[08/23/2022 18:13:52]: §3[nLogin] [DEBUG] All plugin messages were loaded in 58 ms (languageByClient=false).
+[08/23/2022 18:13:52]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[08/23/2022 18:13:52]: §3[nLogin] [DEBUG] Starting logger filter...
+[08/23/2022 18:13:52]: §3[nLogin] [DEBUG] Loading database...
+[08/23/2022 18:13:53]: [nLogin] nLogin was loaded in 920ms.
+[08/23/2022 18:14:25]: §4[nLogin] [ERROR] §cFailed to spoof start packet for 2121
+java.lang.UnsupportedOperationException: The method getUniqueId is not supported for temporary players.
+	at com.comphenix.protocol.injector.temporary.TemporaryPlayerFactory$1.delegate(TemporaryPlayerFactory.java:138)
+	at com.comphenix.protocol.injector.temporary.TemporaryPlayerInvocationHandler.getUniqueId(Unknown Source)
+	at com.comphenix.protocol.injector.BukkitUnwrapper$2.unwrapItem(BukkitUnwrapper.java:234)
+	at com.comphenix.protocol.injector.BukkitUnwrapper.unwrapItem(BukkitUnwrapper.java:125)
+	at com.comphenix.protocol.utility.MinecraftFields.getNetworkManager(MinecraftFields.java:30)
+	at com.comphenix.protocol.injector.netty.channel.InjectionFactory.fromPlayer(InjectionFactory.java:96)
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerPlayerInjector.receiveClientPacket(NetworkManagerPlayerInjector.java:64)
+	at com.comphenix.protocol.injector.PacketFilterManager.receiveClientPacket(PacketFilterManager.java:241)
+	at com.comphenix.protocol.injector.PacketFilterManager.receiveClientPacket(PacketFilterManager.java:210)
+	at com.nickuc.login.ζΠΨθμδμθγκΣηω.a(:54)
+	at com.nickuc.login.ζΠΨθμδμθγκΣηω.a(:69)
+	at com.nickuc.login.ςμκΔΣιζρΛξΨιθφΠ.c(:228)
+	at com.nickuc.login.ςμκΔΣιζρΛξΨιθφΠ.run(:162)
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82)
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[08/23/2022 18:14:25]: §4[nLogin] [ERROR] §cUnexpected error during sending kick packet for com.comphenix.protocol.injector.temporary.TemporaryPlayerInvocationHandler@52f56b13 via ProtocolLib
+java.lang.UnsupportedOperationException: The method getUniqueId is not supported for temporary players.
+	at com.comphenix.protocol.injector.temporary.TemporaryPlayerFactory$1.delegate(TemporaryPlayerFactory.java:138)
+	at com.comphenix.protocol.injector.temporary.TemporaryPlayerInvocationHandler.getUniqueId(Unknown Source)
+	at com.comphenix.protocol.injector.BukkitUnwrapper$2.unwrapItem(BukkitUnwrapper.java:234)
+	at com.comphenix.protocol.injector.BukkitUnwrapper.unwrapItem(BukkitUnwrapper.java:125)
+	at com.comphenix.protocol.utility.MinecraftFields.getNetworkManager(MinecraftFields.java:30)
+	at com.comphenix.protocol.injector.netty.channel.InjectionFactory.fromPlayer(InjectionFactory.java:96)
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerPlayerInjector.sendServerPacket(NetworkManagerPlayerInjector.java:59)
+	at com.comphenix.protocol.injector.PacketFilterManager.sendServerPacket(PacketFilterManager.java:181)
+	at com.comphenix.protocol.injector.PacketFilterManager.sendServerPacket(PacketFilterManager.java:154)
+	at com.comphenix.protocol.injector.PacketFilterManager.sendServerPacket(PacketFilterManager.java:149)
+	at com.nickuc.login.ζΠΨθμδμθγκΣηω.b(:80)
+	at com.nickuc.login.ζΠΨθμδμθγκΣηω.a(:72)
+	at com.nickuc.login.ςμκΔΣιζρΛξΨιθφΠ.c(:228)
+	at com.nickuc.login.ςμκΔΣιζρΛξΨιθφΠ.run(:162)
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:82)
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[08/23/2022 18:14:25]: §3[nLogin] [DEBUG] [ProtocolLib] com.comphenix.protocol.injector.temporary.TemporaryPlayerInvocationHandler@52f56b13 has been disconnected: Internal Exception: The method getUniqueId is not supported for temporary players.
+[08/23/2022 18:15:00]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `realname` = '2121', `uniqueId` = ad7958e476d937a884f48c67e317b595,  `premiumId` = null,  `premium` = -1,  `password` = '$SHA512$a580eb03557f4ff692b79621f37143265927fb12aafa79a2697f22d45b3bd6ad1a4d1951379c3060fbe69ab1c531a82001316bd103f2c9db31a64db85bf961d3$PPsdOPazgPeMYjSEvhtjazSw', `address` = '26.179.133.236', `regdate` = 2022-08-23 17:22:23.376, `lastlogin` = 2022-08-23 18:15:00.527, `email` = null, `twitter` = null, `discord` = null, `settings` = '{"settings":[{"value":"CgsMHR7ak01zJAQTpdCJ0eSPb5c2nyKNSG6ojHtMLUlDdGGTQVDz0B9A3OQhrUlP1SUSxHJOeHQ+61WzArzy6xI4SJbzpLYHfPO3z9VL0OXRValE7j8+cUD7PN0U5jPcpHzbRE6vLMUV3pkM7fioL7JmMzavNkVo9NdExyC3Nu1jt+8znZk3f18mGiI7ut7PWDH2EqRmTzLIgKA0H6g3HpSfgY/CrRgqAIsxF/vNyqkc5VgXdP1mDLiChE6X4bU6YorZK615aEsfNc8lbWB6qlHF4Hm3lcPSHqaTKm61xRkl/w9INRKfk8c1d7kO9aKCBBzlWyvQsuZchKr5LX0MknGehew82QH2ODRcySS4L4mU3uXkJrxoN8ZD9T8kzycI8SqqbNty6InqmZ8/YTM/3Tfx5McWDA9DIJkN+iHg0kHcGAIWSm1BOio32unh9aw1NInqchiUx27iC869+AknMQk+l006vkT9gz91NX6MwaOOTdNwxGfFELnbR9AWj6yAmOgzJYwWqRmADvnTj91d9n8Gp87iRxfC36n21jhXPpSjxNuZ353xwuRj+nYY7sqsGaLxZa8fp+8OGzQoqDbcmljpB0+PiZiS07bl6zk/NlNfNSuqmXHSg46s9PWjR9N3GaVMfxzgc3wzrhsPUzbzzc3EfJI5aTqAD0mNBT5nnpE=:9u86OR64OL05A7RjFelus/4+MysLzC4WuEmvy4fDh3qvxR9woSXeiO1ZbnJt0Wi20M9MMS/C","key":"encrypted"}],"version":0}' WHERE `id` = 3"
+[08/23/2022 18:15:00]: [nLogin] The user 2121 has successfully logged in.

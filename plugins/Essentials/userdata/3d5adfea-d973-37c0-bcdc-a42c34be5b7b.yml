@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 127.0.0.1
+ip-address: 26.119.135.221
 afk: false
 socialspy: false
 npc: false
@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1661249040041
+  logout: 1661264391488
+  login: 1661264337826
 money: '0'
 last-account-name: Manteecora
+logoutlocation:
+  world: d5c4102d-9feb-48e2-8f0d-e2fbffc05c30
+  world-name: world
+  x: 4.963477105996516
+  y: 80.0
+  z: -198.75323694501242
+  yaw: -140.95208740234375
+  pitch: 13.500049591064453
