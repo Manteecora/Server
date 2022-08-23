@@ -1,0 +1,16 @@
+[08/23/2022 20:13:01]:           __             _       
+[08/23/2022 20:13:01]:   _ __   / /  ___   __ _(_)_ __  
+[08/23/2022 20:13:01]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[08/23/2022 20:13:01]:  | | | / /__| (_) | (_| | | | | |
+[08/23/2022 20:13:01]:  |_| |_\____/\___/ \__, |_|_| |_|
+[08/23/2022 20:13:01]:                   |___/            
+[08/23/2022 20:13:01]:  By: www.nickuc.com - V 10.1.2 DEVELOPMENT
+[08/23/2022 20:13:01]: 
+[08/23/2022 20:13:01]: §3[nLogin] [DEBUG] Detecting hardware and software configurations...
+[08/23/2022 20:13:02]: §3[nLogin] [DEBUG] All settings were loaded in 138 ms.
+[08/23/2022 20:13:02]: §3[nLogin] [DEBUG] Loading the messages_ru.yml message file...
+[08/23/2022 20:13:02]: §3[nLogin] [DEBUG] All plugin messages were loaded in 62 ms (languageByClient=false).
+[08/23/2022 20:13:02]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[08/23/2022 20:13:02]: §3[nLogin] [DEBUG] Starting logger filter...
+[08/23/2022 20:13:02]: §3[nLogin] [DEBUG] Loading database...
+[08/23/2022 20:13:02]: [nLogin] nLogin was loaded in 988ms.

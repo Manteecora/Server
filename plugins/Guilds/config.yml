@@ -17,7 +17,7 @@ settings:
     # If you try and use a different language than any in the list above, the plugin will not function in a normal manner.
     # As you can see this is currently en-US, and there is a en-US.yml file in the language folder.
     # If I wanted to switch to french, I would use fr-FR as the language instead.
-    messagesLanguage: en-US
+    messagesLanguage: ru-RU
     # Would you like to check for plugin updates on startup? It's highly suggested you keep this enabled!
     update-check: true
     # What would you like the command aliases for the plugin to be?

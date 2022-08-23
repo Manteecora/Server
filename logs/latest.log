@@ -1,347 +1,418 @@
-[18:17:30] [ServerMain/INFO]: Building unoptimized datafixer
-[18:17:31] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:17:34] [ServerMain/INFO]: Loaded 7 recipes
-[18:17:35] [Server thread/INFO]: Starting minecraft server version 1.19
-[18:17:35] [Server thread/INFO]: Loading properties
-[18:17:35] [Server thread/INFO]: This server is running CraftBukkit version 3534-Spigot-56be6a8-6c61b73 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT)
-[18:17:36] [Server thread/INFO]: Debug logging is disabled
-[18:17:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:17:36] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:17:36] [Server thread/INFO]: Default game type: SURVIVAL
-[18:17:36] [Server thread/INFO]: Generating keypair
-[18:17:36] [Server thread/INFO]: Starting Minecraft server on 26.119.135.221:25565
-[18:17:36] [Server thread/INFO]: Using default channel type
-[18:17:37] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[18:17:37] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.41
-[18:17:38] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[18:17:38] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
-[18:17:38] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b560
-[18:17:39] [Server thread/INFO]: [nLogin] Loading nLogin v10.1.2
-[18:17:39] [Server thread/INFO]: [nLogin] Connecting to the remote server api.nickuc.com...
-[18:17:39] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
-[18:17:40] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1649b5a4]
-[18:17:40] [Server thread/INFO]: [PlayerKits] Loading PlayerKits v2.24.3
-[18:17:40] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4
-[18:17:40] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.8-beta-01+cbb2ba7
-[18:17:40] [Server thread/INFO]: [TAB] Loading TAB v3.1.4
-[18:17:40] [Server thread/INFO]: [Guilds] Loading Guilds v3.5.6.4
-[18:17:40] [Server thread/INFO]: [Guilds] Loading Libraries...
-[18:17:40] [Server thread/INFO]: [Guilds] Note: This might take a few minutes on first run. Kindly ensure internet connectivity.
-[18:17:56] [Server thread/INFO]: [Guilds] Loaded libraries in 15,774 seconds
-[18:17:56] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.41
-[18:17:56] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
-[18:17:56] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.41[m
-[18:17:56] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
-[18:17:56] [Server thread/INFO]: [m
-[18:17:56] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[18:17:57] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[18:17:57] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[18:17:57] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[18:17:57] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1563ms)
-[18:17:57] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[18:17:57] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.4 which is not a depend or softdepend of this plugin.
-[18:17:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[18:17:57] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[18:17:57] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[18:17:57] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[18:17:57] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b560
-[18:17:57] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
-[18:17:57] [Server thread/INFO]: [nLogin] Enabling nLogin v10.1.2
-[18:17:58] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.30s)
-[18:17:58] [Server thread/INFO]: [0;34;1m          __             _       [m
-[18:17:58] [Server thread/INFO]: [0;34;1m  _ __   / /  ___   __ _(_)_ __  [m
-[18:17:58] [Server thread/INFO]: [0;34;1m | '_ \ / /  / _ \ / _` | | '_ \ [m
-[18:17:58] [Server thread/INFO]: [0;34;1m | | | / /__| (_) | (_| | | | | |[m
-[18:17:58] [Server thread/INFO]: [0;34;1m |_| |_\____/\___/ \__, |_|_| |_|[m
-[18:17:58] [Server thread/INFO]: [0;34;1m                  |___/            [m
-[18:17:58] [Server thread/INFO]: [0;34;1m By: www.nickuc.com - V 10.1.2 DEVELOPMENT[m
-[18:17:58] [Server thread/INFO]: [0;34;1m[m
-[18:17:59] [Server thread/INFO]: [nLogin] nLogin was loaded in 925ms.
-[18:17:59] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
-[18:17:59] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[18:17:59] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[18:17:59] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[18:18:00] [Server thread/INFO]: [WorldEdit] ====================================================
-[18:18:00] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[18:18:00] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[18:18:00] [Server thread/INFO]: [WorldEdit]   
-[18:18:00] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[18:18:00] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[18:18:00] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[18:18:00] [Server thread/INFO]: [WorldEdit]   
-[18:18:00] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[18:18:00] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[18:18:00] [Server thread/INFO]: [WorldEdit]   
-[18:18:00] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[18:18:00] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[18:18:00] [Server thread/INFO]: [WorldEdit]   
-[18:18:00] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[18:18:00] [Server thread/INFO]: [WorldEdit] ====================================================
-[18:18:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:18:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:18:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:18:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:18:00] [Server thread/INFO]: Preparing level "world"
-[18:18:00] [Server thread/INFO]: -------- World Settings For [world] --------
-[18:18:00] [Server thread/INFO]: View Distance: 10
-[18:18:00] [Server thread/INFO]: Simulation Distance: 10
-[18:18:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:18:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:18:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:18:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:18:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:18:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[18:18:00] [Server thread/INFO]: Mob Spawn Range: 6
-[18:18:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:18:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:18:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:18:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:18:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:18:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:18:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:18:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:18:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:18:00] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:18:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:18:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:18:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:18:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:18:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:18:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:18:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:18:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:18:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[18:18:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[18:18:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[18:18:00] [Server thread/INFO]: Max TNT Explosions: 100
-[18:18:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:18:01] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[18:18:01] [Server thread/INFO]: View Distance: 10
-[18:18:01] [Server thread/INFO]: Simulation Distance: 10
-[18:18:01] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:18:01] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:18:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:18:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:18:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:18:01] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[18:18:01] [Server thread/INFO]: Mob Spawn Range: 6
-[18:18:01] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:18:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:18:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[18:18:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[18:18:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[18:18:01] [Server thread/INFO]: Max TNT Explosions: 100
-[18:18:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:18:01] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[18:18:01] [Server thread/INFO]: View Distance: 10
-[18:18:01] [Server thread/INFO]: Simulation Distance: 10
-[18:18:01] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:18:01] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:18:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:18:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:18:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:18:01] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[18:18:01] [Server thread/INFO]: Mob Spawn Range: 6
-[18:18:01] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:18:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:18:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:18:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[18:18:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[18:18:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[18:18:01] [Server thread/INFO]: Max TNT Explosions: 100
-[18:18:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:18:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:18:19] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[18:18:19] [Worker-Main-12/INFO]: Preparing spawn area: 4%
-[18:18:19] [Worker-Main-4/INFO]: Preparing spawn area: 4%
-[18:18:20] [Worker-Main-7/INFO]: Preparing spawn area: 15%
-[18:18:20] [Worker-Main-12/INFO]: Preparing spawn area: 32%
-[18:18:21] [Worker-Main-3/INFO]: Preparing spawn area: 43%
-[18:18:21] [Worker-Main-6/INFO]: Preparing spawn area: 55%
-[18:18:22] [Worker-Main-8/INFO]: Preparing spawn area: 68%
-[18:18:23] [Worker-Main-1/INFO]: Preparing spawn area: 83%
-[18:18:23] [Worker-Main-2/INFO]: Preparing spawn area: 86%
-[18:18:23] [Worker-Main-1/INFO]: Preparing spawn area: 96%
-[18:18:24] [Server thread/INFO]: Time elapsed: 22260 ms
-[18:18:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:18:26] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[18:18:26] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[18:18:26] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[18:18:26] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[18:18:26] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[18:18:26] [Worker-Main-14/INFO]: Preparing spawn area: 15%
-[18:18:27] [Worker-Main-6/INFO]: Preparing spawn area: 91%
-[18:18:27] [Server thread/INFO]: Time elapsed: 3042 ms
-[18:18:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:18:28] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[18:18:28] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[18:18:28] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[18:18:28] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[18:18:29] [Worker-Main-4/INFO]: Preparing spawn area: 55%
-[18:18:29] [Server thread/INFO]: Time elapsed: 2264 ms
-[18:18:29] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[18:18:29] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[18:18:29] [Server thread/INFO]: [ClearLag] Loading modules...
-[18:18:29] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_19_R1.MinecraftServer)
-[18:18:29] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[18:18:29] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[18:18:29] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[18:18:29] [Thread-11/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.19]...
-[18:18:29] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
-[18:18:29] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[18:18:29] [Server thread/INFO]: [PlayerKits] Enabling PlayerKits v2.24.3
-[18:18:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerkits [2.24.3]
-[18:18:29] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mHas been enabled! [0;37;1mVersion: 2.24.3[m
-[18:18:29] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mThanks for using my plugin!  [0;37;1m~Ajneb97[m
-[18:18:29] [Thread-11/INFO]: [ClearLag] No updates found!
-[18:18:30] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4
-[18:18:30] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[18:18:30] [Server thread/INFO]: Creating config from template: plugins\Essentials\config.yml
-[18:18:30] [Server thread/INFO]: Creating config from template: plugins\Essentials\kits.yml
-[18:18:30] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[18:18:30] [Server thread/INFO]: No kits found to migrate.
-[18:18:30] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[18:18:30] [Server thread/INFO]: [Essentials] Starting usermap repair
-[18:18:30] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
-[18:18:30] [Server thread/INFO]: Attempting to migrate ignore list to UUIDs
-[18:18:30] [Server thread/INFO]: Attempting to migrate legacy userdata keys to Configurate
-[18:18:30] [Server thread/INFO]: Creating config from template: plugins\Essentials\worth.yml
-[18:18:30] [Server thread/INFO]: Creating config from template: plugins\Essentials\tpr.yml
-[18:18:30] [Server thread/WARN]: java.lang.NoSuchMethodException: no such method: net.minecraft.server.MinecraftServer.v()boolean/invokeVirtual
-[18:18:30] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName.makeAccessException(MemberName.java:976)
-[18:18:30] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1117)
-[18:18:30] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:3649)
-[18:18:30] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.findVirtual(MethodHandles.java:2680)
-[18:18:30] [Server thread/WARN]: 	at net.ess3.nms.refl.providers.ReflServerStateProvider.<init>(ReflServerStateProvider.java:20)
-[18:18:30] [Server thread/WARN]: 	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:382)
-[18:18:30] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
-[18:18:30] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
-[18:18:30] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479)
-[18:18:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:520)
-[18:18:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:434)
-[18:18:30] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:582)
-[18:18:30] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:401)
-[18:18:30] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:255)
-[18:18:30] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:966)
-[18:18:30] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:291)
-[18:18:30] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[18:18:30] [Server thread/WARN]: Caused by: java.lang.NoSuchMethodError: 'boolean net.minecraft.server.MinecraftServer.v()'
-[18:18:30] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandleNatives.resolve(Native Method)
-[18:18:30] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolve(MemberName.java:1085)
-[18:18:30] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1114)
-[18:18:30] [Server thread/WARN]: 	... 15 more
-[18:18:30] [Server thread/INFO]: Loaded 36926 items from items.json.
-[18:18:30] [Server thread/INFO]: Creating config from template: plugins\Essentials\custom_items.yml
-[18:18:30] [Server thread/INFO]: Using locale ru_RU
-[18:18:30] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[18:18:30] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[18:18:30] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[18:18:30] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[18:18:30] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.8-beta-01+cbb2ba7
-[18:18:31] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[18:18:31] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[18:18:31] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[18:18:31] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[18:18:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[18:18:31] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[18:18:31] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[18:18:31] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[18:18:31] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[18:18:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[18:18:31] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[18:18:31] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[18:18:31] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[18:18:31] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[18:18:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[18:18:31] [Server thread/INFO]: [WorldGuard] Loading region data...
-[18:18:31] [Server thread/INFO]: [TAB] Enabling TAB v3.1.4
-[18:18:31] [Server thread/INFO]: [TAB] Server version: 1.19 (v1_19_R1)[m
-[18:18:31] [Server thread/INFO]: [TAB] Loaded NMS hook in 26ms[m
-[18:18:31] [Server thread/INFO]: [TAB] [0;32;1mEnabled in 195ms[m
-[18:18:31] [Server thread/INFO]: [Guilds] Enabling Guilds v3.5.6.4
-[18:18:31] [Server thread/INFO]: [0;32;1m  ________ [m
-[18:18:31] [Server thread/INFO]: [0;32;1m /  _____/ [m
-[18:18:31] [Server thread/INFO]: [0;32;1m/   \  ___   [0;36;22mGuilds [0;30;1mv3.5.6.4[m
-[18:18:31] [Server thread/INFO]: [0;32;1m\    \_\  \  [0;36;22mServer Version: [0;30;1m3534-Spigot-56be6a8-6c61b73 (MC: 1.19)[m
-[18:18:31] [Server thread/INFO]: [0;32;1m \______  /[m
-[18:18:31] [Server thread/INFO]: [0;32;1m        \/ [m
-[18:18:31] [Server thread/INFO]: Economy Found: EssentialsX Economy
-[18:18:31] [Server thread/INFO]: Permissions Found: LuckPerms
-[18:18:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: guilds [2.1]
-[18:18:32] [Server thread/INFO]: Ready to go! That only took 839ms
-[18:18:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:18:32] [ForkJoinPool.commonPool-worker-1/INFO]: [Guilds] Your version of Guilds (3.5.6.4) is up to date!
-[18:18:32] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[18:18:32] [Server thread/INFO]: [0;33;22m0 placeholder hook(s) registered![m
-[18:18:32] [Server thread/INFO]: Done (32.239s)! For help, type "help"
-[18:18:32] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[18:18:33] [Craft Scheduler Thread - 8/INFO]: [Essentials] §6Получение информации о версии...
-[18:18:33] [TaskChainAsyncQueue Thread 0/INFO]: §6§lFeatures
+[22:57:31] [ServerMain/INFO]: Building unoptimized datafixer
+[22:57:32] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:57:32] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[22:57:34] [ServerMain/INFO]: Loaded 7 recipes
+[22:57:36] [Server thread/INFO]: Starting minecraft server version 1.19
+[22:57:36] [Server thread/INFO]: Loading properties
+[22:57:36] [Server thread/INFO]: This server is running CraftBukkit version 3534-Spigot-56be6a8-6c61b73 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT)
+[22:57:36] [Server thread/INFO]: Debug logging is disabled
+[22:57:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:57:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:57:36] [Server thread/INFO]: Default game type: SURVIVAL
+[22:57:36] [Server thread/INFO]: Generating keypair
+[22:57:37] [Server thread/INFO]: Starting Minecraft server on 26.119.135.221:25565
+[22:57:37] [Server thread/INFO]: Using default channel type
+[22:57:38] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.41
+[22:57:39] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
+[22:57:39] [Server thread/INFO]: [SimpleRTP] Loading SimpleRTP v2.5
+[22:57:39] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[22:57:39] [Server thread/INFO]: [SetSpawn] Loading SetSpawn v4.3
+[22:57:39] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[22:57:39] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b560
+[22:57:40] [Server thread/INFO]: [Chatty] Loading Chatty v2.19.12
+[22:57:40] [Server thread/INFO]: [nLogin] Loading nLogin v10.1.2
+[22:57:40] [Server thread/INFO]: [nLogin] Connecting to the remote server api.nickuc.com...
+[22:57:41] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
+[22:57:41] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[22:57:41] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@770e3019]
+[22:57:41] [Server thread/INFO]: [PlayerKits] Loading PlayerKits v2.24.3
+[22:57:41] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4
+[22:57:41] [Server thread/INFO]: [TAB] Loading TAB v3.1.4
+[22:57:41] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.8-beta-01+cbb2ba7
+[22:57:41] [Server thread/INFO]: [Guilds] Loading Guilds v3.5.6.4
+[22:57:41] [Server thread/INFO]: [Guilds] Loading Libraries...
+[22:57:41] [Server thread/INFO]: [Guilds] Note: This might take a few minutes on first run. Kindly ensure internet connectivity.
+[22:57:42] [Server thread/INFO]: [Guilds] Loaded libraries in 0,399 seconds
+[22:57:42] [Server thread/INFO]: [MoneyFromMobs] Loading MoneyFromMobs v4.6
+[22:57:42] [Server thread/INFO]: [SCore] Loading SCore v3.1.9
+[22:57:42] [Server thread/INFO]: [ExecutableItems] Loading ExecutableItems v5.1.9
+[22:57:42] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.41
+[22:57:43] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[22:57:43] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.41[m
+[22:57:43] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[22:57:43] [Server thread/INFO]: [m
+[22:57:43] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[22:57:43] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[22:57:43] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[22:57:43] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[22:57:44] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1657ms)
+[22:57:44] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[22:57:44] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.4 which is not a depend or softdepend of this plugin.
+[22:57:44] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[22:57:44] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:57:44] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[22:57:44] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[22:57:44] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b560
+[22:57:44] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[22:57:44] [Server thread/INFO]: [nLogin] Enabling nLogin v10.1.2
+[22:57:44] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.42s)
+[22:57:44] [Server thread/INFO]: [0;34;1m          __             _       [m
+[22:57:44] [Server thread/INFO]: [0;34;1m  _ __   / /  ___   __ _(_)_ __  [m
+[22:57:44] [Server thread/INFO]: [0;34;1m | '_ \ / /  / _ \ / _` | | '_ \ [m
+[22:57:44] [Server thread/INFO]: [0;34;1m | | | / /__| (_) | (_| | | | | |[m
+[22:57:44] [Server thread/INFO]: [0;34;1m |_| |_\____/\___/ \__, |_|_| |_|[m
+[22:57:44] [Server thread/INFO]: [0;34;1m                  |___/            [m
+[22:57:44] [Server thread/INFO]: [0;34;1m By: www.nickuc.com - V 10.1.2 DEVELOPMENT[m
+[22:57:44] [Server thread/INFO]: [0;34;1m[m
+[22:57:45] [Server thread/INFO]: [nLogin] nLogin was loaded in 964ms.
+[22:57:45] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[22:57:45] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:57:45] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[22:57:45] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[22:57:47] [Server thread/INFO]: [WorldEdit] ====================================================
+[22:57:47] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[22:57:47] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[22:57:47] [Server thread/INFO]: [WorldEdit]   
+[22:57:47] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[22:57:47] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[22:57:47] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[22:57:47] [Server thread/INFO]: [WorldEdit]   
+[22:57:47] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[22:57:47] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[22:57:47] [Server thread/INFO]: [WorldEdit]   
+[22:57:47] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[22:57:47] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[22:57:47] [Server thread/INFO]: [WorldEdit]   
+[22:57:47] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[22:57:47] [Server thread/INFO]: [WorldEdit] ====================================================
+[22:57:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:57:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:57:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:57:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:57:47] [Server thread/INFO]: Preparing level "world"
+[22:57:47] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:57:47] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:57:47] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:57:47] [Server thread/INFO]: View Distance: 10
+[22:57:47] [Server thread/INFO]: Simulation Distance: 10
+[22:57:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:57:47] [Server thread/INFO]: Mob Spawn Range: 6
+[22:57:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:57:47] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:57:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:57:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:57:47] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:57:47] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:57:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:57:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:57:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:57:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:57:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:57:47] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:57:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:57:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:57:47] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:57:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:57:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:57:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:57:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:57:47] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:57:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[22:57:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[22:57:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:57:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:57:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:57:47] [Server thread/INFO]: Max TNT Explosions: 100
+[22:58:11] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:58:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:58:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:58:11] [Server thread/INFO]: View Distance: 10
+[22:58:11] [Server thread/INFO]: Simulation Distance: 10
+[22:58:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:58:11] [Server thread/INFO]: Mob Spawn Range: 6
+[22:58:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:58:11] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:58:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:58:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:58:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[22:58:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[22:58:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:58:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:58:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:58:11] [Server thread/INFO]: Max TNT Explosions: 100
+[22:58:11] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:58:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:58:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:58:11] [Server thread/INFO]: View Distance: 10
+[22:58:11] [Server thread/INFO]: Simulation Distance: 10
+[22:58:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:58:11] [Server thread/INFO]: Mob Spawn Range: 6
+[22:58:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:58:11] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:58:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:58:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:58:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:58:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[22:58:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[22:58:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:58:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:58:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:58:11] [Server thread/INFO]: Max TNT Explosions: 100
+[22:58:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:58:12] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[22:58:12] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[22:58:12] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[22:58:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[22:58:14] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[22:58:14] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[22:58:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[22:58:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[22:58:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:58:15] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[22:58:16] [Worker-Main-5/INFO]: Preparing spawn area: 1%
+[22:58:16] [Worker-Main-6/INFO]: Preparing spawn area: 2%
+[22:58:17] [Worker-Main-9/INFO]: Preparing spawn area: 3%
+[22:58:17] [Worker-Main-9/INFO]: Preparing spawn area: 4%
+[22:58:18] [Worker-Main-3/INFO]: Preparing spawn area: 5%
+[22:58:18] [Worker-Main-2/INFO]: Preparing spawn area: 5%
+[22:58:19] [Worker-Main-1/INFO]: Preparing spawn area: 7%
+[22:58:19] [Worker-Main-3/INFO]: Preparing spawn area: 10%
+[22:58:20] [Worker-Main-13/INFO]: Preparing spawn area: 12%
+[22:58:20] [Worker-Main-12/INFO]: Preparing spawn area: 13%
+[22:58:21] [Worker-Main-13/INFO]: Preparing spawn area: 15%
+[22:58:21] [Worker-Main-8/INFO]: Preparing spawn area: 15%
+[22:58:22] [Worker-Main-9/INFO]: Preparing spawn area: 17%
+[22:58:22] [Worker-Main-11/INFO]: Preparing spawn area: 19%
+[22:58:23] [Worker-Main-14/INFO]: Preparing spawn area: 19%
+[22:58:23] [Worker-Main-6/INFO]: Preparing spawn area: 21%
+[22:58:24] [Worker-Main-15/INFO]: Preparing spawn area: 22%
+[22:58:24] [Worker-Main-6/INFO]: Preparing spawn area: 25%
+[22:58:25] [Worker-Main-6/INFO]: Preparing spawn area: 27%
+[22:58:25] [Worker-Main-7/INFO]: Preparing spawn area: 27%
+[22:58:26] [Worker-Main-7/INFO]: Preparing spawn area: 32%
+[22:58:26] [Worker-Main-14/INFO]: Preparing spawn area: 34%
+[22:58:27] [Worker-Main-8/INFO]: Preparing spawn area: 37%
+[22:58:27] [Worker-Main-13/INFO]: Preparing spawn area: 37%
+[22:58:28] [Worker-Main-1/INFO]: Preparing spawn area: 42%
+[22:58:28] [Worker-Main-7/INFO]: Preparing spawn area: 43%
+[22:58:29] [Worker-Main-3/INFO]: Preparing spawn area: 45%
+[22:58:29] [Worker-Main-6/INFO]: Preparing spawn area: 47%
+[22:58:30] [Worker-Main-9/INFO]: Preparing spawn area: 48%
+[22:58:30] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[22:58:31] [Worker-Main-5/INFO]: Preparing spawn area: 55%
+[22:58:31] [Worker-Main-8/INFO]: Preparing spawn area: 56%
+[22:58:32] [Worker-Main-3/INFO]: Preparing spawn area: 58%
+[22:58:32] [Worker-Main-10/INFO]: Preparing spawn area: 60%
+[22:58:33] [Worker-Main-9/INFO]: Preparing spawn area: 62%
+[22:58:34] [Worker-Main-7/INFO]: Preparing spawn area: 64%
+[22:58:34] [Worker-Main-2/INFO]: Preparing spawn area: 68%
+[22:58:34] [Worker-Main-10/INFO]: Preparing spawn area: 69%
+[22:58:35] [Worker-Main-7/INFO]: Preparing spawn area: 71%
+[22:58:35] [Worker-Main-9/INFO]: Preparing spawn area: 72%
+[22:58:36] [Worker-Main-5/INFO]: Preparing spawn area: 75%
+[22:58:36] [Worker-Main-1/INFO]: Preparing spawn area: 77%
+[22:58:37] [Worker-Main-15/INFO]: Preparing spawn area: 78%
+[22:58:37] [Worker-Main-9/INFO]: Preparing spawn area: 82%
+[22:58:38] [Worker-Main-2/INFO]: Preparing spawn area: 84%
+[22:58:38] [Worker-Main-4/INFO]: Preparing spawn area: 86%
+[22:58:39] [Worker-Main-7/INFO]: Preparing spawn area: 87%
+[22:58:39] [Worker-Main-3/INFO]: Preparing spawn area: 91%
+[22:58:40] [Worker-Main-7/INFO]: Preparing spawn area: 94%
+[22:58:40] [Worker-Main-6/INFO]: Preparing spawn area: 96%
+[22:58:41] [Worker-Main-3/INFO]: Preparing spawn area: 99%
+[22:58:41] [Server thread/INFO]: Time elapsed: 30497 ms
+[22:58:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:58:44] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[22:58:44] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[22:58:44] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[22:58:44] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[22:58:44] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[22:58:44] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[22:58:44] [Worker-Main-12/INFO]: Preparing spawn area: 13%
+[22:58:45] [Worker-Main-11/INFO]: Preparing spawn area: 96%
+[22:58:45] [Server thread/INFO]: Time elapsed: 3514 ms
+[22:58:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:58:47] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[22:58:47] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[22:58:47] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[22:58:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[22:58:47] [Worker-Main-13/INFO]: Preparing spawn area: 9%
+[22:58:47] [Worker-Main-15/INFO]: Preparing spawn area: 96%
+[22:58:47] [Server thread/INFO]: Time elapsed: 2518 ms
+[22:58:47] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[22:58:48] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[22:58:48] [Server thread/INFO]: [SimpleRTP] Enabling SimpleRTP v2.5
+[22:58:48] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[22:58:48] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[22:58:48] [Server thread/INFO]: [ClearLag] Loading modules...
+[22:58:48] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_19_R1.MinecraftServer)
+[22:58:48] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[22:58:48] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[22:58:48] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[22:58:48] [Thread-11/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.19]...
+[22:58:48] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v4.3
+[22:58:48] [Server thread/INFO]: [SetSpawn] Enabled!
+[22:58:48] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.12
+[22:58:48] [Server thread/INFO]: [Chatty] Vault has successful hooked.
+[22:58:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: chatty [2.19.12]
+[22:58:48] [Server thread/INFO]: [Chatty] PlaceholderAPI has successful hooked.
+[22:58:48] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
+[22:58:48] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m[m
+[22:58:48] [Server thread/INFO]: [PlayerKits] Enabling PlayerKits v2.24.3
+[22:58:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerkits [2.24.3]
+[22:58:48] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mHas been enabled! [0;37;1mVersion: 2.24.3[m
+[22:58:48] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mThanks for using my plugin!  [0;37;1m~Ajneb97[m
+[22:58:49] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4
+[22:58:49] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[22:58:49] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[22:58:49] [Server thread/INFO]: No kits found to migrate.
+[22:58:49] [Server thread/WARN]: java.lang.NoSuchMethodException: no such method: net.minecraft.server.MinecraftServer.v()boolean/invokeVirtual
+[22:58:49] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName.makeAccessException(MemberName.java:976)
+[22:58:49] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1117)
+[22:58:49] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:3649)
+[22:58:49] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.findVirtual(MethodHandles.java:2680)
+[22:58:49] [Server thread/WARN]: 	at net.ess3.nms.refl.providers.ReflServerStateProvider.<init>(ReflServerStateProvider.java:20)
+[22:58:49] [Server thread/WARN]: 	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:382)
+[22:58:49] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[22:58:49] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+[22:58:49] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479)
+[22:58:49] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:520)
+[22:58:49] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:434)
+[22:58:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:582)
+[22:58:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:401)
+[22:58:49] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:255)
+[22:58:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:966)
+[22:58:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:291)
+[22:58:49] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:58:49] [Server thread/WARN]: Caused by: java.lang.NoSuchMethodError: 'boolean net.minecraft.server.MinecraftServer.v()'
+[22:58:49] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandleNatives.resolve(Native Method)
+[22:58:49] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolve(MemberName.java:1085)
+[22:58:49] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1114)
+[22:58:49] [Server thread/WARN]: 	... 15 more
+[22:58:49] [Server thread/INFO]: Loaded 36926 items from items.json.
+[22:58:49] [Server thread/INFO]: Using locale ru
+[22:58:49] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:58:49] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:58:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[22:58:49] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[22:58:49] [Server thread/INFO]: [TAB] Enabling TAB v3.1.4
+[22:58:49] [Server thread/INFO]: [TAB] Server version: 1.19 (v1_19_R1)[m
+[22:58:49] [Server thread/INFO]: [TAB] Loaded NMS hook in 36ms[m
+[22:58:49] [Server thread/INFO]: [TAB] [0;32;1mEnabled in 98ms[m
+[22:58:49] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.8-beta-01+cbb2ba7
+[22:58:50] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[22:58:50] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[22:58:50] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[22:58:50] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[22:58:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[22:58:50] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[22:58:50] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[22:58:50] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[22:58:50] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[22:58:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[22:58:50] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[22:58:50] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[22:58:50] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[22:58:50] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[22:58:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[22:58:50] [Server thread/INFO]: [WorldGuard] Loading region data...
+[22:58:50] [Server thread/INFO]: [Guilds] Enabling Guilds v3.5.6.4
+[22:58:50] [Server thread/INFO]: [0;32;1m  ________ [m
+[22:58:50] [Server thread/INFO]: [0;32;1m /  _____/ [m
+[22:58:50] [Server thread/INFO]: [0;32;1m/   \  ___   [0;36;22mGuilds [0;30;1mv3.5.6.4[m
+[22:58:50] [Server thread/INFO]: [0;32;1m\    \_\  \  [0;36;22mServer Version: [0;30;1m3534-Spigot-56be6a8-6c61b73 (MC: 1.19)[m
+[22:58:50] [Server thread/INFO]: [0;32;1m \______  /[m
+[22:58:50] [Server thread/INFO]: [0;32;1m        \/ [m
+[22:58:50] [Thread-11/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[22:58:50] [Thread-11/WARN]: java.net.ConnectException: Connection refused: no further information
+[22:58:50] [Thread-11/WARN]: 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+[22:58:50] [Thread-11/WARN]: 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+[22:58:50] [Thread-11/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+[22:58:50] [Thread-11/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+[22:58:50] [Thread-11/WARN]: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[22:58:50] [Thread-11/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:633)
+[22:58:50] [Thread-11/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)
+[22:58:50] [Thread-11/WARN]: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+[22:58:50] [Thread-11/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)
+[22:58:50] [Thread-11/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)
+[22:58:50] [Thread-11/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+[22:58:50] [Thread-11/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)
+[22:58:50] [Thread-11/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)
+[22:58:50] [Thread-11/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+[22:58:50] [Thread-11/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+[22:58:50] [Thread-11/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)
+[22:58:50] [Thread-11/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)
+[22:58:50] [Thread-11/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+[22:58:50] [Thread-11/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
+[22:58:50] [Thread-11/WARN]: 	at me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:36)
+[22:58:50] [Thread-11/WARN]: 	at me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[22:58:50] [Thread-11/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:58:50] [Server thread/INFO]: Economy Found: EssentialsX Economy
+[22:58:50] [Server thread/INFO]: Permissions Found: LuckPerms
+[22:58:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: guilds [2.1]
+[22:58:52] [Server thread/INFO]: Ready to go! That only took 1282ms
+[22:58:52] [Server thread/INFO]: [MoneyFromMobs] Enabling MoneyFromMobs v4.6
+[22:58:52] [ForkJoinPool.commonPool-worker-1/INFO]: [Guilds] Your version of Guilds (3.5.6.4) is up to date!
+[22:58:52] [Server thread/INFO]: [SCore] Enabling SCore v3.1.9
+[22:58:52] [Server thread/INFO]: ================ [SCore] ================[m
+[22:58:52] [Server thread/INFO]: [SCore] ExecutableItems hooked !
+[22:58:52] [Server thread/INFO]: [SCore] PlaceholderAPI hooked !
+[22:58:52] [Server thread/INFO]: [SCore] WorldGuard hooked !
+[22:58:52] [Server thread/INFO]: [SCore] Vault hooked !
+[22:58:52] [Server thread/INFO]: [SCore] ProtocolLib hooked !
+[22:58:52] [Server thread/INFO]: [SCore] Locale setup: EN
+[22:58:52] [Server thread/INFO]: [SCore] Language setup on EN
+[22:58:52] [Server thread/INFO]: [SCore] Update of actionbarMessage in your for the plugin > SCore in language: EN
+[22:58:52] [Server thread/INFO]: [SCore] Update of actionbarEnd in your for the plugin > SCore in language: EN
+[22:58:52] [Server thread/INFO]: [SCore] Update of setActionbarOn in your for the plugin > SCore in language: EN
+[22:58:52] [Server thread/INFO]: [SCore] Update of setActionbarOff in your for the plugin > SCore in language: EN
+[22:58:52] [Server thread/INFO]: [SCore] Update of haveActionbarOn in your for the plugin > SCore in language: EN
+[22:58:52] [Server thread/INFO]: [SCore] Update of haveActionbarOff in your for the plugin > SCore in language: EN
+[22:58:52] [Server thread/INFO]: [SCore] Update of errorMoneyMsg in your for the plugin > SCore in language: EN
+[22:58:52] [Server thread/INFO]: [SCore] Update of newBalanceMsg in your for the plugin > SCore in language: EN
+[22:58:52] [Server thread/INFO]: [SCore] Update of noPlayerHit in your for the plugin > SCore in language: EN
+[22:58:52] [Server thread/INFO]: [SCore] Update of noEntityHit in your for the plugin > SCore in language: EN
+[22:58:52] [Server thread/INFO]: [SCore] Update of damageCommandKill in your for the plugin > SCore in language: EN
+[22:58:52] [Server thread/INFO]: [SCore] [SCore] Connexion to the db...
+[22:58:52] [Server thread/INFO]: [SCore] [SCore] Verification of the table SecurityOP...
+[22:58:52] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands...
+[22:58:52] [Server thread/INFO]: [SCore] [SCore] Verification of the table Cooldowns...
+[22:58:52] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Player...
+[22:58:52] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Entity...
+[22:58:52] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Block...
+[22:58:52] [Server thread/INFO]: [SCore] Verification of the table UsePerDay...
+[22:58:52] [TaskChainAsyncQueue Thread 0/INFO]: §6§lFeatures
 §a- Added support for Minecraft 1.19
 
 §6§lBug Fixes
@@ -363,11 +434,1290 @@
 §a- I need some people to volunteer testing on a new PR coming that will allow you to use a player's skull in the Guild Members GUI instead of a static item. If you are interested, please let me know.
 
 
-[18:18:33] [Craft Scheduler Thread - 8/WARN]: [Essentials] §4Для скачивания доступна новая версия EssentialsX: §c2.19.7§4.
-[18:18:33] [Craft Scheduler Thread - 8/WARN]: [Essentials] §4Скачайте её отсюда:§c https://essentialsx.net/downloads.html?branch=stable
-[18:18:56] [User Authenticator #1/INFO]: UUID of player Manteecora is 3d5adfea-d973-37c0-bcdc-a42c34be5b7b
-[18:18:57] [Server thread/INFO]: Manteecora[/26.119.135.221:65486] logged in with entity id 84 at ([world]57.26759846364841, 79.0, -192.54145270679672)
-[18:18:57] [Server thread/WARN]: File motd.txt does not exist. Creating one for you.
-[18:19:05] [Craft Scheduler Thread - 4/INFO]: [nLogin] The user Manteecora has successfully logged in.
-[18:19:19] [Server thread/INFO]: Manteecora issued server command: /gamemode creative
-[18:19:51] [Server thread/INFO]: Manteecora lost connection: Disconnected
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW_NO_GRAVITY was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW_NO_GRAVITY_SPEED was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable FAIRYTAIL_GRAY_FULLBUSTER_1 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable FAIRYTAIL_NATSU_DRAGNEEL_1 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable FATE_ARCHER_1 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable FATE_ARCHER_2 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_1 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_2 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_3 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_1 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_2 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_3 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable FATE_RIDER_1 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable HUNTERXHUNTER_GON_FREECSS_1 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable HUNTERXHUNTER_KURAPIKA_1 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable MADOKA_HOMURA_AKEMI_1 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable MADOKA_MADOKA_KANAME_1 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable MADOKA_MAMI_TOMOE_1 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable MHA_DENKI_KAMINARI_1 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable MHA_IZUKU_MIDORIYA_1 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable MHA_MINA_ASHIDO_ACID_1 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable MHA_MINA_ASHIDO_ACID_2 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable MHA_SHOTO_TODOROKI_2 was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_1_FIRE_FIST was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_2_FIRE_GUN was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_3_FIREFLY was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_002_1_FREEZE_BEAM was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_002_2_FREEZE_BOMB was loaded !
+[22:58:53] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_003_1_TELEPORT was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_003_2_LIGHTNING_STRIKE was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_004_1_BLACK_HOLE was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_1_FLIGHT was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_2_FLAME_WALL was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_3_FIREBALL was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable OPM_GENOS_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable OPM_SPEED_O_SONIC_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable PACK_2_06 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable PACK_2_12 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable proj_tornado_blade was loaded !
+[22:58:54] [Server thread/ERROR]: [SCore] CANT LOAD YOUR PROJECTILES, FOLDER 'projectiles' not found !
+[22:58:54] [Server thread/ERROR]: [SCore] DEFAULT PROJECTILES CREATED !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW_NO_GRAVITY was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW_NO_GRAVITY_SPEED was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable FAIRYTAIL_GRAY_FULLBUSTER_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable FAIRYTAIL_NATSU_DRAGNEEL_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable FATE_ARCHER_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable FATE_ARCHER_2 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_2 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_3 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_2 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_3 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable FATE_RIDER_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable HUNTERXHUNTER_GON_FREECSS_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable HUNTERXHUNTER_KURAPIKA_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable MADOKA_HOMURA_AKEMI_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable MADOKA_MADOKA_KANAME_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable MADOKA_MAMI_TOMOE_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable MHA_DENKI_KAMINARI_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable MHA_IZUKU_MIDORIYA_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable MHA_MINA_ASHIDO_ACID_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable MHA_MINA_ASHIDO_ACID_2 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable MHA_SHOTO_TODOROKI_2 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_1_FIRE_FIST was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_2_FIRE_GUN was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_3_FIREFLY was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_002_1_FREEZE_BEAM was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_002_2_FREEZE_BOMB was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_003_1_TELEPORT was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_003_2_LIGHTNING_STRIKE was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_004_1_BLACK_HOLE was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_1_FLIGHT was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_2_FLAME_WALL was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_3_FIREBALL was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable OPM_GENOS_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable OPM_SPEED_O_SONIC_1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable PACK_2_06 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable PACK_2_12 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile not editable proj_tornado_blade was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile arrow1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile egg1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile enderpearl1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile fireball1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile lingering1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile shulkerbullet1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile snowball1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile trident1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile tridentCustom1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] projectile witherskull1 was loaded !
+[22:58:54] [Server thread/INFO]: [SCore] 0 saved commands loaded !
+[22:58:54] [Server thread/INFO]: ================ [SCore] ================[m
+[22:58:54] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v5.1.9
+[22:58:54] [Server thread/INFO]: ================ [*ExecutableItems*] ================
+[22:58:54] [Server thread/INFO]: [ExecutableItems] PlaceholderAPI hooked !
+[22:58:55] [Server thread/ERROR]: [ExecutableItems] CANT LOAD YOUR ITEMS, FOLDER 'items' not found !
+[22:58:55] [Server thread/ERROR]: [ExecutableItems] DEFAULT ITEMS CREATED !
+[22:58:58] [Server thread/INFO]: [SCore] Update of receiveItem in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of fullInventory in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of timeLeft in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of requirePermission in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of giveMessage in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of use in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of noHit in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of noEntityHit in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of cancelCraft in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of pickupLimitMessage in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of disableWorld in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of requiredEIFirstPart in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of requiredEIQuantity in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of requiredEISeparator in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of requiredItemsFirstPart in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of requiredItemsQuantity in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of requiredItemsSeparator in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of requiredLevel in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of waitProjectile in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of invalidOwner in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of errorUPDItem in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of errorUPDActivator in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of customCommandDamageKillMessage in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [SCore] Update of noOwner in your for the plugin > ExecutableItems in language: EN
+[22:58:58] [Server thread/INFO]: [ExecutableItems] [ExecutableItems] Connexion to the db...
+[22:58:58] [Server thread/INFO]: ================ [ExecutableItems] ================
+[22:58:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:58:58] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[22:58:58] [Server thread/INFO]: [0;33;22m0 placeholder hook(s) registered![m
+[22:58:58] [Server thread/INFO]: Done (71.281s)! For help, type "help"
+[22:58:58] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[22:58:58] [Craft Scheduler Thread - 10/INFO]: [Essentials] §6Получение информации о версии...
+[22:58:58] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[22:58:58] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[22:58:58] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+[22:58:58] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+[22:58:58] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
+[22:58:58] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[22:58:58] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[22:58:58] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m[m
+[22:58:58] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
+[22:58:58] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[22:58:58] [Craft Scheduler Thread - 10/WARN]: [Essentials] §4Для скачивания доступна новая версия EssentialsX: §c2.19.7§4.
+[22:58:58] [Craft Scheduler Thread - 10/WARN]: [Essentials] §4Скачайте её отсюда:§c https://essentialsx.net/downloads.html?branch=stable
+[22:59:37] [User Authenticator #1/INFO]: UUID of player Manteecora is 3d5adfea-d973-37c0-bcdc-a42c34be5b7b
+[22:59:38] [Server thread/INFO]: > Manteecora joined the server for the first time!
+[22:59:38] [Server thread/INFO]: Manteecora[/26.119.135.221:52124] logged in with entity id 455 at ([world]10.5, 64.0, -7.5)
+[22:59:43] [Craft Scheduler Thread - 4/INFO]: [nLogin] The user Manteecora has successfully logged in.
+[23:02:41] [Server thread/INFO]: Manteecora issued server command: /ei show
+[23:04:32] [Server thread/ERROR]: Could not pass event InventoryClickEvent to ExecutableItems v5.1.9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:588) ~[spigot-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:575) ~[spigot-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2653) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:58) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.network.protocol.game.PacketPlayInWindowClick.a(SourceFile:13) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:31) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:157) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1150) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.util.thread.IAsyncTaskHandler.x(SourceFile:131) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.bh(MinecraftServer.java:1129) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1122) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:140) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1106) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1014) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:291) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1597) ~[?:?]
+	at java.util.HashMap$KeyIterator.next(HashMap.java:1620) ~[?:?]
+	at com.ssomar.score.events.loop.LoopManager.addLoopActivator(LoopManager.java:177) ~[?:?]
+	at com.ssomar.executableitems.executableitems.activators.ActivatorEIFeature.save(ActivatorEIFeature.java:903) ~[?:?]
+	at com.ssomar.score.features.custom.activators.group.ActivatorsFeature.save(ActivatorsFeature.java:80) ~[?:?]
+	at com.ssomar.executableitems.executableitems.ExecutableItem.save(ExecutableItem.java:361) ~[?:?]
+	at com.ssomar.score.features.FeatureAbstract.save(FeatureAbstract.java:71) ~[?:?]
+	at com.ssomar.score.features.editor.FeatureEditorManagerAbstract.save(FeatureEditorManagerAbstract.java:362) ~[?:?]
+	at com.ssomar.score.editor.NewGUIManager.clicked(NewGUIManager.java:100) ~[?:?]
+	at com.ssomar.executableitems.executableitems.ExecutableItemEditorManager.clicked(ExecutableItemEditorManager.java:38) ~[?:?]
+	at com.ssomar.score.editor.NewGUIManager.clicked(NewGUIManager.java:76) ~[?:?]
+	at com.ssomar.executableitems.editor.EditorInteractionsListener.manage(EditorInteractionsListener.java:70) ~[?:?]
+	at com.ssomar.executableitems.editor.EditorInteractionsListener.onInvClick(EditorInteractionsListener.java:47) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor117.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19-R0.1-SNAPSHOT.jar:?]
+	... 20 more
+[23:04:46] [Server thread/INFO]: Manteecora issued server command: /ei drop armorpiece1
+[23:04:51] [Server thread/INFO]: Manteecora issued server command: /ei drop armorpiece1 1
+[23:04:51] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop armorpiece1 1 world 28 65 -23 
+[23:04:52] [Server thread/INFO]: Manteecora has made the advancement [Cover Me with Diamonds]
+[23:05:24] [Server thread/INFO]: Manteecora issued server command: /ei drop Free_Drop_Ball
+[23:05:27] [Server thread/INFO]: Manteecora issued server command: /ei drop Free_Drop_Ball 1
+[23:05:27] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Free_Drop_Ball 1 world 33 65 -29 
+[23:06:11] [Server thread/INFO]: Manteecora issued server command: /ei drop Free_Epic_Anvil
+[23:06:13] [Server thread/INFO]: Manteecora issued server command: /ei drop Free_Epic_Anvil 1
+[23:06:13] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Free_Epic_Anvil 1 world 29 65 -37 
+[23:06:38] [Server thread/INFO]: Manteecora issued server command: /ei drop Free_
+[23:06:38] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'ei' in plugin ExecutableItems v5.1.9
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[spigot-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:828) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.network.PlayerConnection.handleCommand(PlayerConnection.java:2031) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1834) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.network.protocol.game.ServerboundChatCommandPacket.a(SourceFile:37) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.network.protocol.game.ServerboundChatCommandPacket.a(SourceFile:13) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:31) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:157) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1150) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.util.thread.IAsyncTaskHandler.x(SourceFile:131) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.bh(MinecraftServer.java:1129) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1122) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:140) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1106) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1014) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:291) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.util.NoSuchElementException: No value present
+	at java.util.Optional.get(Optional.java:143) ~[?:?]
+	at com.ssomar.score.linkedplugins.LinkedPlugins.getSObject(LinkedPlugins.java:26) ~[?:?]
+	at com.ssomar.score.commands.DropCommand.<init>(DropCommand.java:18) ~[?:?]
+	at com.ssomar.executableitems.commands.CommandsClass.runCommand(CommandsClass.java:508) ~[?:?]
+	at com.ssomar.executableitems.commands.CommandsClass.onCommand(CommandsClass.java:104) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[spigot-api-1.19-R0.1-SNAPSHOT.jar:?]
+	... 20 more
+[23:06:47] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Animal_Cake 1
+[23:06:47] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Animal_Cake 1 world 15 64 -43 
+[23:07:22] [Server thread/INFO]: Manteecora issued server command: /spawnmob chicken
+[23:07:40] [Server thread/INFO]: Manteecora issued server command: /spawnmob chicken 10
+[23:08:54] [Server thread/INFO]: Manteecora issued server command: /spawnmob cow
+[23:08:56] [Server thread/INFO]: Manteecora issued server command: /spawnmob cow
+[23:09:09] [Server thread/INFO]: Manteecora has made the advancement [The Parrots and the Bats]
+[23:10:18] [Server thread/INFO]: Manteecora issued server command: /balance
+[23:10:44] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Armor_Effect 1
+[23:10:44] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Armor_Effect 1 world 7 66 -48 
+[23:11:11] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Baby_Mob 1
+[23:11:11] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Baby_Mob 1 world 8 66 -49 
+[23:12:05] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Boom 1
+[23:12:05] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Boom 1 world 7 69 -49 
+[23:13:04] [Server thread/INFO]: Manteecora issued server command: //expand vert
+[23:13:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6634ms or 132 ticks behind
+[23:13:46] [Server thread/INFO]: Manteecora issued server command: /ei drop Premium_Wall_Jump_Boots 1
+[23:13:46] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Premium_Wall_Jump_Boots 1 world 5 77 -17 
+[23:14:07] [Server thread/INFO]: Manteecora issued server command: /gamemode survival
+[23:15:33] [Server thread/INFO]: Manteecora issued server command: /ei drop armorpiece3 1
+[23:15:33] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop armorpiece3 1 world 32 64 1 
+[23:15:49] [Server thread/INFO]: Manteecora issued server command: /ei drop armorpiece1 1
+[23:15:49] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop armorpiece1 1 world 34 64 0 
+[23:15:54] [Server thread/INFO]: Manteecora issued server command: /ei drop armorpiece2 1
+[23:15:54] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop armorpiece2 1 world 34 64 0 
+[23:15:58] [Server thread/INFO]: Manteecora issued server command: /ei drop armorpiece4 1
+[23:15:58] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop armorpiece4 1 world 34 64 0 
+[23:16:54] [Server thread/INFO]: Manteecora issued server command: /ei drop Free_Drain_Sponge 1
+[23:16:54] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Free_Drain_Sponge 1 world 29 65 -5 
+[23:18:05] [Server thread/INFO]: Manteecora issued server command: /ei drop Free_Epic_Snowball 1
+[23:18:05] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Free_Epic_Snowball 1 world -25 65 -30 
+[23:18:15] [Server thread/INFO]: Manteecora issued server command: /ei drop Free_Epic_Snowball 1
+[23:18:15] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Free_Epic_Snowball 1 world -22 66 -30 
+[23:18:44] [Server thread/INFO]: Manteecora issued server command: /ei drop Free_Fly 1
+[23:18:44] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Free_Fly 1 world 20 64 -6 
+[23:19:37] [Server thread/INFO]: Manteecora issued server command: /ei drop Free_Money 1
+[23:19:37] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Free_Money 1 world 55 81 -190 
+[23:19:48] [Server thread/INFO]: CONSOLE issued server command: /eco give Manteecora 5000
+[23:19:48] [Server thread/INFO]: [0;32;1m$5,000 зачислено на счёт [0;31;22mManteecora[m[0;32;1m. Текущий баланс: $5,000[m
+[23:19:58] [Server thread/INFO]: Manteecora issued server command: /stat
+[23:20:06] [Server thread/INFO]: Manteecora issued server command: /bp
+[23:20:09] [Server thread/INFO]: Manteecora issued server command: //bp
+[23:20:22] [Server thread/INFO]: Manteecora issued server command: /ei drop Free_Spit 1
+[23:20:22] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Free_Spit 1 world 54 81 -134 
+[23:20:39] [Server thread/INFO]: Manteecora issued server command: /ei drop Free_Spit 1
+[23:20:39] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Free_Spit 1 world 31 62 -124 
+[23:21:03] [Server thread/INFO]: Manteecora issued server command: /ei drop Free_
+[23:21:03] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'ei' in plugin ExecutableItems v5.1.9
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[spigot-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:828) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.network.PlayerConnection.handleCommand(PlayerConnection.java:2031) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1834) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.network.protocol.game.ServerboundChatCommandPacket.a(SourceFile:37) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.network.protocol.game.ServerboundChatCommandPacket.a(SourceFile:13) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:31) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.TickTask.run(SourceFile:18) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.util.thread.IAsyncTaskHandler.d(SourceFile:157) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(SourceFile:23) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1150) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:1) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.util.thread.IAsyncTaskHandler.x(SourceFile:131) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.bh(MinecraftServer.java:1129) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1122) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.util.thread.IAsyncTaskHandler.c(SourceFile:140) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1106) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1014) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:291) ~[spigot-1.19-R0.1-SNAPSHOT.jar:3534-Spigot-56be6a8-6c61b73]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.util.NoSuchElementException: No value present
+	at java.util.Optional.get(Optional.java:143) ~[?:?]
+	at com.ssomar.score.linkedplugins.LinkedPlugins.getSObject(LinkedPlugins.java:26) ~[?:?]
+	at com.ssomar.score.commands.DropCommand.<init>(DropCommand.java:18) ~[?:?]
+	at com.ssomar.executableitems.commands.CommandsClass.runCommand(CommandsClass.java:508) ~[?:?]
+	at com.ssomar.executableitems.commands.CommandsClass.onCommand(CommandsClass.java:104) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[spigot-api-1.19-R0.1-SNAPSHOT.jar:?]
+	... 20 more
+[23:21:09] [Server thread/INFO]: Manteecora issued server command: /ei drop Free_Epic_Potion 1
+[23:21:09] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Free_Epic_Potion 1 world 28 63 -123 
+[23:21:47] [Server thread/INFO]: Manteecora issued server command: /gamemode
+[23:21:50] [Server thread/INFO]: Manteecora issued server command: /gamemode creative
+[23:22:34] [Server thread/INFO]: Manteecora issued server command: /sb
+[23:22:37] [Async Chat Thread - #2/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;31;22mManteecora[m[0;30;1m: [0;37;1msb[m
+[23:22:41] [Async Chat Thread - #2/INFO]: [0;33;1m[[0;32;1mGlobal[0;33;1m] [m[0;31;22mManteecora[m[0;30;1m: [0;37;1masd[m
+[23:22:58] [Server thread/INFO]: Manteecora issued server command: /recipe
+[23:23:18] [Server thread/INFO]: Manteecora issued server command: /recipes
+[23:23:23] [Server thread/INFO]: Manteecora issued server command: /recipes
+[23:23:24] [Server thread/INFO]: Manteecora issued server command: /recipe
+[23:23:47] [Server thread/INFO]: Made Manteecora no longer a server operator
+[23:25:13] [Server thread/INFO]: Made Manteecora a server operator
+[23:25:16] [Async Chat Thread - #4/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;31;22mManteecora[m[0;30;1m: [0;37;1mscoreboard objectives add stat dummy Статистика[m
+[23:25:26] [Server thread/INFO]: Manteecora issued server command: /scoreboard objectives add stat dummy Статистика
+[23:25:33] [Server thread/INFO]: Manteecora issued server command: /sb
+[23:25:48] [Server thread/INFO]: Manteecora issued server command: /scoreboard objectives add stat dummy Статистика
+[23:25:58] [Server thread/INFO]: Manteecora issued server command: /scoreboard players set ВремяНаШифте stat 0
+[23:26:08] [Server thread/INFO]: Manteecora issued server command: /scoreboard players set Прыжков stat 0
+[23:26:57] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_EpicChestplate-particlesOFF
+[23:26:59] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_EpicChestplate-particlesOFF 1
+[23:26:59] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_EpicChestplate-particlesOFF 1 world 30 74 -60 
+[23:27:32] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_YamiYamiNoMi 1
+[23:27:32] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_YamiYamiNoMi 1 world 10 65 -69 
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^2.000 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^1.528 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.344 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.978 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-1.807 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-1.766 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.914 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.307 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^1.299 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^1.618 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^1.174 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.250 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.669 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-1.157 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-1.051 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.500 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.152 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.574 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.618 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.371 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.060 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.105 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.066 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.066 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.105 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.060 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.371 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.618 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.574 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.152 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.500 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^1.051 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^1.157 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.669 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.250 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-1.174 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-1.618 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-1.299 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.307 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.914 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^1.766 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^1.807 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.978 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.344 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-1.528 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-2.000 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-1.528 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.344 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.978 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^1.807 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^1.766 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.914 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.307 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-1.299 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-1.618 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-1.174 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.250 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.669 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^1.157 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^1.051 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.500 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.152 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.574 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.618 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.371 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.060 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.105 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.066 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.066 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.105 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.060 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.371 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.618 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.574 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.152 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.500 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-1.051 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-1.157 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.669 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.250 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^1.174 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^1.618 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^1.299 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.307 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.914 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-1.766 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-1.807 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ...^-0.978 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^0.344 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:00] [Server thread/INFO]: Expected double
+[23:28:00] [Server thread/INFO]: ... ^1.528 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^2.000 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^1.528 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.344 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.978 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-1.807 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-1.766 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.914 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.307 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^1.299 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^1.618 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^1.174 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.250 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.669 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-1.157 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-1.051 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.500 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.152 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.574 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.618 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.371 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.060 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.105 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.066 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.066 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.105 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.060 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.371 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.618 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.574 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.152 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.500 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^1.051 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^1.157 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.669 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.250 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-1.174 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-1.618 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-1.299 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.307 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.914 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^1.766 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^1.807 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.978 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.344 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-1.528 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-2.000 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-1.528 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.344 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.978 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^1.807 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^1.766 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.914 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.307 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-1.299 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-1.618 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-1.174 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.250 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.669 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^1.157 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^1.051 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.500 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.152 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.574 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.618 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.371 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.060 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.105 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.066 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.066 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.105 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.060 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.371 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.618 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.574 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.152 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.500 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-1.051 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-1.157 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.669 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.250 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^1.174 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^1.618 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^1.299 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.307 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.914 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-1.766 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-1.807 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ...^-0.978 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^0.344 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:02] [Server thread/INFO]: Expected double
+[23:28:02] [Server thread/INFO]: ... ^1.528 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^2.000 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^1.528 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.344 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.978 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-1.807 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-1.766 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.914 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.307 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^1.299 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^1.618 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^1.174 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.250 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.669 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-1.157 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-1.051 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.500 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.152 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.574 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.618 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.371 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.060 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.105 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.066 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.066 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.105 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.060 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.371 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.618 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.574 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.152 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.500 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^1.051 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^1.157 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.669 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.250 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-1.174 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-1.618 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-1.299 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.307 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.914 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^1.766 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^1.807 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.978 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.344 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-1.528 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-2.000 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-1.528 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.344 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.978 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^1.807 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^1.766 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.914 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.307 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-1.299 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-1.618 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-1.174 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.250 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.669 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^1.157 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^1.051 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.500 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.152 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.574 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.618 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.371 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.060 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.105 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.066 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.066 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.105 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.060 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.371 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.618 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.574 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.152 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.500 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-1.051 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-1.157 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.669 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.250 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^1.174 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^1.618 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^1.299 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.307 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.914 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-1.766 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-1.807 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ...^-0.978 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^0.344 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:03] [Server thread/INFO]: Expected double
+[23:28:03] [Server thread/INFO]: ... ^1.528 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^2.000 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^1.528 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.344 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.978 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-1.807 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-1.766 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.914 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.307 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^1.299 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^1.618 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^1.174 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.250 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.669 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-1.157 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-1.051 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.500 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.152 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.574 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.618 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.371 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.060 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.105 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.066 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.066 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.105 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.060 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.371 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.618 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.574 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.152 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.500 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^1.051 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^1.157 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.669 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.250 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-1.174 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-1.618 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-1.299 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.307 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.914 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^1.766 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^1.807 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.978 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.344 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-1.528 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-2.000 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-1.528 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.344 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.978 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^1.807 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^1.766 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.914 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.307 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-1.299 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-1.618 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-1.174 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.250 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.669 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^1.157 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^1.051 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.500 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.152 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.574 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.618 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.371 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.060 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.105 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.066 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.066 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.105 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.060 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.371 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.618 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.574 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.152 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.500 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-1.051 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-1.157 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.669 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.250 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^1.174 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^1.618 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^1.299 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.307 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.914 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-1.766 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-1.807 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ...^-0.978 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^0.344 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:06] [Server thread/INFO]: Expected double
+[23:28:06] [Server thread/INFO]: ... ^1.528 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^2.000 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^1.528 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.344 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.978 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-1.807 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-1.766 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.914 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.307 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^1.299 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^1.618 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^1.174 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.250 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.669 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-1.157 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-1.051 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.500 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.152 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.574 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.618 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.371 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.060 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.105 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.066 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.066 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.105 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.060 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.371 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.618 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.574 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.152 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.500 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^1.051 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^1.157 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.669 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.250 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-1.174 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-1.618 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-1.299 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.307 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.914 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^1.766 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^1.807 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.978 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.344 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-1.528 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-2.000 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-1.528 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.344 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.978 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^1.807 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^1.766 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.914 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.307 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-1.299 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-1.618 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-1.174 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.250 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.669 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^1.157 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^1.051 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.500 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.152 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.574 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.618 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.371 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.060 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.105 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.066 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.066 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.105 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.060 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.371 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.618 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.574 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.152 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.500 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-1.051 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-1.157 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.669 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.250 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^1.174 0 %math_(8)*0.1% 0 %math_(8)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^1.618 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^1.299 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.307 0 %math_(7)*0.1% 0 %math_(7)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.914 0 %math_(10)*0.1% 0 %math_(10)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-1.766 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-1.807 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ...^-0.978 0 %math_(6)*0.1% 0 %math_(6)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^0.344 0 %math_(9)*0.1% 0 %math_(9)*0.1% 0<--[HERE]
+[23:28:08] [Server thread/INFO]: Expected double
+[23:28:08] [Server thread/INFO]: ... ^1.528 0 %math_(5)*0.1% 0 %math_(5)*0.1% 0<--[HERE]
+[23:28:50] [Server thread/INFO]: Manteecora issued server command: /ei drop Premium_Reach_Sword 1
+[23:28:50] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Premium_Reach_Sword 1 world 8 64 -47 
+[23:29:38] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Boomerang 1
+[23:29:38] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Boomerang 1 world 45 65 -44 
+[23:30:44] [Server thread/INFO]: Manteecora has made the advancement [Take Aim]
+[23:31:12] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Bucket_Refillable 1
+[23:31:12] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Bucket_Refillable 1 world 21 73 -190 
+[23:31:30] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Bucket_Refillable 1
+[23:31:30] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Bucket_Refillable 1 world 13 72 -185 
+[23:31:39] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Bucket_Refillable 1
+[23:31:39] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Bucket_Refillable 1 world 9 74 -186 
+[23:31:57] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Wither_Lord_Mask 1
+[23:31:57] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Wither_Lord_Mask 1 world 9 74 -186 
+[23:31:57] [Server thread/INFO]: Manteecora has made the advancement [Spooky Scary Skeleton]
+[23:32:25] [Server thread/INFO]: Manteecora issued server command: /gamemode survival
+[23:32:36] [Server thread/INFO]: Manteecora issued server command: /farwand
+[23:32:58] [Server thread/WARN]: Manteecora moved wrongly!
+[23:32:59] [Server thread/INFO]: > Manteecora died.
+[23:33:17] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Animal_Egg 1
+[23:33:17] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Animal_Egg 1 world 14 64 -10 
+[23:33:36] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Elytra_Trail
+[23:33:38] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Elytra_Trail 1
+[23:33:38] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Elytra_Trail 1 world 22 65 -22 
+[23:33:39] [Server thread/INFO]: Manteecora has reached the goal [Sky's the Limit]
+[23:34:21] [Server thread/INFO]: Manteecora issued server command: /fly
+[23:35:12] [Server thread/INFO]: Manteecora issued server command: /fly
+[23:35:57] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_EpicChestplate-particlesON 1
+[23:35:57] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_EpicChestplate-particlesON 1 world 2 63 -79 
+[23:36:13] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Grass_Seed 1
+[23:36:13] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Grass_Seed 1 world 5 63 -76 
+[23:36:33] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Grass_Seed 1
+[23:36:33] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Grass_Seed 1 world -3 60 -84 
+[23:36:52] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Super_Grass_Tiller 1
+[23:36:52] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Super_Grass_Tiller 1 world 1 63 -84 
+[23:37:24] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Sugar_Cane_Hoe 1
+[23:37:24] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Sugar_Cane_Hoe 1 world 30 64 -45 
+[23:38:27] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Slam_Axe 1
+[23:38:27] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Slam_Axe 1 world 4 64 -50 
+[23:39:41] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Creeper_Summoner 1
+[23:39:41] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Creeper_Summoner 1 world -10 63 -36 
+[23:40:12] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Morph_FishingRod_Lvl1 1
+[23:40:12] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Morph_FishingRod_Lvl1 1 world -3 63 -29 
+[23:40:20] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Morph_FishingRod_Lvl1 1
+[23:40:20] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Morph_FishingRod_Lvl1 1 world -2 63 -29 
+[23:41:30] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Obsidian_Destroyer 1
+[23:41:30] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Obsidian_Destroyer 1 world 10 64 -6 
+[23:41:53] [Server thread/INFO]: Manteecora issued server command: /fly
+[23:42:30] [Server thread/INFO]: Manteecora issued server command: //wand
+[23:42:43] [Server thread/INFO]: Manteecora issued server command: //set 10
+[23:44:05] [Server thread/INFO]: Manteecora issued server command: /ei drop Prem_Quick_Pickup_Shovel 1
+[23:44:05] [Server thread/INFO]: [ExecutableItems] Succesfully run /ei drop Prem_Quick_Pickup_Shovel 1 world -174 68 56 
+[23:44:49] [Server thread/INFO]: Manteecora lost connection: Disconnected
+[23:44:49] [Server thread/INFO]: > Manteecora left the server.
