@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "fad68bad-208c-38ad-9ece-6d76250afe55",
+    "name": "Mexik",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "3d5adfea-d973-37c0-bcdc-a42c34be5b7b",
+    "name": "Manteecora",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

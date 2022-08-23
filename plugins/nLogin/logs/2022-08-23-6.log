@@ -1,0 +1,18 @@
+[08/23/2022 13:16:12]:           __             _       
+[08/23/2022 13:16:12]:   _ __   / /  ___   __ _(_)_ __  
+[08/23/2022 13:16:12]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[08/23/2022 13:16:12]:  | | | / /__| (_) | (_| | | | | |
+[08/23/2022 13:16:12]:  |_| |_\____/\___/ \__, |_|_| |_|
+[08/23/2022 13:16:12]:                   |___/            
+[08/23/2022 13:16:12]:  By: www.nickuc.com - V 10.1.2 DEVELOPMENT
+[08/23/2022 13:16:12]: 
+[08/23/2022 13:16:12]: §3[nLogin] [DEBUG] Detecting hardware and software configurations...
+[08/23/2022 13:16:13]: §3[nLogin] [DEBUG] All settings were loaded in 311 ms.
+[08/23/2022 13:16:13]: §3[nLogin] [DEBUG] Loading the messages_ru.yml message file...
+[08/23/2022 13:16:13]: §3[nLogin] [DEBUG] All plugin messages were loaded in 103 ms (languageByClient=false).
+[08/23/2022 13:16:13]: §3[nLogin] [DEBUG] All proxy settings were loaded in 12 ms.
+[08/23/2022 13:16:13]: §3[nLogin] [DEBUG] Starting logger filter...
+[08/23/2022 13:16:13]: §3[nLogin] [DEBUG] Loading database...
+[08/23/2022 13:16:14]: [nLogin] nLogin was loaded in 1756ms.
+[08/23/2022 13:19:15]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'Manteecora', `uniqueId` = 3d5adfead97337c0bcdca42c34be5b7b,  `premiumId` = null,  `premium` = -1,  `password` = '$SHA512$fc71505f221d92b1b5383dffc50f087f56acba170a479b8fef0fd7ef5e65c5df78c3a2001771012ef225680d1aea4ff8fa87893cd7213b41220aade5002734d3$BJeFXCcIRWOcTXXDgHzdRMpf', `address` = '127.0.0.1', `regdate` = 2022-08-22 18:07:02.284, `lastlogin` = 2022-08-23 13:19:15.269, `email` = null, `twitter` = null, `discord` = null, `settings` = '{"settings":[{"value":"SNnMT4Op9SDIzTtUh4aXxK7N8gmVmSDetFShqRECdJavCN5AAiSeq3iHubwYIACF4fQI0v3UGH8W3XA6zKF8Efvf2Retw21v/oh4HmG66uyGAi/Dr/VfTX/ZyREB9MzLe74tdk3sCz92FiEdN7uTpA67FF3BYaaXnbMupyid/LYEh6jW0flJl0shp77amcJJu5mmZAH1zEVnEl/oRp1IHZ2P20AVrHGMZhstfDgJE1d4pgqswWx9sToMtU3XqcL1vuuueXx0jsNDQ3BsYei+KlPtgSgD7tGWljEjR7DCyMnsEdsQGJkwoMwN5E9dvAH+UEDLmDDus1deb6y1O+4nCn+3f4BiKBZhZ34yIh+gTC/ujLKf/Fk7TVbm5rNtn6lvrnOB8CAzYZ8VjEb8xcxDyBg75jK0+8CPbaTvHW4xX5DfUc/9QAhUQaMZE8G13Gb0ZOG2ayPhUa/60ri2tt43AIutcU5Jz2fMYsu0Ot5lNECz7BPqCAtHNUqCJarkP0p88VpwahJCtKaOC908JJI8T1pNbO5AXKHxFSY15KbZzMQ5QMUYaopAO+dVJvnXRxdTWF/ISzTS7Wj0ys+EmMvUcm9jV5KRRTd0757fsUFm7vi28eLVISMXUajIXlhF0ijeKp/In0yJP4tnGJPCSKO0KFl9+VX8TrYGmiyXg1tJwzU=:ZW5XFkXkehrzb1L1gKZtJWq/ekC2GGlCgqBDJlWDqKfbEvETpW5DgtzafFpkzTkt6Bk=","key":"encrypted"}],"version":0}' WHERE `id` = 1"
+[08/23/2022 13:19:15]: [nLogin] The user Manteecora has successfully logged in.
