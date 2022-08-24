@@ -145,7 +145,7 @@ scoreboard:
         - "%animation:MyAnimation1%"
         - "&6Статистика:"
         - "* &eУбийства&7: &f%statistic_player_kills%"
-        - "* &eЯСмерти&7: &f%statistic_deaths%"
+        - "* &eСмерти&7: &f%statistic_deaths%"
         - "* &bДонат&7: &f%group%" 
         - "* &eБаланс&7: &f%economybank_balance%"
         - "%animation:MyAnimation1%"
