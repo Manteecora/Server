@@ -117,7 +117,7 @@ per-world-playerlist:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Scoreboard
 scoreboard:
-  enabled: false
+  enabled: true
   toggle-command: /sb
   remember-toggle-choice: false
   hidden-by-default: false
@@ -131,7 +131,7 @@ scoreboard:
     admin:
       # Only players with tab.scoreboard.admin can see this scoreboard, others will see scoreboard1
       display-condition: "permission:tab.scoreboard.admin"
-      title: "Admin scoreboard"
+      title: "Server name"
       lines:
         - "%animation:MyAnimation1%"
         - "&6Online:"
@@ -145,7 +145,7 @@ scoreboard:
         - "* &bMemory&7: &f%memory-used%&7/&4%memory-max%"
         - "%animation:MyAnimation1%"
     scoreboard1:
-      title: "Default"
+      title: "Server name"
       lines:
         - "%animation:MyAnimation1%"
         - "&6My Stats:"
