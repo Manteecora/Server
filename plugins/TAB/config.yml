@@ -135,7 +135,7 @@ scoreboard:
         - "* &eУбийства&7: &f%statistic_player_kills%"
         - "* &eСмерти&7: &f%statistic_deaths%"
         - "* &eАдмины&7: &f%staffonline%"
-        - "* &eБаланс&7: &f%economybank_balance%"
+        - "* &eБаланс&7: &f%vault_eco_balance%"
         - "* &bTPS&7: %tps%"
         - "* &bПамять&7: &f%memory-used%&7/&4%memory-max%"
         - "%animation:MyAnimation1%"
