@@ -361,7 +361,7 @@ notifications:
   # Chat notifications.
   chat:
     # On/off chat notifications.
-    enable: true
+    enable: false
 
     # Notification lists.
     lists:
@@ -426,7 +426,7 @@ notifications:
   # Title notifications.
   title:
     # On/off title notifications.
-    enable: true
+    enable: false
 
     # Notification lists.
     lists:
@@ -505,7 +505,7 @@ moderation:
   advertisement:
     # On/off advertisement protection.
     # Bypass permission: chatty.moderation.advertisement
-    enable: true
+    enable: false
 
     # Regular expressions for IP-addresses and websites.
     patterns:
