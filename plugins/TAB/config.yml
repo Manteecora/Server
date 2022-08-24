@@ -70,9 +70,9 @@ yellow-number-in-tablist:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Belowname
 belowname-objective:
-  enabled: false
+  enabled: true
   number: "%health%"
-  text: "&cHealth"
+  text: "&с❤"
   disable-in-worlds:
     - disabledworld
 
@@ -131,23 +131,20 @@ scoreboard:
       title: "Server name"
       lines:
         - "%animation:MyAnimation1%"
-        - "* &eОнлайн&7: &f%online%"
-        - "* &eУбийства&7: &f%statistic_player_kills%"
-        - "* &eСмерти&7: &f%statistic_deaths%"
-        - "* &eАдмины&7: &f%staffonline%"
-        - "* &eБаланс&7: &f%vault_eco_balance%"
-        - "* &bTPS&7: %tps%"
-        - "* &bПамять&7: &f%memory-used%&7/&4%memory-max%"
+        - "&2• &9&lУровень &6%player_level%"
+        - "&2• &b&lУбийства&7: &f%statistic_player_kills%"
+        - "&2• &b&lСмерти&7: &f%statistic_deaths%"
+        - "&2• &b&lБаланс&7: &f%vault_eco_balance%"
+        - "&2• &b&lTPS&7: %tps%"
         - "%animation:MyAnimation1%"
     scoreboard1:
       title: "Server name"
       lines:
         - "%animation:MyAnimation1%"
-        - "&6Статистика:"
-        - "* &eУбийства&7: &f%statistic_player_kills%"
-        - "* &eСмерти&7: &f%statistic_deaths%"
-        - "* &bДонат&7: &f%group%" 
-        - "* &eБаланс&7: &f%vault_eco_balance%"
+        - "&2• &9&lУровень &6%player_level%"
+        - "&2• &b&lУбийства&7: &f%statistic_player_kills%"
+        - "&2• &b&lСмерти&7: &f%statistic_deaths%"
+        - "&2• &b&lБаланс&7: &f%vault_eco_balance%"
         - "%animation:MyAnimation1%"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Ping-Spoof
