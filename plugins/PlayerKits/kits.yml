@@ -1,1 +1,32 @@
-Kits: {}
+Kits:
+  Eat:
+    Items:
+      '1':
+        id: MUSHROOM_STEW
+        amount: '1'
+        durability: '0'
+      '2':
+        id: BREAD
+        amount: '10'
+        durability: '0'
+      '3':
+        id: BAKED_POTATO
+        amount: '5'
+        durability: '0'
+      '4':
+        id: MUSHROOM_STEW
+        amount: '1'
+        durability: '0'
+    slot: 11
+    display_item: BAKED_POTATO
+    display_name: Едааааа
+    display_lore:
+    - Покушай голодающий
+    cooldown: 720
+    noPermissionsItem:
+      display_item: BAKED_POTATO
+      display_name: Еда
+      display_lore:
+      - '&cУ вас нет прав требовать этот кит'
+      - '&cthis kit.'
+    permission: vip
