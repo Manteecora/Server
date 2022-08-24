@@ -169,31 +169,31 @@ actions:
     material: BARRIER
     displayname: '&cBANNED'
     lore:
-      - '&cYou can not add this'
-      - '&cenchantement.'
-
+    - '&cYou can not add this'
+    - '&cenchantement.'
+  
   # List of rename commands which a player could use to rename an item
   rename:
-    - '/rename'
-
+  - /rename
+  
   # Block hoppers to take/give banned item from/to inventories
   # This is more resource intensive
   transfer:
     hoppers-block: false
-
+  
   # Configuration for the wear action
   wear:
     # If the plugin have to check when a player enter or exit a WorldGuard region
     region-check: false
     # Scan each seconds if a player is wearing a banned item [async]
     scanner: true
-
+  
   # The plugin will not take in consideration inventories which name is in this list
   # WITHOUT color codes & case sensitive: color codes from GUI titles will be removed to be compared
   delete:
     ignored-inventories-titles:
-      - 'My Cool Gui'
-      - 'Shop'
+    - My Cool Gui
+    - Shop
 
 # Hooking with plugins
 # Enable these hooks only if you use it
@@ -228,13 +228,15 @@ illegal-stacks:
   enabled: false
   vanilla-max-stack-size: true
   block-type: split
-  #items:
-  #  'diamond_helmet,iron_helmet':
-  #    amount: 1
-  #    block-type: split
+blacklist:
+  world: {}
+# items:
+#  'diamond_helmet,iron_helmet':
+#    amount: 1
+#    block-type: split
 
 # Here is some quick examples:
-#blacklist:
+# blacklist:
 #  world:
 #    diamond_block: # can not place or break diamond_block, no messages
 #      place: '&cYou are not allowed to place a diamond block in world.'
@@ -262,10 +264,10 @@ illegal-stacks:
 #    ender_pearl:
 #      use: '&cYou can use enderpearls only in the end.'
 #  # you have to set priority to 'use' (above the config) in order for this to work
-#whitelist:
+# whitelist:
 #  world_the_end:
 #    message: '&cOnly thing allowed in this world: placing dirt.'
 #    ignored: 'interact' # we ignore the interact, so player can interact (to place) with everything
 #    dirt: place # dirt can be placed
-### Whitelist conclusion: in world_the_end, only one thing is allowed: placing dirt.
-### Everything else (breaking, pickup, drop etc.) will be blocked.
+# ## Whitelist conclusion: in world_the_end, only one thing is allowed: placing dirt.
+# ## Everything else (breaking, pickup, drop etc.) will be blocked.
