@@ -11,14 +11,14 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1661331459851
+  lastteleport: 1661342909268
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1661341646511
-  login: 1661341649296
-money: '8497166666743.949'
+  login: 1661342748614
+money: '24.0'
 last-account-name: Prostoy_Neprost
 logoutlocation:
   world: cc86c9b0-7439-49ea-ab13-891eb84dafb2
@@ -31,11 +31,11 @@ logoutlocation:
 lastlocation:
   world: cc86c9b0-7439-49ea-ab13-891eb84dafb2
   world-name: world
-  x: -484.1900228451903
-  y: 149.90779718977032
-  z: 45.459080738067264
-  yaw: 147.32205200195312
-  pitch: 20.664934158325195
+  x: -509.0465678314018
+  y: 147.0
+  z: 52.96733972086306
+  yaw: 74.12745666503906
+  pitch: 16.67367935180664
 homes:
   home:
     world: cc86c9b0-7439-49ea-ab13-891eb84dafb2
