@@ -38,7 +38,7 @@ Teleportation:
 Invalid-World: '&cВ этом мире прыжок недоступен!'
 
 # The maximum and minimum range coordinates the player will teleport from their original place.
-MaxRadius: 3000
+MaxRadius: 4000
 MinRadius: 500
 
 # 1.9+ Only

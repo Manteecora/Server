@@ -1,1084 +1,518 @@
-[11:35:55] [ServerMain/INFO]: Building unoptimized datafixer
-[11:35:57] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:35:59] [ServerMain/INFO]: Loaded 7 recipes
-[11:36:01] [Server thread/INFO]: Starting minecraft server version 1.19
-[11:36:01] [Server thread/INFO]: Loading properties
-[11:36:01] [Server thread/INFO]: This server is running CraftBukkit version 3534-Spigot-56be6a8-6c61b73 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT)
-[11:36:01] [Server thread/INFO]: Debug logging is disabled
-[11:36:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:36:01] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:36:01] [Server thread/INFO]: Default game type: SURVIVAL
-[11:36:01] [Server thread/INFO]: Generating keypair
-[11:36:01] [Server thread/INFO]: Starting Minecraft server on 26.119.135.221:25565
-[11:36:01] [Server thread/INFO]: Using default channel type
-[11:36:03] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.41
-[11:36:04] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
-[11:36:04] [Server thread/INFO]: [SimpleRTP] Loading SimpleRTP v2.5
-[11:36:04] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[11:36:04] [Server thread/INFO]: [SetSpawn] Loading SetSpawn v4.3
-[11:36:04] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[11:36:04] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b560
-[11:36:05] [Server thread/INFO]: [Chatty] Loading Chatty v2.19.12
-[11:36:05] [Server thread/INFO]: [nLogin] Loading nLogin v10.1.2
-[11:36:06] [Server thread/INFO]: [nLogin] Connecting to the remote server api.nickuc.com...
-[11:36:06] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
-[11:36:06] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
-[11:36:07] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@20bb41ad]
-[11:36:07] [Server thread/INFO]: [PlayerKits] Loading PlayerKits v2.24.3
-[11:36:07] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4
-[11:36:07] [Server thread/INFO]: [TAB] Loading TAB v3.1.4
-[11:36:07] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.8-beta-01+cbb2ba7
-[11:36:07] [Server thread/INFO]: [Guilds] Loading Guilds v3.5.6.4
-[11:36:07] [Server thread/INFO]: [Guilds] Loading Libraries...
-[11:36:07] [Server thread/INFO]: [Guilds] Note: This might take a few minutes on first run. Kindly ensure internet connectivity.
-[11:36:08] [Server thread/INFO]: [Guilds] Loaded libraries in 0,961 seconds
-[11:36:08] [Server thread/INFO]: [MoneyFromMobs] Loading MoneyFromMobs v4.6
-[11:36:08] [Server thread/INFO]: [SCore] Loading SCore v3.1.9
-[11:36:08] [Server thread/INFO]: [ExecutableItems] Loading ExecutableItems v5.1.9
-[11:36:08] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.41
-[11:36:08] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
-[11:36:08] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.41[m
-[11:36:08] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
-[11:36:08] [Server thread/INFO]: [m
-[11:36:08] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[11:36:09] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[11:36:09] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[11:36:09] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[11:36:09] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1733ms)
-[11:36:09] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[11:36:09] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.4 which is not a depend or softdepend of this plugin.
-[11:36:09] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[11:36:09] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[11:36:10] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[11:36:10] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[11:36:10] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b560
-[11:36:10] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
-[11:36:10] [Server thread/INFO]: [nLogin] Enabling nLogin v10.1.2
-[11:36:10] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.39s)
-[11:36:10] [Server thread/INFO]: [0;34;1m          __             _       [m
-[11:36:10] [Server thread/INFO]: [0;34;1m  _ __   / /  ___   __ _(_)_ __  [m
-[11:36:10] [Server thread/INFO]: [0;34;1m | '_ \ / /  / _ \ / _` | | '_ \ [m
-[11:36:10] [Server thread/INFO]: [0;34;1m | | | / /__| (_) | (_| | | | | |[m
-[11:36:10] [Server thread/INFO]: [0;34;1m |_| |_\____/\___/ \__, |_|_| |_|[m
-[11:36:10] [Server thread/INFO]: [0;34;1m                  |___/            [m
-[11:36:10] [Server thread/INFO]: [0;34;1m By: www.nickuc.com - V 10.1.2 DEVELOPMENT[m
-[11:36:10] [Server thread/INFO]: [0;34;1m[m
-[11:36:11] [Server thread/INFO]: [nLogin] nLogin was loaded in 1082ms.
-[11:36:11] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
-[11:36:11] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[11:36:11] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[11:36:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[11:36:13] [Server thread/INFO]: [WorldEdit] ====================================================
-[11:36:13] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[11:36:13] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[11:36:13] [Server thread/INFO]: [WorldEdit]   
-[11:36:13] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[11:36:13] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[11:36:13] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[11:36:13] [Server thread/INFO]: [WorldEdit]   
-[11:36:13] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[11:36:13] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[11:36:13] [Server thread/INFO]: [WorldEdit]   
-[11:36:13] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[11:36:13] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[11:36:13] [Server thread/INFO]: [WorldEdit]   
-[11:36:13] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[11:36:13] [Server thread/INFO]: [WorldEdit] ====================================================
-[11:36:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:36:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:36:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:36:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:36:13] [Server thread/INFO]: Preparing level "world"
-[11:36:13] [Server thread/INFO]: -------- World Settings For [world] --------
-[11:36:13] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:36:13] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:36:13] [Server thread/INFO]: Simulation Distance: 10
-[11:36:13] [Server thread/INFO]: View Distance: 8
-[11:36:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:36:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:36:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:36:13] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:36:13] [Server thread/INFO]: Mob Spawn Range: 6
-[11:36:13] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:36:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[11:36:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:36:13] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:36:13] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:36:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:36:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:36:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:36:13] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:36:13] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:36:13] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:36:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:36:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:36:13] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:36:13] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:36:13] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:36:13] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:36:13] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:36:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[11:36:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
-[11:36:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:36:13] [Server thread/INFO]: Max TNT Explosions: 100
-[11:36:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:36:14] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[11:36:14] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:36:14] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:36:14] [Server thread/INFO]: Simulation Distance: 10
-[11:36:14] [Server thread/INFO]: View Distance: 8
-[11:36:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:36:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:36:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:36:14] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:36:14] [Server thread/INFO]: Mob Spawn Range: 6
-[11:36:14] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:36:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[11:36:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[11:36:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
-[11:36:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:36:14] [Server thread/INFO]: Max TNT Explosions: 100
-[11:36:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:36:14] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[11:36:14] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:36:14] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:36:14] [Server thread/INFO]: Simulation Distance: 10
-[11:36:14] [Server thread/INFO]: View Distance: 8
-[11:36:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:36:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:36:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:36:14] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:36:14] [Server thread/INFO]: Mob Spawn Range: 6
-[11:36:14] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:36:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[11:36:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:36:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[11:36:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
-[11:36:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:36:14] [Server thread/INFO]: Max TNT Explosions: 100
-[11:36:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:36:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:36:18] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:36:18] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:36:18] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:36:18] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:36:18] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:36:18] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[11:36:18] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[11:36:18] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:36:18] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[11:36:19] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[11:36:34] [Worker-Main-12/INFO]: Preparing spawn area: 8%
-[11:36:34] [Worker-Main-1/INFO]: Preparing spawn area: 8%
-[11:36:34] [Worker-Main-12/INFO]: Preparing spawn area: 8%
-[11:36:34] [Worker-Main-12/INFO]: Preparing spawn area: 8%
-[11:36:34] [Worker-Main-1/INFO]: Preparing spawn area: 8%
-[11:36:34] [Worker-Main-1/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-7/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-1/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-1/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-8/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-12/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-12/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-1/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-12/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-12/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-12/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-1/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-1/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-8/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-12/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-8/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-8/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-8/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-13/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-11/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-11/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-13/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-13/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-11/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-7/INFO]: Preparing spawn area: 9%
-[11:36:34] [Worker-Main-7/INFO]: Preparing spawn area: 9%
-[11:36:35] [Worker-Main-3/INFO]: Preparing spawn area: 20%
-[11:36:35] [Worker-Main-2/INFO]: Preparing spawn area: 35%
-[11:36:36] [Worker-Main-4/INFO]: Preparing spawn area: 55%
-[11:36:36] [Worker-Main-7/INFO]: Preparing spawn area: 83%
-[11:36:37] [Worker-Main-15/INFO]: Preparing spawn area: 96%
-[11:36:37] [Server thread/INFO]: Time elapsed: 22566 ms
-[11:36:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:36:40] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:36:40] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:36:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:36:40] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[11:36:40] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[11:36:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[11:36:40] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[11:36:40] [Worker-Main-15/INFO]: Preparing spawn area: 73%
-[11:36:40] [Server thread/INFO]: Time elapsed: 3689 ms
-[11:36:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:36:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[11:36:42] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:36:42] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[11:36:42] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[11:36:42] [Worker-Main-13/INFO]: Preparing spawn area: 28%
-[11:36:43] [Server thread/INFO]: Time elapsed: 2466 ms
-[11:36:43] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
-[11:36:43] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[11:36:43] [Server thread/INFO]: [SimpleRTP] Enabling SimpleRTP v2.5
-[11:36:43] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[11:36:43] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[11:36:43] [Server thread/INFO]: [ClearLag] Loading modules...
-[11:36:43] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_19_R1.MinecraftServer)
-[11:36:43] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[11:36:43] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[11:36:43] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[11:36:43] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.19]...
-[11:36:43] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v4.3
-[11:36:43] [Server thread/INFO]: [SetSpawn] Enabled!
-[11:36:43] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.12
-[11:36:43] [Server thread/INFO]: [Chatty] Vault has successful hooked.
-[11:36:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: chatty [2.19.12]
-[11:36:43] [Server thread/INFO]: [Chatty] PlaceholderAPI has successful hooked.
-[11:36:43] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
-[11:36:43] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m[m
-[11:36:43] [Thread-10/INFO]: [ClearLag] No updates found!
-[11:36:44] [Server thread/INFO]: [PlayerKits] Enabling PlayerKits v2.24.3
-[11:36:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerkits [2.24.3]
-[11:36:44] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mHas been enabled! [0;37;1mVersion: 2.24.3[m
-[11:36:44] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mThanks for using my plugin!  [0;37;1m~Ajneb97[m
-[11:36:44] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4
-[11:36:44] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[11:36:44] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[11:36:44] [Server thread/INFO]: No kits found to migrate.
-[11:36:44] [Server thread/WARN]: java.lang.NoSuchMethodException: no such method: net.minecraft.server.MinecraftServer.v()boolean/invokeVirtual
-[11:36:44] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName.makeAccessException(MemberName.java:976)
-[11:36:44] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1117)
-[11:36:44] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:3649)
-[11:36:44] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.findVirtual(MethodHandles.java:2680)
-[11:36:44] [Server thread/WARN]: 	at net.ess3.nms.refl.providers.ReflServerStateProvider.<init>(ReflServerStateProvider.java:20)
-[11:36:44] [Server thread/WARN]: 	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:382)
-[11:36:44] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
-[11:36:44] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
-[11:36:44] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479)
-[11:36:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:520)
-[11:36:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:434)
-[11:36:44] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:582)
-[11:36:44] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:401)
-[11:36:44] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:255)
-[11:36:44] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:966)
-[11:36:44] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:291)
-[11:36:44] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[11:36:44] [Server thread/WARN]: Caused by: java.lang.NoSuchMethodError: 'boolean net.minecraft.server.MinecraftServer.v()'
-[11:36:44] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandleNatives.resolve(Native Method)
-[11:36:44] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolve(MemberName.java:1085)
-[11:36:44] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1114)
-[11:36:44] [Server thread/WARN]: 	... 15 more
-[11:36:44] [Server thread/INFO]: Loaded 36926 items from items.json.
-[11:36:44] [Server thread/INFO]: Using locale ru
-[11:36:44] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[11:36:44] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[11:36:44] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[11:36:44] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[11:36:44] [Server thread/INFO]: [TAB] Enabling TAB v3.1.4
-[11:36:44] [Server thread/INFO]: [TAB] Server version: 1.19 (v1_19_R1)[m
-[11:36:45] [Server thread/INFO]: [TAB] Loaded NMS hook in 28ms[m
-[11:36:45] [Server thread/INFO]: [TAB] [0;32;1mEnabled in 109ms[m
-[11:36:45] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.8-beta-01+cbb2ba7
-[11:36:45] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[11:36:45] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[11:36:45] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[11:36:45] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[11:36:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[11:36:45] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[11:36:45] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[11:36:45] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[11:36:45] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[11:36:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[11:36:45] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[11:36:45] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[11:36:45] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[11:36:45] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[11:36:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[11:36:45] [Server thread/INFO]: [WorldGuard] Loading region data...
-[11:36:45] [Server thread/INFO]: [Guilds] Enabling Guilds v3.5.6.4
-[11:36:45] [Server thread/INFO]: [0;32;1m  ________ [m
-[11:36:45] [Server thread/INFO]: [0;32;1m /  _____/ [m
-[11:36:45] [Server thread/INFO]: [0;32;1m/   \  ___   [0;36;22mGuilds [0;30;1mv3.5.6.4[m
-[11:36:45] [Server thread/INFO]: [0;32;1m\    \_\  \  [0;36;22mServer Version: [0;30;1m3534-Spigot-56be6a8-6c61b73 (MC: 1.19)[m
-[11:36:45] [Server thread/INFO]: [0;32;1m \______  /[m
-[11:36:45] [Server thread/INFO]: [0;32;1m        \/ [m
-[11:36:45] [Server thread/INFO]: Economy Found: EssentialsX Economy
-[11:36:45] [Server thread/INFO]: Permissions Found: LuckPerms
-[11:36:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: guilds [2.1]
-[11:36:47] [Server thread/INFO]: Ready to go! That only took 1514ms
-[11:36:47] [Server thread/INFO]: [MoneyFromMobs] Enabling MoneyFromMobs v4.6
-[11:36:47] [ForkJoinPool.commonPool-worker-1/INFO]: [Guilds] Your version of Guilds (3.5.6.4) is up to date!
-[11:36:47] [TaskChainAsyncQueue Thread 0/INFO]: §6§lFeatures
-§a- Added support for Minecraft 1.19
+[16:36:32] [ServerMain/INFO]: Building unoptimized datafixer
+[16:36:34] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:36:36] [ServerMain/INFO]: Loaded 7 recipes
+[16:36:39] [Server thread/INFO]: Starting minecraft server version 1.19
+[16:36:39] [Server thread/INFO]: Loading properties
+[16:36:39] [Server thread/INFO]: This server is running CraftBukkit version 3534-Spigot-56be6a8-6c61b73 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT)
+[16:36:39] [Server thread/INFO]: Debug logging is disabled
+[16:36:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:36:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:36:39] [Server thread/INFO]: Default game type: SURVIVAL
+[16:36:39] [Server thread/INFO]: Generating keypair
+[16:36:39] [Server thread/INFO]: Starting Minecraft server on 26.119.135.221:25565
+[16:36:39] [Server thread/INFO]: Using default channel type
+[16:36:41] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.41
+[16:36:41] [Server thread/INFO]: [LootChest] Loading LootChest v2.3.3
+[16:36:41] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
+[16:36:41] [Server thread/INFO]: [SimpleRTP] Loading SimpleRTP v2.5
+[16:36:41] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[16:36:41] [Server thread/INFO]: [SetSpawn] Loading SetSpawn v4.3
+[16:36:41] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[16:36:41] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b560
+[16:36:42] [Server thread/INFO]: [Chatty] Loading Chatty v2.19.12
+[16:36:42] [Server thread/INFO]: [nLogin] Loading nLogin v10.1.2
+[16:36:42] [Server thread/INFO]: [nLogin] Connecting to the remote server api.nickuc.com...
+[16:36:43] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
+[16:36:43] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[16:36:43] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2fbd400d]
+[16:36:43] [Server thread/INFO]: [PlayerKits] Loading PlayerKits v2.24.3
+[16:36:43] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4
+[16:36:43] [Server thread/INFO]: [TAB] Loading TAB v3.1.4
+[16:36:43] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.8-beta-01+cbb2ba7
+[16:36:43] [Server thread/INFO]: [Guilds] Loading Guilds v3.5.6.4
+[16:36:43] [Server thread/INFO]: [Guilds] Loading Libraries...
+[16:36:43] [Server thread/INFO]: [Guilds] Note: This might take a few minutes on first run. Kindly ensure internet connectivity.
+[16:36:44] [Server thread/INFO]: [Guilds] Loaded libraries in 0,698 seconds
+[16:36:44] [Server thread/INFO]: [BanItem] Loading BanItem v3.4
+[16:36:44] [Server thread/INFO]: [MoneyFromMobs] Loading MoneyFromMobs v4.6
+[16:36:44] [Server thread/INFO]: [SCore] Loading SCore v3.1.9
+[16:36:44] [Server thread/INFO]: [ExecutableItems] Loading ExecutableItems v5.1.9
+[16:36:44] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.41
+[16:36:45] [Server thread/INFO]:         __    
+[16:36:45] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.41
+[16:36:45] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
+[16:36:45] [Server thread/INFO]: 
+[16:36:45] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:36:45] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:36:45] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:36:45] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:36:46] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1432ms)
+[16:36:46] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:36:46] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.4 which is not a depend or softdepend of this plugin.
+[16:36:46] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:36:46] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:36:46] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:36:46] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[16:36:46] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b560
+[16:36:46] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[16:36:46] [Server thread/INFO]: [nLogin] Enabling nLogin v10.1.2
+[16:36:46] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.33s)
+[16:36:46] [Server thread/INFO]:           __             _       
+[16:36:46] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[16:36:46] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[16:36:46] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[16:36:46] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[16:36:46] [Server thread/INFO]:                   |___/            
+[16:36:46] [Server thread/INFO]:  By: www.nickuc.com - V 10.1.2 DEVELOPMENT
+[16:36:46] [Server thread/INFO]: 
+[16:36:47] [Server thread/INFO]: [nLogin] nLogin was loaded in 911ms.
+[16:36:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[16:36:47] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:36:47] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[16:36:47] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[16:36:48] [Server thread/INFO]: [WorldEdit] ====================================================
+[16:36:48] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[16:36:48] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[16:36:48] [Server thread/INFO]: [WorldEdit]   
+[16:36:48] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[16:36:48] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[16:36:48] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[16:36:48] [Server thread/INFO]: [WorldEdit]   
+[16:36:48] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[16:36:48] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[16:36:48] [Server thread/INFO]: [WorldEdit]   
+[16:36:48] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[16:36:48] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[16:36:48] [Server thread/INFO]: [WorldEdit]   
+[16:36:48] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[16:36:48] [Server thread/INFO]: [WorldEdit] ====================================================
+[16:36:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:36:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:36:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:36:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:36:48] [Server thread/INFO]: Preparing level "world"
+[16:36:48] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:36:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:36:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:36:48] [Server thread/INFO]: Simulation Distance: 10
+[16:36:48] [Server thread/INFO]: View Distance: 8
+[16:36:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:36:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:36:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:36:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:36:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:36:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:36:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:36:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:36:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:36:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:36:48] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:36:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:36:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:36:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:36:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:36:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:36:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:36:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:36:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:36:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
+[16:36:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:36:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[16:36:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:36:48] [Server thread/INFO]: Max TNT Explosions: 100
+[16:36:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:36:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:36:48] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:36:48] [Server thread/INFO]: Mob Spawn Range: 6
+[16:36:49] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:36:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:36:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:36:49] [Server thread/INFO]: Simulation Distance: 10
+[16:36:49] [Server thread/INFO]: View Distance: 8
+[16:36:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:36:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:36:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:36:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
+[16:36:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:36:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[16:36:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:36:49] [Server thread/INFO]: Max TNT Explosions: 100
+[16:36:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:36:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:36:49] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:36:49] [Server thread/INFO]: Mob Spawn Range: 6
+[16:36:49] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:36:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:36:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:36:49] [Server thread/INFO]: Simulation Distance: 10
+[16:36:49] [Server thread/INFO]: View Distance: 8
+[16:36:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:36:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:36:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:36:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:36:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
+[16:36:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:36:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[16:36:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:36:49] [Server thread/INFO]: Max TNT Explosions: 100
+[16:36:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:36:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:36:49] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:36:49] [Server thread/INFO]: Mob Spawn Range: 6
+[16:36:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:36:52] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[16:36:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:36:52] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:36:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:36:52] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:36:52] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[16:36:52] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:37:06] [Worker-Main-16/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-16/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-16/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-6/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-6/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-6/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-13/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-13/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-13/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-13/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-13/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-13/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-13/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-13/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-13/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-7/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-6/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-13/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-3/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-9/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-6/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-9/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-9/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-9/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-9/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-9/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-3/INFO]: Preparing spawn area: 27%
+[16:37:06] [Worker-Main-9/INFO]: Preparing spawn area: 39%
+[16:37:07] [Worker-Main-16/INFO]: Preparing spawn area: 84%
+[16:37:07] [Server thread/INFO]: Time elapsed: 17729 ms
+[16:37:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:37:09] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[16:37:09] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[16:37:09] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[16:37:09] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[16:37:09] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[16:37:10] [Worker-Main-13/INFO]: Preparing spawn area: 9%
+[16:37:10] [Worker-Main-9/INFO]: Preparing spawn area: 85%
+[16:37:10] [Server thread/INFO]: Time elapsed: 3159 ms
+[16:37:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:37:11] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:37:11] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[16:37:11] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:37:12] [Worker-Main-6/INFO]: Preparing spawn area: 85%
+[16:37:12] [Server thread/INFO]: Time elapsed: 1607 ms
+[16:37:12] [Server thread/INFO]: [LootChest] Enabling LootChest v2.3.3
+[16:37:12] [Server thread/INFO]: [LootChest] Server version: 1.19
+[16:37:12] [Server thread/INFO]: [LootChest] Loading config files...
+[16:37:12] [Server thread/INFO]: [LootChest] Checking for update...
+[16:37:12] [Server thread/INFO]: [LootChest] Starting particles...
+[16:37:12] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[16:37:12] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:37:12] [Server thread/INFO]: [SimpleRTP] Enabling SimpleRTP v2.5
+[16:37:12] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[16:37:12] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[16:37:12] [Server thread/INFO]: [ClearLag] Loading modules...
+[16:37:12] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_19_R1.MinecraftServer)
+[16:37:12] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[16:37:12] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[16:37:12] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[16:37:12] [Thread-11/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.19]...
+[16:37:12] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v4.3
+[16:37:12] [Server thread/INFO]: [SetSpawn] Enabled!
+[16:37:12] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.12
+[16:37:12] [Server thread/INFO]: [Chatty] Vault has successful hooked.
+[16:37:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: chatty [2.19.12]
+[16:37:12] [Server thread/INFO]: [Chatty] PlaceholderAPI has successful hooked.
+[16:37:12] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
+[16:37:12] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
+[16:37:12] [Thread-11/INFO]: [ClearLag] No updates found!
+[16:37:13] [Server thread/INFO]: [PlayerKits] Enabling PlayerKits v2.24.3
+[16:37:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerkits [2.24.3]
+[16:37:13] [Server thread/INFO]: [PlayerKits] Has been enabled! Version: 2.24.3
+[16:37:13] [Server thread/INFO]: [PlayerKits] Thanks for using my plugin!  ~Ajneb97
+[16:37:13] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4
+[16:37:13] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[16:37:13] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[16:37:13] [Server thread/INFO]: No kits found to migrate.
+[16:37:13] [Server thread/WARN]: java.lang.NoSuchMethodException: no such method: net.minecraft.server.MinecraftServer.v()boolean/invokeVirtual
+[16:37:13] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName.makeAccessException(MemberName.java:976)
+[16:37:13] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1117)
+[16:37:13] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:3649)
+[16:37:13] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.findVirtual(MethodHandles.java:2680)
+[16:37:13] [Server thread/WARN]: 	at net.ess3.nms.refl.providers.ReflServerStateProvider.<init>(ReflServerStateProvider.java:20)
+[16:37:13] [Server thread/WARN]: 	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:382)
+[16:37:13] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[16:37:13] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+[16:37:13] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479)
+[16:37:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:520)
+[16:37:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:434)
+[16:37:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:582)
+[16:37:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:401)
+[16:37:13] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:255)
+[16:37:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:966)
+[16:37:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:291)
+[16:37:13] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[16:37:13] [Server thread/WARN]: Caused by: java.lang.NoSuchMethodError: 'boolean net.minecraft.server.MinecraftServer.v()'
+[16:37:13] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandleNatives.resolve(Native Method)
+[16:37:13] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolve(MemberName.java:1085)
+[16:37:13] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1114)
+[16:37:13] [Server thread/WARN]: 	... 15 more
+[16:37:14] [Server thread/INFO]: Loaded 36926 items from items.json.
+[16:37:14] [Server thread/INFO]: Using locale ru
+[16:37:14] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:37:14] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:37:14] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[16:37:14] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[16:37:14] [Server thread/INFO]: [TAB] Enabling TAB v3.1.4
+[16:37:14] [Server thread/INFO]: [TAB] Server version: 1.19 (v1_19_R1)
+[16:37:14] [Server thread/INFO]: [TAB] Loaded NMS hook in 28ms
+[16:37:14] [Server thread/INFO]: [TAB] Enabled in 104ms
+[16:37:14] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.8-beta-01+cbb2ba7
+[16:37:14] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[16:37:14] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[16:37:14] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[16:37:14] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[16:37:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[16:37:14] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[16:37:14] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[16:37:14] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[16:37:14] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[16:37:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[16:37:14] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[16:37:14] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[16:37:14] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[16:37:14] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[16:37:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[16:37:14] [Server thread/INFO]: [WorldGuard] Loading region data...
+[16:37:14] [Server thread/INFO]: [Guilds] Enabling Guilds v3.5.6.4
+[16:37:14] [Server thread/INFO]:   ________ 
+[16:37:14] [Server thread/INFO]:  /  _____/ 
+[16:37:14] [Server thread/INFO]: /   \  ___   Guilds v3.5.6.4
+[16:37:14] [Server thread/INFO]: \    \_\  \  Server Version: 3534-Spigot-56be6a8-6c61b73 (MC: 1.19)
+[16:37:14] [Server thread/INFO]:  \______  /
+[16:37:14] [Server thread/INFO]:         \/ 
+[16:37:15] [Server thread/INFO]: Economy Found: EssentialsX Economy
+[16:37:15] [Server thread/INFO]: Permissions Found: LuckPerms
+[16:37:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: guilds [2.1]
+[16:37:16] [Server thread/INFO]: Ready to go! That only took 1314ms
+[16:37:16] [Server thread/INFO]: [BanItem] Enabling BanItem v3.4
+[16:37:16] [Server thread/INFO]: [MoneyFromMobs] Enabling MoneyFromMobs v4.6
+[16:37:16] [Server thread/INFO]: [SCore] Enabling SCore v3.1.9
+[16:37:16] [Server thread/INFO]: ================ [SCore] ================
+[16:37:16] [Server thread/INFO]: [SCore] ExecutableItems hooked !
+[16:37:16] [Server thread/INFO]: [SCore] PlaceholderAPI hooked !
+[16:37:16] [Server thread/INFO]: [SCore] WorldGuard hooked !
+[16:37:16] [Server thread/INFO]: [SCore] Vault hooked !
+[16:37:16] [Server thread/INFO]: [SCore] ProtocolLib hooked !
+[16:37:16] [Server thread/INFO]: [SCore] Locale setup: EN
+[16:37:16] [Server thread/INFO]: [SCore] Language setup on EN
+[16:37:16] [Server thread/INFO]: [SCore] [SCore] Connexion to the db...
+[16:37:16] [Server thread/INFO]: [SCore] [SCore] Verification of the table SecurityOP...
+[16:37:16] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands...
+[16:37:16] [Server thread/INFO]: [SCore] [SCore] Verification of the table Cooldowns...
+[16:37:16] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Player...
+[16:37:16] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Entity...
+[16:37:16] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Block...
+[16:37:16] [Server thread/INFO]: [SCore] Verification of the table UsePerDay...
+[16:37:16] [ForkJoinPool.commonPool-worker-1/INFO]: [Guilds] Your version of Guilds (3.5.6.4) is up to date!
+[16:37:17] [TaskChainAsyncQueue Thread 0/INFO]: �6�lFeatures
+�a- Added support for Minecraft 1.19
 
-§6§lBug Fixes
-§a- Fixed an issue on some versions of MC where clashing Adventure imports were happening
-§a- Fixed getting the min world height on some versions of MC
-§a- Fixed invalid lang key accessing for arena location issues
-§a- Fixed a missing placeholder in the guild admin remove message telling the player what guild they were removed from
+�6�lBug Fixes
+�a- Fixed an issue on some versions of MC where clashing Adventure imports were happening
+�a- Fixed getting the min world height on some versions of MC
+�a- Fixed invalid lang key accessing for arena location issues
+�a- Fixed a missing placeholder in the guild admin remove message telling the player what guild they were removed from
 
-§6§lChanges
+�6�lChanges
 
-§aDon't depend on MVdWPlaceholderAPI anymore since it hasn't been used in awhile
-§a- Libraries in 1.19 have changed. I have decided to drop Apache Commons Lang 3 (this was really only used in the update checker, item builder, and guild code generation. Please let me know if you notice any problems)
-§a- Changed up some of the permissions for damage (please let me know if you experience any problems):
-§a- Allies: guilds.ffa.ally
-§a- Guilds: guilds.ffa.guild
-
-
-§6§lNote
-§a- I need some people to volunteer testing on a new PR coming that will allow you to use a player's skull in the Guild Members GUI instead of a static item. If you are interested, please let me know.
+�aDon't depend on MVdWPlaceholderAPI anymore since it hasn't been used in awhile
+�a- Libraries in 1.19 have changed. I have decided to drop Apache Commons Lang 3 (this was really only used in the update checker, item builder, and guild code generation. Please let me know if you notice any problems)
+�a- Changed up some of the permissions for damage (please let me know if you experience any problems):
+�a- Allies: guilds.ffa.ally
+�a- Guilds: guilds.ffa.guild
 
 
-[11:36:48] [Server thread/INFO]: [SCore] Enabling SCore v3.1.9
-[11:36:48] [Server thread/INFO]: ================ [SCore] ================[m
-[11:36:48] [Server thread/INFO]: [SCore] ExecutableItems hooked !
-[11:36:48] [Server thread/INFO]: [SCore] PlaceholderAPI hooked !
-[11:36:48] [Server thread/INFO]: [SCore] WorldGuard hooked !
-[11:36:48] [Server thread/INFO]: [SCore] Vault hooked !
-[11:36:48] [Server thread/INFO]: [SCore] ProtocolLib hooked !
-[11:36:48] [Server thread/INFO]: [SCore] Locale setup: EN
-[11:36:48] [Server thread/INFO]: [SCore] Language setup on EN
-[11:36:48] [Server thread/INFO]: [SCore] [SCore] Connexion to the db...
-[11:36:48] [Server thread/INFO]: [SCore] [SCore] Verification of the table SecurityOP...
-[11:36:48] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands...
-[11:36:48] [Server thread/INFO]: [SCore] [SCore] Verification of the table Cooldowns...
-[11:36:48] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Player...
-[11:36:48] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Entity...
-[11:36:48] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Block...
-[11:36:48] [Server thread/INFO]: [SCore] Verification of the table UsePerDay...
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW_NO_GRAVITY was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW_NO_GRAVITY_SPEED was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable FAIRYTAIL_GRAY_FULLBUSTER_1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable FAIRYTAIL_NATSU_DRAGNEEL_1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable FATE_ARCHER_1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable FATE_ARCHER_2 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_2 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_3 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_2 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_3 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable FATE_RIDER_1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable HUNTERXHUNTER_GON_FREECSS_1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable HUNTERXHUNTER_KURAPIKA_1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable MADOKA_HOMURA_AKEMI_1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable MADOKA_MADOKA_KANAME_1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable MADOKA_MAMI_TOMOE_1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable MHA_DENKI_KAMINARI_1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable MHA_IZUKU_MIDORIYA_1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable MHA_MINA_ASHIDO_ACID_1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable MHA_MINA_ASHIDO_ACID_2 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable MHA_SHOTO_TODOROKI_2 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_1_FIRE_FIST was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_2_FIRE_GUN was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_3_FIREFLY was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_002_1_FREEZE_BEAM was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_002_2_FREEZE_BOMB was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_003_1_TELEPORT was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_003_2_LIGHTNING_STRIKE was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_004_1_BLACK_HOLE was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_1_FLIGHT was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_2_FLAME_WALL was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_3_FIREBALL was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable OPM_GENOS_1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable OPM_SPEED_O_SONIC_1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable PACK_2_06 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable PACK_2_12 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile not editable proj_tornado_blade was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile arrow1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile egg1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile enderpearl1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile fireball1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile lingering1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile shulkerbullet1 was loaded !
-[11:36:49] [Server thread/INFO]: [SCore] projectile snowball1 was loaded !
-[11:36:50] [Server thread/INFO]: [SCore] projectile trident1 was loaded !
-[11:36:50] [Server thread/INFO]: [SCore] projectile tridentCustom1 was loaded !
-[11:36:50] [Server thread/INFO]: [SCore] projectile witherskull1 was loaded !
-[11:36:50] [Server thread/INFO]: [SCore] 0 saved commands loaded !
-[11:36:50] [Server thread/INFO]: ================ [SCore] ================[m
-[11:36:50] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v5.1.9
-[11:36:50] [Server thread/INFO]: ================ [*ExecutableItems*] ================
-[11:36:50] [Server thread/INFO]: [ExecutableItems] PlaceholderAPI hooked !
-[11:36:53] [Server thread/INFO]: [ExecutableItems] [ExecutableItems] Connexion to the db...
-[11:36:53] [Server thread/INFO]: ================ [ExecutableItems] ================
-[11:36:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:36:53] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[11:36:53] [Server thread/INFO]: [0;33;22m0 placeholder hook(s) registered![m
-[11:36:53] [Server thread/INFO]: Done (40.135s)! For help, type "help"
-[11:36:53] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[11:36:53] [Craft Scheduler Thread - 7/INFO]: [Essentials] §6Получение информации о версии...
-[11:36:53] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[11:36:53] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
-[11:36:53] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
-[11:36:53] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
-[11:36:53] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
-[11:36:53] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
-[11:36:53] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[11:36:53] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m[m
-[11:36:53] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
-[11:36:53] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[11:36:53] [Craft Scheduler Thread - 7/WARN]: [Essentials] §4Для скачивания доступна новая версия EssentialsX: §c2.19.7§4.
-[11:36:53] [Craft Scheduler Thread - 7/WARN]: [Essentials] §4Скачайте её отсюда:§c https://essentialsx.net/downloads.html?branch=stable
-[11:37:15] [User Authenticator #1/INFO]: UUID of player Prostoy_Neprost is 095f7954-6e4f-375b-8065-159a252b036c
-[11:37:16] [Server thread/INFO]: > Prostoy_Neprost joined the server.
-[11:37:16] [Server thread/INFO]: Prostoy_Neprost[/26.216.212.197:63963] logged in with entity id 76 at ([world]2.8907365943041268, 73.0215593252963, -199.75409863163668)
-[11:37:25] [User Authenticator #2/INFO]: UUID of player 2121 is ad7958e4-76d9-37a8-84f4-8c67e317b595
-[11:37:25] [Server thread/INFO]: > 2121 joined the server.
-[11:37:25] [Server thread/INFO]: 2121[/26.179.133.236:65469] logged in with entity id 77 at ([world]19.285171175052415, 73.0, -191.86384631868802)
-[11:37:33] [Craft Scheduler Thread - 8/INFO]: [nLogin] The user Prostoy_Neprost has successfully logged in.
-[11:37:34] [User Authenticator #3/INFO]: UUID of player Manteecora is 3d5adfea-d973-37c0-bcdc-a42c34be5b7b
-[11:37:34] [Server thread/INFO]: > Manteecora joined the server.
-[11:37:34] [Server thread/INFO]: Manteecora[/26.119.135.221:56814] logged in with entity id 78 at ([world]11.99146634609441, 73.93883597911214, -202.17283836383334)
-[11:37:43] [Craft Scheduler Thread - 7/INFO]: [nLogin] The user Manteecora has successfully logged in.
-[11:38:05] [Async Chat Thread - #0/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;31;22mManteecora[m[0;30;1m: [0;37;1masd[m
-[11:38:16] [Server thread/INFO]: 2121 lost connection: Вы слишком долго входили в аккаунт.
-[11:38:16] [Server thread/INFO]: > 2121 left the server.
-[11:38:24] [User Authenticator #4/INFO]: UUID of player 2121 is ad7958e4-76d9-37a8-84f4-8c67e317b595
-[11:38:24] [Server thread/INFO]: > 2121 joined the server.
-[11:38:24] [Server thread/INFO]: 2121[/26.179.133.236:49742] logged in with entity id 79 at ([world]19.285171175052415, 73.0, -191.86384631868802)
-[11:38:43] [Craft Scheduler Thread - 7/INFO]: [nLogin] The user 2121 has successfully logged in.
-[11:38:54] [Server thread/INFO]: Made 2121 no longer a server operator
-[11:39:03] [Server thread/INFO]: Made 2121 a server operator
-[11:39:11] [Server thread/INFO]: Prostoy_Neprost issued server command: /baltop
-[11:39:14] [Server thread/INFO]: Made Manteecora no longer a server operator
-[11:39:33] [Server thread/INFO]: > 2121 died.
-[11:40:05] [Server thread/INFO]: Prostoy_Neprost issued server command: /effect give Prostoy_Neprost minecraft:strength
-[11:40:07] [Server thread/INFO]: Prostoy_Neprost issued server command: /effect give Prostoy_Neprost minecraft:strength
-[11:40:12] [Server thread/INFO]: Made Manteecora a server operator
-[11:40:12] [Server thread/INFO]: Prostoy_Neprost issued server command: /effect give Prostoy_Neprost minecraft:strength 255 100
-[11:40:19] [Server thread/INFO]: > Manteecora died.
-[11:41:01] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp 2121
-[11:41:06] [Server thread/INFO]: > 2121 died.
-[11:41:19] [Server thread/INFO]: 2121 issued server command: /godmode
-[11:41:23] [Server thread/INFO]: Prostoy_Neprost issued server command: //set 2
-[11:41:35] [Server thread/INFO]: Prostoy_Neprost issued server command: //set ##
-[11:41:41] [Server thread/INFO]: Prostoy_Neprost issued server command: //set ~~ ~~ 2
-[11:41:47] [Server thread/INFO]: Prostoy_Neprost issued server command: //set 2
-[11:41:51] [Server thread/INFO]: Prostoy_Neprost issued server command: //undo
-[11:41:51] [Server thread/INFO]: Prostoy_Neprost issued server command: //undo
-[11:42:01] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp 2121
-[11:42:05] [Server thread/INFO]: Prostoy_Neprost issued server command: /vanish
-[11:42:37] [Server thread/INFO]: Prostoy_Neprost issued server command: //se t2
-[11:42:43] [Server thread/INFO]: Prostoy_Neprost issued server command: /vanish
-[11:43:29] [Server thread/INFO]: Prostoy_Neprost issued server command: /gm 1 2121
-[11:43:32] [Server thread/INFO]: Prostoy_Neprost issued server command: /gm 3 2121
-[11:43:34] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[11:43:34] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 1 &8[&6Игрок&8] &6[m
-[11:43:37] [Async Chat Thread - #1/INFO]: [0;33;1m[[0;32;1mGlobal[0;33;1m] [m[0;30;1m[[0;33;22mИгрок[0;30;1m] [0;33;22m[0;31;22mProstoy_Neprost[m[0;30;1m: [0;37;1m1[m
-[11:43:47] [Server thread/INFO]: Prostoy_Neprost issued server command: /gm 2 2121
-[11:43:50] [Async Chat Thread - #1/INFO]: [0;33;1m[[0;32;1mGlobal[0;33;1m] [m[0;30;1m[[0;33;22mИгрок[0;30;1m] [0;33;22m[0;31;22mProstoy_Neprost[m[0;30;1m: [0;37;1m1[m
-[11:43:52] [Async Chat Thread - #1/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;33;22mИгрок[0;30;1m] [0;33;22m[0;31;22mProstoy_Neprost[m[0;30;1m: [0;37;1m2[m
-[11:43:54] [Async Chat Thread - #1/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;33;22mИгрок[0;30;1m] [0;33;22m[0;31;22m2121[m[0;30;1m: [0;37;1mE[m
-[11:44:07] [Server thread/INFO]: 2121 has made the advancement [Stone Age]
-[11:44:14] [Async Chat Thread - #1/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;33;22mИгрок[0;30;1m] [0;33;22m[0;31;22mProstoy_Neprost[m[0;30;1m: [0;37;1m![m
-[11:44:17] [Async Chat Thread - #1/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;33;22mИгрок[0;30;1m] [0;33;22m[0;31;22mProstoy_Neprost[m[0;30;1m: [0;37;1m![m
-[11:44:20] [Async Chat Thread - #1/INFO]: [0;33;1m[[0;32;1mGlobal[0;33;1m] [m[0;30;1m[[0;33;22mИгрок[0;30;1m] [0;33;22m[0;31;22mProstoy_Neprost[m[0;30;1m: [0;37;1m2[m
-[11:44:30] [Server thread/INFO]: Prostoy_Neprost issued server command: /deop 2121
-[11:44:30] [Server thread/INFO]: [Prostoy_Neprost: Made 2121 no longer a server operator]
-[11:44:34] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[11:44:34] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 1 &8[&6Игрок&8] &6[m
-[11:45:20] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp Prostoy_Neprost 2121
-[11:45:28] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[11:45:28] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 1 &8[&7Игрок&8] &7[m
-[11:45:31] [Async Chat Thread - #2/INFO]: [0;33;1m[[0;32;1mGlobal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m[0;31;22mProstoy_Neprost[m[0;30;1m: [0;37;1m123[m
-[11:45:34] [Async Chat Thread - #2/INFO]: [0;33;1m[[0;32;1mGlobal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m[0;31;22mProstoy_Neprost[m[0;30;1m: [0;37;1m2[m
-[11:45:51] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp 2121 Prostoy_Neprost
-[11:46:05] [Server thread/INFO]: CONSOLE issued server command: /gamemode spectator 2121
-[11:46:05] [Server thread/INFO]: [0;33;22mУстановлен режим игры[0;31;1m наблюдатель [0;33;22mдля игрока [0;31;1m2121[0;33;22m.[m
-[11:46:16] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp 2121 Prostoy_Neprost
-[11:46:21] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp 2121 Prostoy_Neprost
-[11:46:23] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp 2121 Prostoy_Neprost
-[11:46:33] [Server thread/INFO]: Prostoy_Neprost issued server command: /gm 2 2121
-[11:46:34] [Server thread/INFO]: CONSOLE issued server command: /gamemode survival 2121
-[11:46:34] [Server thread/INFO]: [0;33;22mУстановлен режим игры[0;31;1m выживание [0;33;22mдля игрока [0;31;1m2121[0;33;22m.[m
-[11:46:35] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp 2121 Prostoy_Neprost
-[11:46:48] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp 2121 Prostoy_Neprost
-[11:47:05] [Server thread/INFO]: CONSOLE issued server command: /tp Prostoy_Neprost 3999 70 3999
-[11:47:05] [Server thread/INFO]: [0;33;22mТелепортирование...[m
-[11:47:19] [Server thread/INFO]: Prostoy_Neprost issued server command: /spawn
-[11:47:22] [Server thread/INFO]: Prostoy_Neprost issued server command: /home
-[11:47:30] [Server thread/INFO]: CONSOLE issued server command: /tp Prostoy_Neprost 3999 70 3999
-[11:47:30] [Server thread/INFO]: [0;33;22mТелепортирование...[m
-[11:48:02] [Server thread/INFO]: CONSOLE issued server command: /gamemode survival Prostoy_Neprost
-[11:48:02] [Server thread/INFO]: [0;33;22mУстановлен режим игры[0;31;1m выживание [0;33;22mдля игрока [0;31;1m[0;31;22mProstoy_Neprost[m[0;33;22m.[m
-[11:48:02] [Server thread/INFO]: > [Игрок] Prostoy_Neprost died.
-[11:48:12] [Server thread/INFO]: Prostoy_Neprost issued server command: /gm 1
-[11:48:12] [Server thread/INFO]: CONSOLE issued server command: /tp Prostoy_Neprost 3999 70 3999
-[11:48:12] [Server thread/INFO]: [0;33;22mТелепортирование...[m
-[11:48:38] [Server thread/INFO]: Prostoy_Neprost issued server command: /gm 1 Prostoy_Neprost
-[11:48:42] [Server thread/INFO]: Made Prostoy_Neprost no longer a server operator
-[11:48:46] [Server thread/INFO]: Prostoy_Neprost issued server command: /op
-[11:48:48] [Server thread/INFO]: Manteecora issued server command: /tp Prostoy_Neprost
-[11:48:48] [Server thread/WARN]: Manteecora moved too quickly! 3933.60452850971,0.0,3978.6012814515525
-[11:48:48] [Server thread/INFO]: > [Игрок] Manteecora died.
-[11:48:53] [Server thread/INFO]: Manteecora issued server command: /tp Prostoy_Neprost
-[11:48:53] [Server thread/INFO]: > [Игрок] Manteecora died.
-[11:49:00] [Server thread/INFO]: Manteecora issued server command: /god
-[11:49:02] [Server thread/INFO]: Manteecora issued server command: /tp Prostoy_Neprost
-[11:49:02] [Server thread/WARN]: Manteecora moved too quickly! 3966.0,7.0,3994.0
-[11:49:19] [Server thread/INFO]: Manteecora issued server command: /god Prostoy_Neprost
-[11:49:21] [Server thread/INFO]: Manteecora issued server command: /god Prostoy_Neprost
-[11:49:29] [Server thread/INFO]: Manteecora issued server command: /gamemode survival Prostoy_Neprost
-[11:49:29] [Server thread/INFO]: > [Игрок] Prostoy_Neprost died.
-[11:50:01] [Server thread/INFO]: Manteecora issued server command: /tp Prostoy_Neprost 1999 70 1999
-[11:50:07] [Server thread/INFO]: Manteecora issued server command: /tp Prostoy_Neprost
-[11:50:07] [Server thread/WARN]: Manteecora moved too quickly! -1994.3634772096261,-8.0,-1978.6010137763155
-[11:50:59] [Server thread/INFO]: Manteecora issued server command: /home
-[11:51:07] [Server thread/INFO]: Manteecora issued server command: /tphere Prostoy_Neprost0
-[11:51:09] [Server thread/INFO]: Manteecora issued server command: /tphere Prostoy_Neprost
-[11:53:06] [Server thread/INFO]: Manteecora issued server command: /fly Manteecora
-[11:53:18] [Server thread/INFO]: Made Prostoy_Neprost a server operator
-[11:53:23] [Server thread/INFO]: Prostoy_Neprost issued server command: /gm 1
-[11:53:28] [Server thread/INFO]: Made 2121 a server operator
-[11:53:42] [Server thread/INFO]: Prostoy_Neprost issued server command: /deop 2121
-[11:53:42] [Server thread/INFO]: [Prostoy_Neprost: Made 2121 no longer a server operator]
-[11:54:38] [Async Chat Thread - #3/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m[0;31;22mManteecora[m[0;30;1m: [0;37;1mdsa[m
-[11:54:50] [Server thread/INFO]: Nothing changed. The player is not an operator
-[11:55:18] [Server thread/INFO]: Manteecora issued server command: /tp 2121
-[11:55:18] [Server thread/WARN]: Manteecora moved too quickly! -39.27387428622785,-9.730378388251467,-114.955642835248
-[11:55:22] [Server thread/INFO]: Prostoy_Neprost issued server command: /op 2121
-[11:55:22] [Server thread/INFO]: [Prostoy_Neprost: Made 2121 a server operator]
-[11:55:27] [Async Chat Thread - #3/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m[0;31;22m2121[m[0;30;1m: [0;37;1m231[m
-[11:55:28] [Server thread/INFO]: Manteecora issued server command: /god 2121
-[11:55:30] [Server thread/INFO]: Manteecora issued server command: /god 2121
-[11:55:33] [Server thread/INFO]: Manteecora issued server command: /god
-[11:55:35] [Server thread/INFO]: Manteecora issued server command: /god
-[11:55:53] [Server thread/INFO]: Manteecora issued server command: /gamemode spectator
-[11:56:04] [Server thread/INFO]: Manteecora issued server command: /gamemode survival
-[11:56:06] [Async Chat Thread - #3/INFO]: [0;33;1m[[0;32;1mGlobal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m[0;31;22m2121[m[0;30;1m: [0;37;1mEROFUS[m
-[11:56:13] [Async Chat Thread - #3/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m[0;31;22m2121[m[0;30;1m: [0;37;1m32313[m
-[11:56:17] [Server thread/INFO]: Manteecora issued server command: /gamemode creative
-[11:56:36] [Async Chat Thread - #3/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m[0;31;22m2121[m[0;30;1m: [0;37;1m231[m
-[11:56:46] [Server thread/INFO]: Prostoy_Neprost issued server command: /gm 0 2121
-[11:57:00] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp Prostoy_Neprost 2
-[11:57:04] [Async Chat Thread - #3/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m[0;31;22m2121[m[0;30;1m: [0;37;1m32[m
-[11:57:08] [Async Chat Thread - #3/INFO]: [0;33;1m[[0;32;1mGlobal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m[0;31;22mProstoy_Neprost[m[0;30;1m: [0;37;1m1[m
-[11:57:10] [Async Chat Thread - #3/INFO]: [0;33;1m[[0;32;1mGlobal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m[0;31;22mProstoy_Neprost[m[0;30;1m: [0;37;1m2[m
-[11:57:11] [Async Chat Thread - #3/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m[0;31;22mProstoy_Neprost[m[0;30;1m: [0;37;1m1[m
-[11:57:20] [Server thread/INFO]: Made Manteecora no longer a server operator
-[11:57:24] [Async Chat Thread - #3/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m[0;31;22m2121[m[0;30;1m: [0;37;1m223[m
-[11:57:27] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp 2121
-[11:57:35] [Async Chat Thread - #3/INFO]: [0;33;1m[[0;32;1mGlobal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m[0;31;22m2121[m[0;30;1m: [0;37;1mEWE[m
-[11:57:45] [Async Chat Thread - #3/INFO]: [0;33;1m[[0;32;1mGlobal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m[0;31;22mProstoy_Neprost[m[0;30;1m: [0;37;1m1[m
-[11:58:01] [Server thread/INFO]: Made Manteecora a server operator
-[11:58:22] [Async Chat Thread - #3/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m[0;31;22mManteecora[m[0;30;1m: [0;37;1msda[m
-[11:58:54] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp 2121 Prostoy_Neprost
-[11:59:02] [Async Chat Thread - #3/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m[0;31;22mManteecora[m[0;30;1m: [0;37;1msad[m
-[11:59:04] [Server thread/INFO]: Prostoy_Neprost has made the advancement [Hot Stuff]
-[11:59:22] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp 2121 Prostoy_Neprost
-[11:59:23] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp 2121 Prostoy_Neprost
-[11:59:24] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp 2121 Prostoy_Neprost
-[11:59:25] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp 2121 Prostoy_Neprost
-[11:59:29] [Server thread/INFO]: Prostoy_Neprost issued server command: /gm 0 2121
-[11:59:30] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp 2121 Prostoy_Neprost
-[11:59:31] [Server thread/INFO]: Prostoy_Neprost issued server command: /tp 2121 Prostoy_Neprost
-[12:00:04] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:00:04] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatty.chat.global true[m
-[12:00:04] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:00:04] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatty true[m
-[12:00:04] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:00:04] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatty.chat true[m
-[12:00:04] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:00:04] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatty.chat.local true[m
-[12:00:13] [Server thread/INFO]: Made Prostoy_Neprost no longer a server operator
-[12:00:15] [Server thread/INFO]: 2121 issued server command: /gamemode 1
-[12:00:17] [Server thread/INFO]: Made 2121 no longer a server operator
-[12:00:20] [Async Chat Thread - #4/INFO]: [0;33;1m[[0;32;1mGlobal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22mProstoy_Neprost[0;30;1m: [0;37;1m1[m
-[12:00:22] [Async Chat Thread - #4/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22mProstoy_Neprost[0;30;1m: [0;37;1m1[m
-[12:00:23] [Async Chat Thread - #4/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m2121[0;30;1m: [0;37;1m2[m
-[12:00:45] [Server thread/INFO]: Manteecora issued server command: /gamemode survival 2121
-[12:00:49] [Server thread/INFO]: Manteecora issued server command: /gamemode survival Prostoy_Neprost
-[12:00:50] [Async Chat Thread - #4/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m2121[0;30;1m: [0;37;1mhfcwdtnfkb z,kjrb b uheib[m
-[12:00:53] [Server thread/INFO]: Manteecora issued server command: /fly
-[12:00:55] [Server thread/INFO]: Manteecora issued server command: /fly
-[12:00:58] [Server thread/INFO]: Manteecora issued server command: /fly 2121
-[12:01:00] [Server thread/INFO]: Manteecora issued server command: /fly Prostoy_Neprost
-[12:01:18] [Server thread/INFO]: Manteecora issued server command: /m 2121 55
-[12:01:34] [Server thread/INFO]: Prostoy_Neprost issued server command: /w 2121 давай суету наведем?
-[12:01:37] [Server thread/INFO]: 2121 issued server command: /m Manteecora
-[12:02:02] [Server thread/INFO]: Prostoy_Neprost issued server command: /rtp
-[12:02:05] [Server thread/WARN]: 2121 moved too quickly! 5.048063737017941,-0.2522033402537289,11.813446101338641
-[12:02:06] [Server thread/INFO]: Prostoy_Neprost issued server command: /rtp
-[12:02:15] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:02:15] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add chatty.command.msg true[m
-[12:02:22] [Server thread/INFO]: Manteecora issued server command: /rtp
-[12:02:27] [Server thread/INFO]: Prostoy_Neprost issued server command: /rtp
-[12:02:27] [Server thread/INFO]: Prostoy_Neprost issued server command: /rtp
-[12:02:35] [Server thread/INFO]: Prostoy_Neprost issued server command: /rtp
-[12:02:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7920ms or 158 ticks behind
-[12:02:49] [Server thread/INFO]: 2121 issued server command: /m Manteecora
-[12:02:51] [Server thread/INFO]: Prostoy_Neprost issued server command: /w 2121 ты 22
-[12:03:02] [Server thread/INFO]: Prostoy_Neprost issued server command: /m 2121 ты 2121
-[12:03:12] [Server thread/INFO]: 2121 issued server command: /m Manteecora 2121 2
-[12:03:13] [Server thread/INFO]: Manteecora issued server command: /s 2121
-[12:03:14] [Server thread/INFO]: Prostoy_Neprost issued server command: /g
-[12:03:23] [Async Chat Thread - #5/INFO]: [0;33;1m[[0;32;1mGlobal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22m[0;31;22mManteecora[m[0;30;1m: [0;37;1mg[m
-[12:03:27] [Server thread/INFO]: Prostoy_Neprost issued server command: /gchat 2
-[12:03:28] [Server thread/INFO]: Manteecora issued server command: /g asd
-[12:03:52] [Server thread/INFO]: Prostoy_Neprost issued server command: /g
-[12:03:57] [Server thread/INFO]: Prostoy_Neprost issued server command: /g create 2
-[12:04:05] [Server thread/INFO]: Prostoy_Neprost issued server command: /g confirm
-[12:04:06] [Server thread/INFO]: Manteecora issued server command: /guild create Amins
-[12:04:11] [Server thread/INFO]: Manteecora issued server command: /guilds create Amins
-[12:04:12] [Server thread/INFO]: Prostoy_Neprost issued server command: /g invite 2121
-[12:04:19] [Server thread/INFO]: 2121 issued server command: /guild create 1
-[12:04:22] [Server thread/INFO]: Prostoy_Neprost issued server command: /g invite Manteecora
-[12:04:35] [Server thread/INFO]: Manteecora issued server command: /g create 4
-[12:04:47] [Server thread/INFO]: 2121 issued server command: /guild join 2
-[12:04:49] [Server thread/INFO]: Manteecora issued server command: /g create
-[12:04:55] [Server thread/INFO]: Prostoy_Neprost issued server command: /setprefix 2
-[12:05:01] [Server thread/INFO]: Manteecora issued server command: /g create 5 6 []
-[12:05:04] [Server thread/INFO]: Manteecora issued server command: /g create 5 6 [asd]
-[12:05:05] [Server thread/INFO]: Prostoy_Neprost issued server command: /setprefix Prostoy_Neprost Bobik
-[12:05:06] [Server thread/INFO]: Manteecora issued server command: /g create 5 6 asd
-[12:05:16] [Server thread/INFO]: Manteecora issued server command: /g create 5 6 as
-[12:05:18] [Server thread/INFO]: Manteecora issued server command: /g create 5 6 a
-[12:05:20] [Server thread/INFO]: Manteecora issued server command: /g create 5 6 sad
-[12:05:23] [Server thread/INFO]: Manteecora issued server command: /g create 5 6 sadga
-[12:05:26] [Server thread/INFO]: Prostoy_Neprost issued server command: /g
-[12:05:34] [Server thread/INFO]: Manteecora issued server command: /g create 5 sad
-[12:05:38] [Server thread/INFO]: 2121 lost connection: Timed out
-[12:05:38] [Server thread/INFO]: > [Игрок] 2121 left the server.
-[12:05:41] [Server thread/INFO]: Manteecora issued server command: /g create asd
-[12:05:43] [Server thread/INFO]: Manteecora issued server command: /g create as
-[12:05:47] [Async Chat Thread - #6/INFO]: [0;33;1m[[0;32;1mGlobal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22mProstoy_Neprost[0;30;1m: [0;37;1m/g create 2[m
-[12:05:50] [Async Chat Thread - #6/INFO]: [0;33;1m[[0;32;1mGlobal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22mProstoy_Neprost[0;30;1m: [0;37;1m/g confirm[m
-[12:05:51] [Server thread/INFO]: Manteecora issued server command: /g create aw
-[12:05:54] [Server thread/INFO]: Manteecora issued server command: /g create a
-[12:05:56] [Server thread/INFO]: Manteecora issued server command: /g create q
-[12:06:02] [Server thread/INFO]: Manteecora issued server command: /g create q
-[12:06:16] [Server thread/INFO]: Manteecora issued server command: /g confirm
-[12:06:24] [Server thread/INFO]: Prostoy_Neprost issued server command: /g leave
-[12:06:29] [Server thread/INFO]: Manteecora issued server command: /g ac ads
-[12:06:29] [Server thread/INFO]: Prostoy_Neprost issued server command: /g confirm
-[12:06:55] [Server thread/INFO]: Manteecora issued server command: /g delete
-[12:06:58] [Server thread/INFO]: Manteecora issued server command: /g confirm
-[12:11:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:11:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add essentials.tpaccept true[m
-[12:11:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:11:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add essentials.sethome true[m
-[12:11:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:11:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add essentials.home true[m
-[12:11:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:11:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add essentials true[m
-[12:11:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:11:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add essentials.tpa true[m
-[12:11:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:11:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add essentials.balance true[m
-[12:11:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:11:24] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add essentials.pay true[m
-[12:11:50] [Server thread/INFO]: Prostoy_Neprost issued server command: /call Manteecora
-[12:11:56] [Server thread/INFO]: Manteecora issued server command: /tpa Manteecora
-[12:12:01] [Server thread/INFO]: Manteecora issued server command: /tpa Prostoy_Neprost
-[12:12:02] [Server thread/INFO]: Prostoy_Neprost issued server command: /tpaccept
-[12:12:02] [Server thread/WARN]: Manteecora moved too quickly! -423.5083138798599,18.470131840358704,171.26113801985827
-[12:12:16] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:12:34] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:12:34] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add essentials.eco true[m
-[12:12:41] [Server thread/INFO]: Prostoy_Neprost issued server command: /papi
-[12:12:50] [Async Chat Thread - #7/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22mProstoy_Neprost[0;30;1m: [0;37;1m./papi[m
-[12:12:56] [Server thread/INFO]: Manteecora issued server command: /papi
-[12:12:59] [Server thread/INFO]: Manteecora issued server command: /papi help
-[12:13:00] [Server thread/INFO]: Prostoy_Neprost issued server command: /pay Manteecora 2
-[12:13:03] [Server thread/INFO]: Prostoy_Neprost issued server command: /pay Manteecora 0.001
-[12:13:04] [Server thread/INFO]: Prostoy_Neprost issued server command: /pay Manteecora 0.00
-[12:13:07] [Server thread/INFO]: Prostoy_Neprost issued server command: /pay Manteecora 0.00000001
-[12:13:18] [Server thread/INFO]: Prostoy_Neprost issued server command: /bal
-[12:13:23] [Server thread/INFO]: Prostoy_Neprost issued server command: /balance
-[12:13:26] [Server thread/INFO]: Prostoy_Neprost issued server command: /baltop
-[12:13:26] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:13:53] [Server thread/INFO]: Prostoy_Neprost issued server command: /ecall
-[12:13:57] [Server thread/INFO]: Prostoy_Neprost issued server command: /eco
-[12:14:02] [Server thread/INFO]: Prostoy_Neprost issued server command: /eco give 2
-[12:14:05] [Server thread/INFO]: Prostoy_Neprost issued server command: /eco set
-[12:14:06] [Server thread/INFO]: Prostoy_Neprost issued server command: /eco set 2
-[12:14:19] [Server thread/INFO]: Prostoy_Neprost issued server command: /eco give Prostoy_Neprost 2
-[12:14:27] [Server thread/INFO]: Prostoy_Neprost issued server command: /eco set Prostoy_Neprost 222
-[12:14:30] [Server thread/INFO]: Prostoy_Neprost issued server command: /eco set Prostoy_Neprost 222222222222222222
-[12:14:33] [Server thread/INFO]: Prostoy_Neprost issued server command: /bal
-[12:14:44] [Server thread/INFO]: Prostoy_Neprost issued server command: /ban
-[12:14:44] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:14:47] [Server thread/INFO]: Prostoy_Neprost issued server command: /eco
-[12:14:57] [Server thread/INFO]: Prostoy_Neprost issued server command: /gm 1
-[12:14:57] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:14:57] [Server thread/INFO]: Manteecora issued server command: /balancetop
-[12:15:03] [Server thread/INFO]: Prostoy_Neprost issued server command: /eco
-[12:17:54] [Server thread/INFO]: Prostoy_Neprost issued server command: /setworth
-[12:17:54] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:17:58] [Server thread/INFO]: Prostoy_Neprost issued server command: /sethome
-[12:18:00] [Server thread/INFO]: Prostoy_Neprost issued server command: /sethome
-[12:18:04] [Server thread/INFO]: Prostoy_Neprost issued server command: /worldedit
-[12:18:09] [Server thread/INFO]: Prostoy_Neprost issued server command: /we
-[12:18:14] [Server thread/INFO]: Prostoy_Neprost issued server command: /we reload
-[12:18:26] [Server thread/INFO]: Prostoy_Neprost issued server command: /worth
-[12:18:26] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:18:28] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:18:28] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add essentials.balancetop true[m
-[12:18:28] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:18:28] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove essentials.eco true[m
-[12:18:34] [Server thread/INFO]: Prostoy_Neprost issued server command: /balance
-[12:18:38] [Server thread/INFO]: Prostoy_Neprost issued server command: /eco
-[12:18:38] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:18:39] [Server thread/INFO]: Prostoy_Neprost issued server command: /eco
-[12:18:39] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:18:40] [Server thread/INFO]: Prostoy_Neprost issued server command: /eco
-[12:18:40] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:18:42] [Server thread/INFO]: Prostoy_Neprost issued server command: /economy
-[12:18:42] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:18:43] [Server thread/INFO]: Prostoy_Neprost issued server command: /economy
-[12:18:43] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:18:49] [Server thread/INFO]: Prostoy_Neprost issued server command: /pay Manteecora 0.001
-[12:18:56] [Server thread/INFO]: Prostoy_Neprost issued server command: /pay Manteecora 1111111111
-[12:18:57] [Server thread/INFO]: Prostoy_Neprost issued server command: /pay Manteecora 1111111111
-[12:18:57] [Server thread/INFO]: Prostoy_Neprost issued server command: /pay Manteecora 1111111111
-[12:19:01] [Server thread/INFO]: Prostoy_Neprost issued server command: /balance
-[12:19:03] [Server thread/INFO]: Prostoy_Neprost issued server command: /balancetop
-[12:19:08] [Server thread/INFO]: Prostoy_Neprost issued server command: /balancetop
-[12:19:38] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:19:38] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add essentials.balance.others true[m
-[12:19:46] [Server thread/INFO]: Prostoy_Neprost issued server command: /baltop
-[12:20:18] [Server thread/INFO]: Prostoy_Neprost issued server command: /give
-[12:20:18] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:20:24] [Server thread/INFO]: Prostoy_Neprost issued server command: /balance Manteecora
-[12:20:50] [Server thread/INFO]: Prostoy_Neprost issued server command: /spawn
-[12:20:58] [Server thread/INFO]: Prostoy_Neprost issued server command: /setprefix Prostoy_Neprost 2
-[12:21:03] [Server thread/INFO]: Manteecora issued server command: /setspawn
-[12:21:08] [Server thread/INFO]: Manteecora issued server command: /spawn set
-[12:21:17] [Server thread/INFO]: Prostoy_Neprost issued server command: /spawn
-[12:21:59] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:21:59] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add spawn.spawn true[m
-[12:22:02] [Server thread/INFO]: Prostoy_Neprost issued server command: /spawn
-[12:22:21] [Server thread/INFO]: Prostoy_Neprost issued server command: /setspawn:spawn
-[12:22:24] [Server thread/INFO]: Prostoy_Neprost issued server command: /setspawn
-[12:22:28] [Server thread/INFO]: Prostoy_Neprost issued server command: /setspawn
-[12:22:34] [Server thread/INFO]: Prostoy_Neprost issued server command: /spawn set 2
-[12:22:36] [Server thread/INFO]: Prostoy_Neprost issued server command: /spawn set
-[12:22:37] [Server thread/INFO]: Prostoy_Neprost issued server command: /spawn set
-[12:22:38] [Server thread/INFO]: Prostoy_Neprost issued server command: /spawn set
-[12:22:38] [Server thread/INFO]: Prostoy_Neprost issued server command: /spawn set
-[12:22:50] [Server thread/INFO]: Prostoy_Neprost issued server command: /sethome
-[12:22:52] [Server thread/INFO]: Prostoy_Neprost issued server command: /home
-[12:23:08] [Server thread/INFO]: Prostoy_Neprost issued server command: /help
-[12:23:08] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:23:12] [Server thread/INFO]: Prostoy_Neprost issued server command: /homes
-[12:23:18] [Server thread/INFO]: Prostoy_Neprost issued server command: /home 22231
-[12:23:21] [Server thread/INFO]: Prostoy_Neprost issued server command: /home12312313124
-[12:23:33] [Server thread/INFO]: Prostoy_Neprost issued server command: /sethome g
-[12:23:51] [Server thread/INFO]: Manteecora issued server command: /sethome
-[12:23:57] [Server thread/INFO]: Prostoy_Neprost issued server command: /home home
-[12:24:24] [Server thread/INFO]: Manteecora issued server command: /home Prostoy_Neprost:
-[12:24:36] [Server thread/INFO]: Manteecora issued server command: /home Prostoy_Neprost:bed
-[12:24:36] [Server thread/INFO]: Prostoy_Neprost issued server command: /home delete home
-[12:24:40] [Server thread/INFO]: Manteecora issued server command: /home Prostoy_Neprost:
-[12:24:41] [Server thread/INFO]: Prostoy_Neprost issued server command: /delhome home
-[12:24:41] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:24:43] [Server thread/INFO]: Manteecora issued server command: /home Prostoy_Neprost:home
-[12:25:40] [Server thread/INFO]: Prostoy_Neprost issued server command: /warp
-[12:25:40] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:25:47] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit claim Manteecora
-[12:25:48] [Server thread/INFO]: Manteecora issued server command: /setwarp 555
-[12:25:51] [Server thread/INFO]: Manteecora issued server command: /setwarp sasd
-[12:26:00] [Server thread/INFO]: Prostoy_Neprost issued server command: /warp
-[12:26:00] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:26:37] [Server thread/INFO]: Prostoy_Neprost issued server command: /war
-[12:27:11] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:27:11] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add essentials.warp true[m
-[12:27:14] [Server thread/INFO]: Prostoy_Neprost issued server command: /war
-[12:27:20] [Server thread/INFO]: Prostoy_Neprost issued server command: /warp
-[12:27:24] [Server thread/INFO]: Prostoy_Neprost issued server command: /warp
-[12:27:28] [Server thread/INFO]: Prostoy_Neprost issued server command: /setspawn:spawn
-[12:28:15] [Server thread/INFO]: Prostoy_Neprost issued server command: /warp
-[12:28:19] [Server thread/INFO]: Prostoy_Neprost issued server command: /warps
-[12:28:23] [Server thread/INFO]: Prostoy_Neprost issued server command: /warp
-[12:28:25] [Server thread/INFO]: Prostoy_Neprost issued server command: /warp 2
-[12:28:41] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:28:41] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add essentials.warp.list true[m
-[12:28:41] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:28:41] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add essentials.warpinfo true[m
-[12:28:45] [Server thread/INFO]: Prostoy_Neprost issued server command: /warp
-[12:28:50] [Server thread/INFO]: Prostoy_Neprost issued server command: /warp sasd
-[12:28:59] [Server thread/INFO]: Prostoy_Neprost issued server command: /warps
-[12:29:06] [Server thread/INFO]: Prostoy_Neprost issued server command: /warp info
-[12:29:21] [Server thread/INFO]: Prostoy_Neprost issued server command: /warponfp
-[12:29:22] [Server thread/INFO]: Prostoy_Neprost issued server command: /warponfo
-[12:29:27] [Server thread/INFO]: Prostoy_Neprost issued server command: /warp set
-[12:29:31] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo
-[12:29:37] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo sasd
-[12:29:49] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo sasd\
-[12:29:51] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo sasd
-[12:29:51] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo sasd
-[12:29:52] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo sasd
-[12:29:53] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo sasd
-[12:29:54] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo sasd
-[12:29:55] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo sasd
-[12:29:55] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo sasd
-[12:29:56] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo sasd
-[12:30:27] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:30:27] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove essentials.warpinfo true[m
-[12:30:28] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo
-[12:30:28] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:30:29] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo
-[12:30:29] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:30:30] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo
-[12:30:30] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:30:31] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo
-[12:30:31] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:30:32] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo
-[12:30:32] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:30:34] [Server thread/INFO]: Prostoy_Neprost issued server command: /warp sasd
-[12:30:42] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo
-[12:30:42] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:30:58] [Server thread/INFO]: Prostoy_Neprost issued server command: /warpinfo
-[12:30:58] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:31:47] [Server thread/INFO]: Prostoy_Neprost issued server command: /kits
-[12:32:06] [Server thread/INFO]: Manteecora issued server command: /kit
-[12:33:53] [Server thread/INFO]: Prostoy_Neprost issued server command: /delhome
-[12:33:53] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:34:20] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:34:20] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add essentials.delhome true[m
-[12:34:27] [Server thread/INFO]: Prostoy_Neprost issued server command: /delhome
-[12:34:32] [Server thread/INFO]: Prostoy_Neprost issued server command: /delhome home
-[12:34:46] [Server thread/INFO]: Prostoy_Neprost issued server command: /delhome
-[12:34:50] [Server thread/INFO]: Prostoy_Neprost issued server command: /delhome
-[12:34:51] [Server thread/INFO]: Prostoy_Neprost issued server command: /delhome
-[12:34:51] [Server thread/INFO]: Prostoy_Neprost issued server command: /delhome
-[12:35:04] [Server thread/INFO]: Prostoy_Neprost issued server command: /delhome home
-[12:35:10] [Server thread/INFO]: Prostoy_Neprost issued server command: /sethome
-[12:35:13] [Server thread/INFO]: Prostoy_Neprost issued server command: /delhome home
-[12:35:27] [Server thread/INFO]: Prostoy_Neprost issued server command: /delhome Manteecora home
-[12:35:32] [Server thread/INFO]: Manteecora issued server command: /sethome
-[12:35:35] [Server thread/INFO]: Prostoy_Neprost issued server command: /delhome Manteecora home
-[12:35:36] [Server thread/INFO]: Prostoy_Neprost issued server command: /delhome Manteecora home
-[12:35:36] [Server thread/INFO]: Prostoy_Neprost issued server command: /delhome Manteecora home
-[12:35:37] [Server thread/INFO]: Manteecora issued server command: /homes
-[12:35:45] [Server thread/INFO]: Manteecora issued server command: /delhome
-[12:36:07] [Server thread/INFO]: Prostoy_Neprost issued server command: /papi
-[12:36:12] [Server thread/INFO]: Prostoy_Neprost issued server command: /papi ecloud\
-[12:36:15] [Server thread/INFO]: Prostoy_Neprost issued server command: /papi ecloud
-[12:36:19] [Server thread/INFO]: Prostoy_Neprost issued server command: /papi help
-[12:37:01] [Server thread/INFO]: Prostoy_Neprost has made the advancement [Stone Age]
-[12:37:57] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:37:57] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add essentials.protect.damage.tnt true[m
-[12:38:05] [Server thread/INFO]: > [Игрок] Prostoy_Neprost died.
-[12:38:22] [Server thread/INFO]: Prostoy_Neprost issued server command: /bal
-[12:38:41] [Server thread/INFO]: Prostoy_Neprost issued server command: /eco
-[12:38:41] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[12:39:07] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:39:07] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove essentials.protect.damage.tnt true[m
-[12:39:17] [Server thread/INFO]: Manteecora issued server command: /spawn set
-[12:39:48] [User Authenticator #5/INFO]: UUID of player 2121 is ad7958e4-76d9-37a8-84f4-8c67e317b595
-[12:39:48] [Server thread/INFO]: > [Игрок] 2121 joined the server.
-[12:39:48] [Server thread/INFO]: 2121[/26.179.133.236:64973] logged in with entity id 3985 at ([world]2.949010068973426, 69.9375, -150.29909063274647)
-[12:39:50] [Server thread/INFO]: Prostoy_Neprost issued server command: /bukkit:?
-[12:39:52] [Server thread/INFO]: Prostoy_Neprost issued server command: /bukkit:?
-[12:39:54] [Server thread/INFO]: Prostoy_Neprost issued server command: /bukkit:?
-[12:39:54] [Server thread/INFO]: Prostoy_Neprost issued server command: /bukkit:?
-[12:39:55] [Server thread/INFO]: Prostoy_Neprost issued server command: /bukkit:?
-[12:39:55] [Server thread/INFO]: Prostoy_Neprost issued server command: /bukkit:?
-[12:39:56] [Server thread/INFO]: Prostoy_Neprost issued server command: /bukkit:?
-[12:39:58] [Craft Scheduler Thread - 31/INFO]: [nLogin] The user 2121 has successfully logged in.
-[12:39:59] [Server thread/INFO]: Prostoy_Neprost issued server command: /bukkit:?
-[12:40:21] [Server thread/INFO]: > [Игрок] 2121 died.
-[12:41:02] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:41:02] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add placeholderapi.* false[m
-[12:41:09] [Server thread/INFO]: Prostoy_Neprost issued server command: /papi
-[12:41:12] [Server thread/INFO]: Prostoy_Neprost issued server command: /bukkit:?
-[12:41:20] [Server thread/INFO]: Prostoy_Neprost issued server command: /pex
-[12:41:24] [Server thread/INFO]: Prostoy_Neprost issued server command: /perms
-[12:41:29] [Server thread/INFO]: > [Игрок] Prostoy_Neprost died.
-[12:41:40] [Server thread/INFO]: > [Игрок] Prostoy_Neprost died.
-[12:41:56] [Server thread/INFO]: Prostoy_Neprost issued server command: /chatty:clearchat
-[12:42:00] [Server thread/INFO]: Prostoy_Neprost issued server command: /chatty
-[12:42:16] [Server thread/INFO]: Prostoy_Neprost issued server command: /ebal
-[12:42:24] [Server thread/INFO]: Prostoy_Neprost issued server command: /ebal
-[12:42:26] [Async Chat Thread - #8/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22mProstoy_Neprost[0;30;1m: [0;37;1mebal[m
-[12:42:29] [Server thread/INFO]: 2121 issued server command: /randomteleport
-[12:42:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6662ms or 133 ticks behind
-[12:42:37] [Server thread/INFO]: Prostoy_Neprost issued server command: /ehome
-[12:42:42] [Server thread/INFO]: > [Игрок] 2121 died.
-[12:43:02] [Server thread/INFO]: > [Игрок] 2121 died.
-[12:43:12] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:43:16] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit create 2
-[12:43:19] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit edit
-[12:43:24] [Server thread/INFO]: 2121 issued server command: /kits claim 2121
-[12:43:37] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:43:37] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove placeholderapi.* false[m
-[12:43:45] [Server thread/INFO]: > [Игрок] 2121 died.
-[12:43:56] [Server thread/INFO]: > [Игрок] Prostoy_Neprost died.
-[12:44:54] [Server thread/INFO]: Manteecora issued server command: /kit create Eat
-[12:45:01] [Server thread/INFO]: Manteecora issued server command: /kit edit
-[12:45:04] [Server thread/INFO]: Manteecora issued server command: /kit edit Eat
-[12:45:04] [Server thread/INFO]: > [Игрок] 2121 died.
-[12:45:10] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:45:12] [Server thread/INFO]: 2121 issued server command: /kit
-[12:45:22] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:45:33] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:46:07] [Server thread/INFO]: Prostoy_Neprost issued server command: /setsuffix
-[12:46:11] [Server thread/INFO]: Prostoy_Neprost issued server command: /setsuffix Prostoy_Neprost 2121
-[12:46:21] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:46:48] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:47:23] [Server thread/INFO]: Prostoy_Neprost has made the advancement [Sweet Dreams]
-[12:47:46] [Server thread/INFO]: > [Игрок] Prostoy_Neprost died.
-[12:47:51] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:48:11] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:48:54] [Server thread/INFO]: 2121 issued server command: /ei create fireboll_staff
-[12:49:25] [Server thread/INFO]: 2121 issued server command: /ei.cmd.crtate
-[12:49:29] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:49:30] [Server thread/INFO]: Manteecora issued server command: /kit
-[12:49:41] [Server thread/INFO]: Manteecora issued server command: /kitreset
-[12:49:47] [Server thread/INFO]: Manteecora issued server command: /kitreset eat Prostoy_Neprost
-[12:49:50] [Server thread/INFO]: Prostoy_Neprost issued server command: /call 2121
-[12:49:52] [Server thread/INFO]: Manteecora issued server command: /kitreset Prostoy_Neprost
-[12:50:00] [Server thread/INFO]: 2121 issued server command: /tpaccept
-[12:50:01] [Server thread/INFO]: Manteecora issued server command: /kitreset Eat Prostoy_Neprost
-[12:50:18] [Server thread/INFO]: Manteecora issued server command: /kitshow
-[12:50:21] [Server thread/INFO]: Manteecora issued server command: /kitshow ear
-[12:50:23] [Server thread/INFO]: Manteecora issued server command: /kitshow eat
-[12:50:28] [Server thread/INFO]: Manteecora issued server command: /kitshow eat
-[12:50:30] [Server thread/INFO]: Manteecora issued server command: /kitshow aet
-[12:50:35] [Server thread/INFO]: Manteecora issued server command: /kitshow уда
-[12:50:45] [Server thread/INFO]: Manteecora issued server command: /kits
-[12:51:07] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:51:17] [Server thread/INFO]: Manteecora issued server command: /kit reset Eat Prostoy_Neprost
-[12:51:20] [Server thread/INFO]: Prostoy_Neprost issued server command: /call 2121
-[12:51:21] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:51:32] [Server thread/INFO]: Manteecora issued server command: /kit reset Eat Prostoy_Neprost
-[12:51:34] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:51:41] [Server thread/INFO]: Manteecora issued server command: /kit reset Eat Prostoy_Neprost
-[12:51:47] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:51:52] [Server thread/INFO]: Manteecora issued server command: /kit reset Eat Prostoy_Neprost
-[12:52:08] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:52:35] [Server thread/INFO]: Manteecora issued server command: /kit edit Eat
-[12:52:45] [Server thread/INFO]: > [Игрок] 2121 died.
-[12:52:55] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit\
-[12:52:57] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:53:02] [Server thread/INFO]: Manteecora issued server command: /kit reset Eat Prostoy_Neprost
-[12:53:06] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:53:12] [Server thread/INFO]: 2121 issued server command: /kit
-[12:53:32] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:53:41] [Server thread/INFO]: Prostoy_Neprost issued server command: /call 2
-[12:54:15] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mprostoy_neprost[0;30;1m)[m
-[12:54:15] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set vip[m
-[12:54:20] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:54:39] [Server thread/INFO]: Manteecora issued server command: /kit edit Eat
-[12:55:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-[12:55:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.fly true[m
-[12:55:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-[12:55:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.default true[m
-[12:55:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-[12:55:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add playerkits.kit.eat true[m
-[12:55:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfly[0;30;1m)[m
-[12:55:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.default true[m
-[12:55:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfly[0;30;1m)[m
-[12:55:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add essentials.fly true[m
-[12:55:56] [Async Chat Thread - #11/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22mProstoy_Neprost[0;30;1m: [0;37;1m1[m
-[12:55:57] [Async Chat Thread - #11/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [m[0;30;1m[[0;37;22mИгрок[0;30;1m] [0;37;22mProstoy_Neprost[0;30;1m: [0;37;1m1[m
-[12:56:01] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:56:12] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:56:17] [Server thread/INFO]: Manteecora issued server command: /kitreset
-[12:56:23] [Server thread/INFO]: Manteecora issued server command: /kitreset eat Prostoy_Neprost
-[12:56:31] [Server thread/INFO]: Manteecora issued server command: /kit reset eat Prostoy_Neprost
-[12:56:37] [Server thread/INFO]: 2121 has made the advancement [Getting an Upgrade]
-[12:56:49] [Server thread/INFO]: Prostoy_Neprost issued server command: /call
-[12:56:50] [Server thread/INFO]: Prostoy_Neprost issued server command: /warp
-[12:56:52] [Server thread/INFO]: Prostoy_Neprost issued server command: /warp
-[12:56:54] [Server thread/INFO]: Prostoy_Neprost issued server command: /call
-[12:56:58] [Server thread/INFO]: Prostoy_Neprost issued server command: /call 2121
-[12:57:15] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:57:18] [Server thread/INFO]: 2121 issued server command: /tpaccept
-[12:57:23] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:57:31] [Server thread/INFO]: Prostoy_Neprost issued server command: /call 2121
-[12:57:36] [Server thread/INFO]: 2121 issued server command: /tpaccept
-[12:57:58] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-[12:57:58] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 3 vip[m
-[12:58:08] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[12:58:14] [Async Chat Thread - #12/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [mvipProstoy_Neprost[0;30;1m: [0;37;1m![m
-[12:58:27] [Async Chat Thread - #12/INFO]: [0;33;1m[[0;32;1mGlobal[0;33;1m] [mvipProstoy_Neprost[0;30;1m: [0;37;1mхуй[m
-[12:58:48] [luckperms-worker-15/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-[12:58:48] [luckperms-worker-15/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add playerkits true[m
-[12:59:01] [Server thread/INFO]: Prostoy_Neprost issued server command: /pex
-[12:59:24] [Server thread/INFO]: Prostoy_Neprost issued server command: //wand
-[12:59:27] [Server thread/INFO]: Prostoy_Neprost issued server command: /wand
-[12:59:27] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-[12:59:27] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove playerkits true[m
-[12:59:27] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:59:27] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add playerkits true[m
-[12:59:33] [Server thread/INFO]: 2121 has made the advancement [Acquire Hardware]
-[12:59:49] [Server thread/INFO]: 2121 has made the advancement [Isn't It Iron Pick]
-[12:59:51] [Server thread/INFO]: Prostoy_Neprost has made the advancement [Acquire Hardware]
-[13:00:00] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[13:00:40] [Server thread/INFO]: > [Игрок] 2121 died.
-[13:00:42] [Server thread/INFO]: Prostoy_Neprost has made the advancement [Isn't It Iron Pick]
-[13:00:42] [Server thread/INFO]: Prostoy_Neprost has made the advancement [Getting an Upgrade]
-[13:00:49] [Server thread/INFO]: Prostoy_Neprost issued server command: /call 2121
-[13:00:59] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[13:01:09] [Async Chat Thread - #13/INFO]: [0;33;1m[[0;32;1mGlobal[0;33;1m] [mvipProstoy_Neprost[0;30;1m: [0;37;1m1[m
-[13:01:28] [Server thread/INFO]: Prostoy_Neprost issued server command: /fly
-[13:01:34] [Server thread/INFO]: Prostoy_Neprost issued server command: /god
-[13:01:34] [Server thread/INFO]: §cProstoy_Neprost §4отказано в доступе к команде.
-[13:01:43] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[13:01:43] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add playerkits false[m
-[13:01:43] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[13:01:43] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove playerkits true[m
-[13:02:02] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[13:02:02] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add playerkits true[m
-[13:02:02] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[13:02:02] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove playerkits false[m
-[13:02:05] [Server thread/INFO]: Prostoy_Neprost issued server command: /kit
-[13:02:34] [luckperms-command-executor/WARN]: [LuckPerms] Unable to establish socket connection
-me.lucko.luckperms.common.http.UnsuccessfulRequestException: Request was unsuccessful: 429 - 
-	at me.lucko.luckperms.common.http.AbstractHttpClient.makeHttpRequest(AbstractHttpClient.java:50) ~[?:?]
-	at me.lucko.luckperms.common.http.BytesocksClient.createSocket(BytesocksClient.java:67) ~[?:?]
-	at me.lucko.luckperms.common.webeditor.socket.WebEditorSocket.initialize(WebEditorSocket.java:89) ~[?:?]
-	at me.lucko.luckperms.common.webeditor.WebEditorSession.createSocket(WebEditorSession.java:95) ~[?:?]
-	at me.lucko.luckperms.common.webeditor.WebEditorSession.open(WebEditorSession.java:87) ~[?:?]
-	at me.lucko.luckperms.common.webeditor.WebEditorSession.createAndOpen(WebEditorSession.java:62) ~[?:?]
-	at me.lucko.luckperms.common.commands.misc.EditorCommand.execute(EditorCommand.java:111) ~[?:?]
-	at me.lucko.luckperms.common.command.abstraction.SingleCommand.execute(SingleCommand.java:56) ~[?:?]
-	at me.lucko.luckperms.common.command.abstraction.SingleCommand.execute(SingleCommand.java:48) ~[?:?]
-	at me.lucko.luckperms.common.command.CommandManager.execute(CommandManager.java:265) ~[?:?]
-	at me.lucko.luckperms.common.command.CommandManager.lambda$executeCommand$1(CommandManager.java:169) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-[13:02:50] [Server thread/INFO]: > [Игрок] 2121 died.
+�6�lNote
+�a- I need some people to volunteer testing on a new PR coming that will allow you to use a player's skull in the Guild Members GUI instead of a static item. If you are interested, please let me know.
+
+
+[16:37:17] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW was loaded !
+[16:37:17] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW_NO_GRAVITY was loaded !
+[16:37:17] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW_NO_GRAVITY_SPEED was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable FAIRYTAIL_GRAY_FULLBUSTER_1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable FAIRYTAIL_NATSU_DRAGNEEL_1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable FATE_ARCHER_1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable FATE_ARCHER_2 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_2 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_3 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_2 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_3 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable FATE_RIDER_1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable HUNTERXHUNTER_GON_FREECSS_1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable HUNTERXHUNTER_KURAPIKA_1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable MADOKA_HOMURA_AKEMI_1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable MADOKA_MADOKA_KANAME_1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable MADOKA_MAMI_TOMOE_1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable MHA_DENKI_KAMINARI_1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable MHA_IZUKU_MIDORIYA_1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable MHA_MINA_ASHIDO_ACID_1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable MHA_MINA_ASHIDO_ACID_2 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable MHA_SHOTO_TODOROKI_2 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_1_FIRE_FIST was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_2_FIRE_GUN was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_3_FIREFLY was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_002_1_FREEZE_BEAM was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_002_2_FREEZE_BOMB was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_003_1_TELEPORT was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_003_2_LIGHTNING_STRIKE was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_004_1_BLACK_HOLE was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_1_FLIGHT was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_2_FLAME_WALL was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_3_FIREBALL was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable OPM_GENOS_1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable OPM_SPEED_O_SONIC_1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable PACK_2_06 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable PACK_2_12 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile not editable proj_tornado_blade was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile arrow1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile egg1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile enderpearl1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile fireball1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile lingering1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile shulkerbullet1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile snowball1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile trident1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile tridentCustom1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] projectile witherskull1 was loaded !
+[16:37:18] [Server thread/INFO]: [SCore] 0 saved commands loaded !
+[16:37:18] [Server thread/INFO]: ================ [SCore] ================
+[16:37:18] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v5.1.9
+[16:37:18] [Server thread/INFO]: ================ [*ExecutableItems*] ================
+[16:37:18] [Server thread/INFO]: [ExecutableItems] PlaceholderAPI hooked !
+[16:37:21] [Server thread/INFO]: [ExecutableItems] [ExecutableItems] Connexion to the db...
+[16:37:21] [Server thread/INFO]: ================ [ExecutableItems] ================
+[16:37:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:37:21] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:37:21] [Server thread/INFO]: Done (33.235s)! For help, type "help"
+[16:37:21] [Server thread/INFO]: [LootChest] Loading chests...
+[16:37:21] [Server thread/INFO]: [LootChest] Removed 0 holograms
+[16:37:21] [Server thread/INFO]: [LootChest] Loaded 0 Lootchests in 4 miliseconds
+[16:37:21] [Server thread/INFO]: [LootChest] Starting LootChest timers asynchronously...
+[16:37:21] [Server thread/INFO]: [LootChest] Plugin loaded
+[16:37:21] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[16:37:21] [Craft Scheduler Thread - 11/INFO]: [Essentials] �6��������� ���������� � ������...
+[16:37:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic [2.0.1]
+[16:37:21] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
+[16:37:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.7.1]
+[16:37:21] [Server thread/INFO]: 2 placeholder hook(s) registered!
+[16:37:22] [Craft Scheduler Thread - 5/INFO]: [LootChest] �aThe plugin seems up to date.
+[16:37:22] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[16:37:22] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[16:37:22] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[16:37:22] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[16:37:22] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[16:37:22] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[16:37:22] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[16:37:22] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m
+[16:37:22] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[16:37:22] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[16:37:22] [Craft Scheduler Thread - 11/WARN]: [Essentials] �4��� ���������� �������� ����� ������ EssentialsX: �c2.19.7�4.
+[16:37:22] [Craft Scheduler Thread - 11/WARN]: [Essentials] �4�������� � ������:�c https://essentialsx.net/downloads.html?branch=stable
+[16:37:22] [Server thread/INFO]: [BanItem] Successfully loaded 0 blacklisted & 0 whitelisted item(s).
+[16:42:47] [Server thread/INFO]: Stopping server
+[16:42:47] [Server thread/INFO]: [ExecutableItems] Disabling ExecutableItems v5.1.9
+[16:42:47] [Server thread/INFO]: [MoneyFromMobs] Disabling MoneyFromMobs v4.6
+[16:42:47] [Server thread/INFO]: [BanItem] Disabling BanItem v3.4
+[16:42:47] [Server thread/INFO]: [Guilds] Disabling Guilds v3.5.6.4
+[16:42:47] [Server thread/INFO]: Shutting down database...
+[16:42:47] [Server thread/INFO]: Database has been shut down.
+[16:42:47] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.8-beta-01+cbb2ba7
+[16:42:47] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[16:42:47] [Server thread/INFO]: [TAB] Disabling TAB v3.1.4
+[16:42:47] [Server thread/INFO]: [TAB] Disabled in 1ms
+[16:42:47] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.4
+[16:42:47] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[16:42:47] [Server thread/ERROR]: ������, ��� �� ������ ������������� ���� ������ ��������� /reload. ������� �� ��������� ���������� ����? �� �������� ��������� �� ������� EssentialsX ��� ������������� /reload.
+[16:42:47] [Server thread/INFO]: [PlayerKits] Disabling PlayerKits v2.24.3
+[16:42:47] [Server thread/INFO]: [PlayerKits] Has been disabled! Version: 2.24.3
+[16:42:47] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[16:42:47] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:42:47] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
+[16:42:47] [Server thread/INFO]: [nLogin] Disabling nLogin v10.1.2
+[16:42:47] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[16:42:47] [Server thread/INFO]: [nLogin] 
+[16:42:47] [Server thread/INFO]: [nLogin] Shutting down nLogin V 10.1.2...
+[16:42:47] [Server thread/INFO]: [nLogin] 
+[16:42:47] [Server thread/INFO]: [nLogin] nLogin was unloaded in 3ms.
+[16:42:47] [Server thread/INFO]: [Chatty] Disabling Chatty v2.19.12
+[16:42:47] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b560
+[16:42:47] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[16:42:47] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion vault
+[16:42:47] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin Vault was disabled.
+[16:42:47] [Server thread/INFO]: [SetSpawn] Disabling SetSpawn v4.3
+[16:42:47] [Server thread/INFO]: [SetSpawn] Disabled!
+[16:42:47] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[16:42:47] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[16:42:47] [Server thread/INFO]: [SimpleRTP] Disabling SimpleRTP v2.5
+[16:42:47] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
+[16:42:47] [Server thread/INFO]: [LootChest] Disabling LootChest v2.3.3
+[16:42:47] [Server thread/INFO]: [LootChest] �aBacked up data file in case of crash
+[16:42:47] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.41
+[16:42:47] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[16:42:47] [Server thread/INFO]: [LuckPerms] Closing storage...
+[16:42:47] [Server thread/INFO]: [LuckPerms] Goodbye!
+[16:42:47] [Server thread/INFO]: Saving players
+[16:42:47] [Server thread/INFO]: Saving worlds
+[16:42:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:42:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:42:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:42:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:42:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:42:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:42:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:42:50] [Server thread/INFO]: Saving usercache.json

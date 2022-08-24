@@ -6,24 +6,24 @@
 ############################
 
 #The message that a player receives when they execute a command but have no permission for it
-No-Permission-Message: '&0[&fSetSpawn&0]&r: &4You are not permitted to do this!'
+No-Permission-Message: '&0[&fНачало мира&0]&r: &4Вам не разрешается этого делать!'
 
 #The message that a player receives when he is teleported at the spawn.
 Spawn-Message:
   Enabled: true
-  Message: '&0[&fSetSpawn&0]&r: &2Welcome to the spawn!'
+  Message: '&0[&fНачало мира&0]&r: &2Добро пожаловать в Начало мира!'
 
 #The message that a player receives when he executes /spawn command.
 Teleport-Message:
   Enabled: true
-  Message: '&0[&fSetSpawn&0]&r: &2Teleporting to the spawn...'
+  Message: '&0[&fНачало мира&0]&r: &2Телепортация к Началу мира...'
 
 
 #The message that a player receives when he moves during a teleport cooldown.
 Cancel-On-Move:
   Enabled: true
   Enabled-Message: true
-  Message: '&0[&fSetSpawn&0]&r: &4Teleportation cancelled!'
+  Message: '&0[&fНачало мира&0]&r: &4Телепортация отменена!'
 
 #The effect that is set off when player arrives at the spawn location.
 Spawn-Effect:
@@ -39,7 +39,7 @@ Spawn-Sound:
 Void-To-Spawn:
   Enabled: true
   Enabled-Message: true
-  Message: '&0[&fSetSpawn&0]&r: &2Teleported to spawn from void.'
+  Message: '&0[&fНачало мира&0]&r: &2Телепортировался, чтобы избежать пустоты.'
 
 #Teleport players to spawn with /spawn %targetname%.
 #Sender is the one teleporting the target to spawn.
@@ -48,19 +48,19 @@ Void-To-Spawn:
 #%sendername% can be used in the message-target (nowhere else) to get the sender's in-game name.
 Force-Spawn:
   Enabled-message-target: true
-  Message-target: '&0[&fSetSpawn&0]&r: &eYou have been teleported to the spawn by &2%sendername%'
+  Message-target: '&0[&fНачало мира&0]&r: &eВы были телепортированы в спаун с помощью &2%sendername%'
   Enabled-message-sender: true
-  Message-sender: '&0[&fSetSpawn&0]&r: &eYou have teleported &2%targetname% &eto the spawn!'
-  Player-Not-Online-Message: '&0[&fSetSpawn&0]&r: &cThat player is not online!'
+  Message-sender: '&0[&fНачало мира&0]&r: &eВы телепортировались &2%targetname% &eк Началу мира'
+  Player-Not-Online-Message: '&0[&fНачало мира&0]&r: &cЭтого игрока нет в сети!'
 
 #The amount of seconds when a player executes /spawn util they teleport to it.
 Cooldown: 5
 
 #Messages that admin receives.
-Set-Spawn-Message: '&0[&fSetSpawn&0]&r: &eYou have set the spawn!'
-Set-First-Join-Spawn-Message: '&0[&fSetSpawn&0]&r: &eYou have set the first join spawn!'
-No-Spawn-Message: '&0[&fSetSpawn&0]&r: &cThere has no spawn been set yet!'
-Reload-Message: '&0[&fSetSpawn&0]&r: &2Config Reloaded!'
+Set-Spawn-Message: '&0[&fНачало мира&0]&r: &eВы установили спавн!'
+Set-First-Join-Spawn-Message: '&0[&fНачало мира&0]&r: &eВы установили первый спавн соединения!'
+No-Spawn-Message: '&0[&fНачало мира&0]&r: &cЕще не было установлено ни одного спавна!'
+Reload-Message: '&0[&fНачало мира&0]&r: &2Конфигурация Перезагружена!'
 
 #Teleport player to spawn on their join.
 On-Join-Spawn: true

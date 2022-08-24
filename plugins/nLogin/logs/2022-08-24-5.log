@@ -1,0 +1,20 @@
+[08/24/2022 16:05:08]:           __             _       
+[08/24/2022 16:05:08]:   _ __   / /  ___   __ _(_)_ __  
+[08/24/2022 16:05:08]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[08/24/2022 16:05:08]:  | | | / /__| (_) | (_| | | | | |
+[08/24/2022 16:05:08]:  |_| |_\____/\___/ \__, |_|_| |_|
+[08/24/2022 16:05:08]:                   |___/            
+[08/24/2022 16:05:08]:  By: www.nickuc.com - V 10.1.2 DEVELOPMENT
+[08/24/2022 16:05:08]: 
+[08/24/2022 16:05:08]: §3[nLogin] [DEBUG] Detecting hardware and software configurations...
+[08/24/2022 16:05:08]: §3[nLogin] [DEBUG] All settings were loaded in 143 ms.
+[08/24/2022 16:05:08]: §3[nLogin] [DEBUG] Loading the messages_ru.yml message file...
+[08/24/2022 16:05:08]: §3[nLogin] [DEBUG] All plugin messages were loaded in 56 ms (languageByClient=false).
+[08/24/2022 16:05:08]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[08/24/2022 16:05:08]: §3[nLogin] [DEBUG] Starting logger filter...
+[08/24/2022 16:05:08]: §3[nLogin] [DEBUG] Loading database...
+[08/24/2022 16:05:09]: [nLogin] nLogin was loaded in 987ms.
+[08/24/2022 16:06:02]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'Prostoy_Neprost', `uniqueId` = 095f79546e4f375b8065159a252b036c,  `premiumId` = null,  `premium` = -1,  `password` = '$SHA512$ebb260bd4bd98e619563ea2c0660684b600b7717ba7f1b5ff881c60f8161aa1b285eef768714c23451078bcd6196d9f1cb6dca19da73b0e9134ca53efe56afeb$jzTvcpePVMpiUQhzkUHeuOFZ', `address` = '26.216.212.197', `regdate` = 2022-08-23 17:25:17.019, `lastlogin` = 2022-08-24 16:06:02.085, `email` = null, `twitter` = null, `discord` = null, `settings` = '{"settings":[{"value":"F//vgQMZy11gr2bZ2HHDIdB2EfSyP34H7dRKdQWC3p8paRurXiEyN9tV30S5a/StQKVT9BIDhjtGi12aTUTajMtNu85JfrjFGN6PfT/XOkeMX8xWZRvIgy4qgTg3DYLWeWajwpgbW5qErPQEeYHgOnpoQZjhBpcIovvrvqzkttwP98nnKdnatfTMWBm07ro3zcqGzODFzYSY/gAuvc5/By+Q2Uhk1Mv+rdN1/1AIPwcZ0CQfhsGiWxjHsbjPFYbTyA2Qo42WcPEvYjq54MqnIYTsJ+jVEgTzPhuQGJyMMIuhmFyCcAotYyuvcW1PbinqOz8iaYpNzD6XKjLCPhIfZPe5s1Mus72A85MK2ouvXYRuZbxvJenqK//VvNwp6lsDNyzSAmCkflfavgyPMV4BX6EkwfnTTgjBqy/e7Fx4IirX5McA1ZHnMv2t6I3F+A9qEMAl0wtPvtXUk7M+ZtfMiK5coJvIq0BuaxozI173rIHkC5LwOBx1+tg856KCZ9bHAsYvfiKBZHxqg6660LKxrpUl7ISUlDNJi02dTyJ42PrvFgEjH6zJzZoZynq0E2df/RKyxKcf+UEHqTV+EStmJ2D2EAM7QDyJm/Wk+6/ds27KsP8JAkUQccm/+15lL0OcTA8TjrpIv8TuH2eW88X+58JUMyYmpoGMstdGwy9W/HU=:AjLJF65rd1htbxx+YWvu1aTfSR4kuNGLNXysOefmbaadKpf0sJ7Tz2RZL7xQlxpxgiXGqEE1RuD7tg==","key":"encrypted"}],"version":0}' WHERE `id` = 4"
+[08/24/2022 16:06:02]: [nLogin] The user Prostoy_Neprost has successfully logged in.
+[08/24/2022 16:06:26]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'Manteecora', `uniqueId` = 3d5adfead97337c0bcdca42c34be5b7b,  `premiumId` = null,  `premium` = -1,  `password` = '$SHA512$fc71505f221d92b1b5383dffc50f087f56acba170a479b8fef0fd7ef5e65c5df78c3a2001771012ef225680d1aea4ff8fa87893cd7213b41220aade5002734d3$BJeFXCcIRWOcTXXDgHzdRMpf', `address` = '26.119.135.221', `regdate` = 2022-08-22 18:07:02.284, `lastlogin` = 2022-08-24 16:06:26.168, `email` = null, `twitter` = null, `discord` = null, `settings` = '{"settings":[{"value":"SNnMT4Op9SDIzTtUh4aXxK7N8gmVmSDetFShqRECdJavCN5AAiSeq3iHubwYIACF4fQI0v3UGH8W3XA6zKF8Efvf2Retw21v/oh4HmG66uyGAi/Dr/VfTX/ZyREB9MzLe74tdk3sCz92FiEdN7uTpA67FF3BYaaXnbMupyid/LYEh6jW0flJl0shp77amcJJu5mmZAH1zEVnEl/oRp1IHZ2P20AVrHGMZhstfDgJE1d4pgqswWx9sToMtU3XqcL1vuuueXx0jsNDQ3BsYei+KlPtgSgD7tGWljEjR7DCyMnsEdsQGJkwoMwN5E9dvAH+UEDLmDDus1deb6y1O+4nCn+3f4BiKBZhZ34yIh+gTC/ujLKf/Fk7TVbm5rNtn6lvrnOB8CAzYZ8VjEb8xcxDyBg75jK0+8CPbaTvHW4xX5DfUc/9QAhUQaMZE8G13Gb0ZOG2ayPhUa/60ri2tt43AIutcU5Jz2fMYsu0Ot5lNECz7BPqCAtHNUqCJarkP0p88VpwahJCtKaOC908JJI8T1pNbO5AXKHxFSY15KbZzMQ5QMUYaopAO+dVJvnXRxdTWF/ISzTS7Wj0ys+EmMvUcm9jV5KRRTd0757fsUFm7vi28eLVISMXUajIXlhF0ijeKp/In0yJP4tnGJPCSKO0KFl9+VX8TrYGmiyXg1tJwzU=:ZW5XFkXkehrzb1L1gKZtJWq/ekC2GGlCgqBDJlWDqKfbEvETpW5DgtzafFpkzTkt6Bk=","key":"encrypted"}],"version":0}' WHERE `id` = 1"
+[08/24/2022 16:06:26]: [nLogin] The user Manteecora has successfully logged in.
