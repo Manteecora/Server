@@ -5,7 +5,6 @@ header-footer:
     - disabledworld
   header:
     - "&3&lServer name"
-    - "&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<"
     - "&7Онлайн: &f%online%"
     - ""
     - "%animation:MyAnimation1%"
@@ -136,7 +135,7 @@ scoreboard:
         - "&6Онлайн:"
         - "* &eОнлайн&7: &f%online%"
         - "* &eУбийства&7: &f%statistic_player_kills%"
-        - "* &eЯСмерти&7: &f%statistic_deaths%"
+        - "* &eСмерти&7: &f%statistic_deaths%"
         - "* &eStaАдминыff&7: &f%staffonline%"
         - "* &bTPS&7: %tps%"
         - "* &bUptime&7: &f%server_uptime%"
