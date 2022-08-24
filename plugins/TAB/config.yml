@@ -73,7 +73,7 @@ yellow-number-in-tablist:
 belowname-objective:
   enabled: true
   number: "%health%"
-  text: "&4❤"
+  text: "&4♡"
   disable-in-worlds:
     - disabledworld
 
