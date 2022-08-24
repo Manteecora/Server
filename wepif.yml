@@ -32,15 +32,15 @@ permissions:
     groups:
         default:
             permissions:
-            - worldedit.reload
-            - worldedit.selection
-            - worlds.creative.worldedit.region
+        #     - worldedit.reload
+        #     - worldedit.selection
+        #     - worlds.creative.worldedit.region
         admins:
             permissions:
-            - '*'
+            # - '*'
     users:
         sk89q:
             permissions:
-            - worldedit
+            # - worldedit
             groups:
-            - admins
+            # - admins
