@@ -16,7 +16,7 @@ settings:
   sample-count: 12
   user-cache-size: 1000
   bungeecord: false
-  save-user-cache-on-stop-only: false
+  save-user-cache-on-stop-only: True
   moved-too-quickly-multiplier: 10.0
   moved-wrongly-threshold: 0.0625
   netty-threads: 4
@@ -35,7 +35,7 @@ settings:
 messages:
   whitelist: Вы не занесены в белый список на этом сервере!
   unknown-command: Неизвестная команда. Введите "/help" для получения справки.
-  server-full: Сервер заполнен!
+  server-full: Сервер переполнен!
   outdated-client: Устаревший клиент! Пожалуйста, используйте {0}
   outdated-server: Устаревший сервер! Я все еще нахожусь на {0}
   restart: Сервер перезапускается...
@@ -87,9 +87,9 @@ world-settings:
       ignore-spectators: false
     entity-tracking-range:
       players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
+      animals: 32
+      monsters: 32
+      misc: 16
       other: 64
     ticks-per:
       hopper-transfer: 8
