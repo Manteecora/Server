@@ -56,9 +56,14 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:windswept_hills": "2022-08-24 12:58:20 +0400",
       "minecraft:beach": "2022-08-23 23:15:16 +0400",
       "minecraft:river": "2022-08-23 23:00:35 +0400",
+      "minecraft:lukewarm_ocean": "2022-08-24 11:50:15 +0400",
+      "minecraft:snowy_plains": "2022-08-24 11:49:36 +0400",
+      "minecraft:forest": "2022-08-24 11:57:22 +0400",
       "minecraft:windswept_savanna": "2022-08-23 23:18:57 +0400",
+      "minecraft:deep_lukewarm_ocean": "2022-08-24 11:50:07 +0400",
       "minecraft:savanna": "2022-08-23 22:59:38 +0400",
       "minecraft:plains": "2022-08-23 23:42:19 +0400"
     },
@@ -172,6 +177,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_mushroom_stew": "2022-08-24 12:44:33 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2022-08-23 23:14:46 +0400"
@@ -193,6 +204,12 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2022-08-23 23:14:46 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_mushroom_stew": "2022-08-24 12:44:33 +0400"
     },
     "done": true
   },

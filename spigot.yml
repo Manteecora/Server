@@ -16,7 +16,7 @@ settings:
   sample-count: 12
   user-cache-size: 1000
   bungeecord: false
-  save-user-cache-on-stop-only: True
+  save-user-cache-on-stop-only: true
   moved-too-quickly-multiplier: 10.0
   moved-wrongly-threshold: 0.0625
   netty-threads: 4
