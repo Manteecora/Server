@@ -5,17 +5,14 @@ header-footer:
     - disabledworld
   header:
     - "&3&lServer name"
-    - "&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<"
-    - "&7Online players: &f%online%"
-    - "&6Online staff: &e%staffonline%"
+    - "&7Онлайн: &f%online%"
     - ""
     - "%animation:MyAnimation1%"
   footer:
     - "%animation:MyAnimation1%"
-    - "%animation:time%"
-    - "%animation:ping-tps%"
+    - "%animation:ping%"
     - ""
-    - "&7Visit our webpage %animation:web%"
+    - "&7Наш сайт  %animation:web%"
   per-world:
     world1:
       header:
@@ -96,7 +93,7 @@ bossbar:
       style: "PROGRESS" # for 1.9+: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
       color: "%animation:barcolors%" # for 1.9+: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
       progress: "100" # in %
-      text: "&fWebsite: &bwww.domain.com"
+      text: "&fСайт: &bВ разработке"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Per-world-playerlist
 per-world-playerlist:
@@ -134,14 +131,12 @@ scoreboard:
       title: "Server name"
       lines:
         - "%animation:MyAnimation1%"
-        - "&6Онлайн:"
         - "* &eОнлайн&7: &f%online%"
-        - "* &eCurrent World&7: &f%worldonline%"
-        - "* &eStaff&7: &f%staffonline%"
-        - " "
-        - "&6О сервере:"
+        - "* &eУбийства&7: &f%statistic_player_kills%"
+        - "* &eСмерти&7: &f%statistic_deaths%"
+        - "* &eАдмины&7: &f%staffonline%"
+        - "* &eБаланс&7: &f%economybank_balance%"
         - "* &bTPS&7: %tps%"
-        - "* &bUptime&7: &f%server_uptime%"
         - "* &bПамять&7: &f%memory-used%&7/&4%memory-max%"
         - "%animation:MyAnimation1%"
     scoreboard1:
@@ -151,12 +146,8 @@ scoreboard:
         - "&6Статистика:"
         - "* &eУбийства&7: &f%statistic_player_kills%"
         - "* &eЯСмерти&7: &f%statistic_deaths%"
-        - "* &eHealth&7: &f%health%"
-        - " "
-        - "&6Personal Info:"
-        - "* &bRank&7: &f%group%"
-        - "* &bPing&7: &f%ping%&7ms"
-        - "* &bWorld&7: &f%world%"
+        - "* &bДонат&7: &f%group%" 
+        - "* &eБаланс&7: &f%economybank_balance%"
         - "%animation:MyAnimation1%"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Ping-Spoof

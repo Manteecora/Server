@@ -42,32 +42,9 @@ ServerName:
 web:
   change-interval: 200
   texts:
-  - '&ewww.domain.com'
-  - '&ewww.domain.com'
-  - '&ewww.domain.com'
-  - '&ewww.domain.com'
-  - '&ewww.domain.com'
-  - '&ewww.domain.com'
-  - '&6w&eww.domain.com'
-  - '&ew&6w&ew.domain.com'
-  - '&eww&6w&e.domain.com'
-  - '&ewww&6.&edomain.com'
-  - '&ewww.&6d&eomain.com'
-  - '&ewww.d&6o&emain.com'
-  - '&ewww.do&6m&eain.com'
-  - '&ewww.dom&6a&ein.com'
-  - '&ewww.doma&6i&en.com'
-  - '&ewww.domai&6n&e.com'
-  - '&ewww.domain&6.&ecom'
-  - '&ewww.domain.&6c&eom'
-  - '&ewww.domain.c&6o&em'
-  - '&ewww.domain.co&6m'
-  - '&ewww.domain.com'
-  - '&ewww.domain.com'
-  - '&ewww.domain.com'
-  - '&ewww.domain.com'
-  - '&ewww.domain.com'
-  - '&ewww.domain.com'
+  - '&eВ разработке'
+  - '&eВ разработке'
+  - '&eВ разработке'
 vote:
   change-interval: 1000
   texts:
@@ -107,7 +84,12 @@ time:
   - '&7> Date &b%date% &7<'
   - '&7>> Date &b%date% &7<<'
   - '&7>>> Date &b%date% &7<<<'
-ping-tps:
+ping:
+  change-interval: 5000
+  texts:
+  - '&aPing: &2&n%ping%&r &ams'
+  - '&bServer TPS: &8%tps%'
+tps:
   change-interval: 5000
   texts:
   - '&aPing: &2&n%ping%&r &ams'
