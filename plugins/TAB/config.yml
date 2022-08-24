@@ -5,6 +5,7 @@ header-footer:
     - disabledworld
   header:
     - "&3&lServer name"
+    - "%animation:MyAnimation1%"
     - "&7Онлайн: &f%online%"
     - ""
     - "%animation:MyAnimation1%"
@@ -63,7 +64,7 @@ scoreboard-teams:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Yellow-number
 yellow-number-in-tablist:
-  enabled: true
+  enabled: false
   value: "%ping%"
   disable-in-worlds:
     - disabledworld
