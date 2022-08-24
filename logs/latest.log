@@ -1,390 +1,378 @@
-[17:02:04] [ServerMain/INFO]: Building unoptimized datafixer
-[17:02:06] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:02:06] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[17:02:08] [ServerMain/INFO]: Loaded 7 recipes
-[17:02:09] [Server thread/INFO]: Starting minecraft server version 1.19
-[17:02:09] [Server thread/INFO]: Loading properties
-[17:02:09] [Server thread/INFO]: This server is running CraftBukkit version 3534-Spigot-56be6a8-6c61b73 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT)
-[17:02:09] [Server thread/INFO]: Debug logging is disabled
-[17:02:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:02:09] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:02:09] [Server thread/INFO]: Default game type: SURVIVAL
-[17:02:09] [Server thread/INFO]: Generating keypair
-[17:02:10] [Server thread/INFO]: Starting Minecraft server on 26.119.135.221:25565
-[17:02:10] [Server thread/INFO]: Using default channel type
-[17:02:11] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.41
-[17:02:12] [Server thread/INFO]: [LootChest] Loading LootChest v2.3.3
-[17:02:12] [Server thread/INFO]: [Tim] Loading TimTheEnchanter v2.1
-[17:02:12] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
-[17:02:12] [Server thread/INFO]: [SimpleRTP] Loading SimpleRTP v2.5
-[17:02:12] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[17:02:12] [Server thread/INFO]: [SetSpawn] Loading SetSpawn v4.3
-[17:02:12] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[17:02:12] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b560
-[17:02:13] [Server thread/INFO]: [Chatty] Loading Chatty v2.19.12
-[17:02:13] [Server thread/INFO]: [nLogin] Loading nLogin v10.1.2
-[17:02:13] [Server thread/INFO]: [nLogin] Connecting to the remote server api.nickuc.com...
-[17:02:14] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
-[17:02:14] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
-[17:02:15] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6d238424]
-[17:02:15] [Server thread/INFO]: [PlayerKits] Loading PlayerKits v2.24.3
-[17:02:15] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4
-[17:02:15] [Server thread/INFO]: [TAB] Loading TAB v3.1.4
-[17:02:15] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.8-beta-01+cbb2ba7
-[17:02:15] [Server thread/INFO]: [Guilds] Loading Guilds v3.5.6.4
-[17:02:15] [Server thread/INFO]: [Guilds] Loading Libraries...
-[17:02:15] [Server thread/INFO]: [Guilds] Note: This might take a few minutes on first run. Kindly ensure internet connectivity.
-[17:02:15] [Server thread/INFO]: [Guilds] Loaded libraries in 0,591 seconds
-[17:02:15] [Server thread/INFO]: [BanItem] Loading BanItem v3.4
-[17:02:15] [Server thread/INFO]: [MoneyFromMobs] Loading MoneyFromMobs v4.6
-[17:02:15] [Server thread/INFO]: [SCore] Loading SCore v3.1.9
-[17:02:15] [Server thread/INFO]: [ExecutableItems] Loading ExecutableItems v5.1.9
-[17:02:15] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.41
-[17:02:16] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
-[17:02:16] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.41[m
-[17:02:16] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
-[17:02:16] [Server thread/INFO]: [m
-[17:02:16] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[17:02:16] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[17:02:17] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[17:02:17] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[17:02:17] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1855ms)
-[17:02:17] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[17:02:17] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.4 which is not a depend or softdepend of this plugin.
-[17:02:17] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[17:02:17] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[17:02:17] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[17:02:17] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[17:02:17] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b560
-[17:02:17] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
-[17:02:17] [Server thread/INFO]: [nLogin] Enabling nLogin v10.1.2
-[17:02:18] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.39s)
-[17:02:18] [Server thread/INFO]: [0;34;1m          __             _       [m
-[17:02:18] [Server thread/INFO]: [0;34;1m  _ __   / /  ___   __ _(_)_ __  [m
-[17:02:18] [Server thread/INFO]: [0;34;1m | '_ \ / /  / _ \ / _` | | '_ \ [m
-[17:02:18] [Server thread/INFO]: [0;34;1m | | | / /__| (_) | (_| | | | | |[m
-[17:02:18] [Server thread/INFO]: [0;34;1m |_| |_\____/\___/ \__, |_|_| |_|[m
-[17:02:18] [Server thread/INFO]: [0;34;1m                  |___/            [m
-[17:02:18] [Server thread/INFO]: [0;34;1m By: www.nickuc.com - V 10.1.2 DEVELOPMENT[m
-[17:02:18] [Server thread/INFO]: [0;34;1m[m
-[17:02:19] [Server thread/INFO]: [nLogin] nLogin was loaded in 971ms.
-[17:02:19] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
-[17:02:19] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[17:02:19] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[17:02:19] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[17:02:20] [Server thread/INFO]: [WorldEdit] ====================================================
-[17:02:20] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[17:02:20] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[17:02:20] [Server thread/INFO]: [WorldEdit]   
-[17:02:20] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[17:02:20] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[17:02:20] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[17:02:20] [Server thread/INFO]: [WorldEdit]   
-[17:02:20] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[17:02:20] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[17:02:20] [Server thread/INFO]: [WorldEdit]   
-[17:02:20] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[17:02:20] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[17:02:20] [Server thread/INFO]: [WorldEdit]   
-[17:02:20] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[17:02:20] [Server thread/INFO]: [WorldEdit] ====================================================
-[17:02:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:02:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:02:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:02:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:02:20] [Server thread/INFO]: Preparing level "world"
-[17:02:20] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:02:20] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:02:20] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:02:20] [Server thread/INFO]: View Distance: 8
-[17:02:20] [Server thread/INFO]: Simulation Distance: 10
-[17:02:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:02:20] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:02:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:02:20] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:02:20] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:02:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:02:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:02:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:02:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:02:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:02:20] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:02:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:02:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:02:20] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:02:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:02:20] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:02:20] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:02:20] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:02:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[17:02:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
-[17:02:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[17:02:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:02:20] [Server thread/INFO]: Max TNT Explosions: 100
-[17:02:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:02:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:02:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:02:20] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:02:20] [Server thread/INFO]: Mob Spawn Range: 6
-[17:02:41] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:02:41] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:02:41] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:02:41] [Server thread/INFO]: View Distance: 8
-[17:02:41] [Server thread/INFO]: Simulation Distance: 10
-[17:02:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:02:41] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:02:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[17:02:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
-[17:02:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[17:02:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:02:41] [Server thread/INFO]: Max TNT Explosions: 100
-[17:02:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:02:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:02:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:02:41] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:02:41] [Server thread/INFO]: Mob Spawn Range: 6
-[17:02:41] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:02:41] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:02:41] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:02:41] [Server thread/INFO]: View Distance: 8
-[17:02:41] [Server thread/INFO]: Simulation Distance: 10
-[17:02:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:02:41] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:02:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:02:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[17:02:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
-[17:02:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[17:02:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[17:02:41] [Server thread/INFO]: Max TNT Explosions: 100
-[17:02:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:02:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:02:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:02:41] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[17:02:41] [Server thread/INFO]: Mob Spawn Range: 6
-[17:02:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:02:43] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[17:02:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[17:02:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[17:02:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[17:02:43] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[17:02:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:02:44] [Worker-Main-8/INFO]: Preparing spawn area: 1%
-[17:02:45] [Worker-Main-6/INFO]: Preparing spawn area: 1%
-[17:02:45] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:02:46] [Worker-Main-7/INFO]: Preparing spawn area: 4%
-[17:02:46] [Worker-Main-14/INFO]: Preparing spawn area: 5%
-[17:02:47] [Worker-Main-11/INFO]: Preparing spawn area: 5%
-[17:02:48] [Worker-Main-2/INFO]: Preparing spawn area: 7%
-[17:02:48] [Worker-Main-2/INFO]: Preparing spawn area: 9%
-[17:02:48] [Worker-Main-15/INFO]: Preparing spawn area: 10%
-[17:02:49] [Worker-Main-6/INFO]: Preparing spawn area: 12%
-[17:02:50] [Worker-Main-13/INFO]: Preparing spawn area: 15%
-[17:02:50] [Worker-Main-4/INFO]: Preparing spawn area: 15%
-[17:02:50] [Worker-Main-10/INFO]: Preparing spawn area: 16%
-[17:02:51] [Worker-Main-10/INFO]: Preparing spawn area: 19%
-[17:02:51] [Worker-Main-14/INFO]: Preparing spawn area: 22%
-[17:02:52] [Worker-Main-1/INFO]: Preparing spawn area: 23%
-[17:02:52] [Worker-Main-12/INFO]: Preparing spawn area: 24%
-[17:02:53] [Worker-Main-10/INFO]: Preparing spawn area: 26%
-[17:02:53] [Worker-Main-2/INFO]: Preparing spawn area: 27%
-[17:02:54] [Worker-Main-2/INFO]: Preparing spawn area: 30%
-[17:02:54] [Worker-Main-10/INFO]: Preparing spawn area: 33%
-[17:02:55] [Worker-Main-14/INFO]: Preparing spawn area: 34%
-[17:02:55] [Worker-Main-14/INFO]: Preparing spawn area: 35%
-[17:02:56] [Worker-Main-11/INFO]: Preparing spawn area: 36%
-[17:02:56] [Worker-Main-12/INFO]: Preparing spawn area: 36%
-[17:02:57] [Worker-Main-10/INFO]: Preparing spawn area: 40%
-[17:02:57] [Worker-Main-4/INFO]: Preparing spawn area: 43%
-[17:02:58] [Worker-Main-8/INFO]: Preparing spawn area: 45%
-[17:02:58] [Worker-Main-14/INFO]: Preparing spawn area: 48%
-[17:02:59] [Worker-Main-8/INFO]: Preparing spawn area: 49%
-[17:02:59] [Worker-Main-6/INFO]: Preparing spawn area: 52%
-[17:03:00] [Worker-Main-4/INFO]: Preparing spawn area: 52%
-[17:03:00] [Worker-Main-8/INFO]: Preparing spawn area: 56%
-[17:03:01] [Worker-Main-13/INFO]: Preparing spawn area: 57%
-[17:03:01] [Worker-Main-2/INFO]: Preparing spawn area: 59%
-[17:03:02] [Worker-Main-1/INFO]: Preparing spawn area: 60%
-[17:03:02] [Worker-Main-9/INFO]: Preparing spawn area: 63%
-[17:03:03] [Worker-Main-10/INFO]: Preparing spawn area: 66%
-[17:03:03] [Worker-Main-12/INFO]: Preparing spawn area: 69%
-[17:03:04] [Worker-Main-5/INFO]: Preparing spawn area: 70%
-[17:03:04] [Worker-Main-4/INFO]: Preparing spawn area: 72%
-[17:03:05] [Worker-Main-5/INFO]: Preparing spawn area: 73%
-[17:03:05] [Worker-Main-1/INFO]: Preparing spawn area: 75%
-[17:03:06] [Worker-Main-5/INFO]: Preparing spawn area: 77%
-[17:03:06] [Worker-Main-3/INFO]: Preparing spawn area: 81%
-[17:03:07] [Worker-Main-7/INFO]: Preparing spawn area: 83%
-[17:03:07] [Worker-Main-7/INFO]: Preparing spawn area: 85%
-[17:03:08] [Worker-Main-7/INFO]: Preparing spawn area: 86%
-[17:03:08] [Worker-Main-2/INFO]: Preparing spawn area: 88%
-[17:03:09] [Worker-Main-2/INFO]: Preparing spawn area: 90%
-[17:03:09] [Worker-Main-14/INFO]: Preparing spawn area: 93%
-[17:03:10] [Worker-Main-11/INFO]: Preparing spawn area: 95%
-[17:03:11] [Worker-Main-10/INFO]: Preparing spawn area: 99%
-[17:03:11] [Server thread/INFO]: Time elapsed: 29193 ms
-[17:03:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:03:13] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[17:03:13] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[17:03:13] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[17:03:13] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[17:03:13] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[17:03:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:03:14] [Worker-Main-2/INFO]: Preparing spawn area: 13%
-[17:03:14] [Worker-Main-15/INFO]: Preparing spawn area: 83%
-[17:03:14] [Server thread/INFO]: Time elapsed: 3665 ms
-[17:03:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:03:15] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[17:03:15] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[17:03:15] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[17:03:16] [Worker-Main-6/INFO]: Preparing spawn area: 37%
-[17:03:16] [Server thread/INFO]: Time elapsed: 1902 ms
-[17:03:16] [Server thread/INFO]: [LootChest] Enabling LootChest v2.3.3
-[17:03:16] [Server thread/INFO]: [LootChest] Server version: 1.19
-[17:03:16] [Server thread/INFO]: [LootChest] Loading config files...
-[17:03:16] [Server thread/INFO]: [LootChest] Checking for update...
-[17:03:16] [Server thread/INFO]: [LootChest] Starting particles...
-[17:03:16] [Server thread/INFO]: [Tim] Enabling TimTheEnchanter v2.1
-[17:03:16] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
-[17:03:16] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[17:03:16] [Server thread/INFO]: [SimpleRTP] Enabling SimpleRTP v2.5
-[17:03:16] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[17:03:16] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[17:03:16] [Server thread/INFO]: [ClearLag] Loading modules...
-[17:03:16] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_19_R1.MinecraftServer)
-[17:03:16] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[17:03:16] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[17:03:16] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[17:03:16] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.19]...
-[17:03:16] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v4.3
-[17:03:16] [Server thread/INFO]: [SetSpawn] Enabled!
-[17:03:16] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.12
-[17:03:17] [Server thread/INFO]: [Chatty] Vault has successful hooked.
-[17:03:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: chatty [2.19.12]
-[17:03:17] [Server thread/INFO]: [Chatty] PlaceholderAPI has successful hooked.
-[17:03:17] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
-[17:03:17] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m[m
-[17:03:17] [Thread-10/INFO]: [ClearLag] No updates found!
-[17:03:17] [Server thread/INFO]: [PlayerKits] Enabling PlayerKits v2.24.3
-[17:03:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerkits [2.24.3]
-[17:03:17] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mHas been enabled! [0;37;1mVersion: 2.24.3[m
-[17:03:17] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mThanks for using my plugin!  [0;37;1m~Ajneb97[m
-[17:03:17] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4
-[17:03:17] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[17:03:17] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[17:03:17] [Server thread/INFO]: No kits found to migrate.
-[17:03:17] [Server thread/WARN]: java.lang.NoSuchMethodException: no such method: net.minecraft.server.MinecraftServer.v()boolean/invokeVirtual
-[17:03:17] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName.makeAccessException(MemberName.java:976)
-[17:03:17] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1117)
-[17:03:17] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:3649)
-[17:03:17] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.findVirtual(MethodHandles.java:2680)
-[17:03:17] [Server thread/WARN]: 	at net.ess3.nms.refl.providers.ReflServerStateProvider.<init>(ReflServerStateProvider.java:20)
-[17:03:17] [Server thread/WARN]: 	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:382)
-[17:03:17] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
-[17:03:17] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
-[17:03:17] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479)
-[17:03:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:520)
-[17:03:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:434)
-[17:03:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:582)
-[17:03:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:401)
-[17:03:17] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:255)
-[17:03:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:966)
-[17:03:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:291)
-[17:03:17] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[17:03:17] [Server thread/WARN]: Caused by: java.lang.NoSuchMethodError: 'boolean net.minecraft.server.MinecraftServer.v()'
-[17:03:17] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandleNatives.resolve(Native Method)
-[17:03:17] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolve(MemberName.java:1085)
-[17:03:17] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1114)
-[17:03:17] [Server thread/WARN]: 	... 15 more
-[17:03:18] [Server thread/INFO]: Loaded 36926 items from items.json.
-[17:03:18] [Server thread/INFO]: Using locale ru
-[17:03:18] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[17:03:18] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[17:03:18] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[17:03:18] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[17:03:18] [Server thread/INFO]: [TAB] Enabling TAB v3.1.4
-[17:03:18] [Server thread/INFO]: [TAB] Server version: 1.19 (v1_19_R1)[m
-[17:03:18] [Server thread/INFO]: [TAB] Loaded NMS hook in 27ms[m
-[17:03:18] [Server thread/INFO]: [TAB] [0;32;1mEnabled in 86ms[m
-[17:03:18] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.8-beta-01+cbb2ba7
-[17:03:18] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[17:03:18] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[17:03:18] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[17:03:18] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[17:03:18] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[17:03:18] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[17:03:18] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[17:03:18] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[17:03:18] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[17:03:18] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[17:03:18] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[17:03:18] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[17:03:18] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[17:03:18] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[17:03:18] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[17:03:18] [Server thread/INFO]: [WorldGuard] Loading region data...
-[17:03:18] [Server thread/INFO]: [Guilds] Enabling Guilds v3.5.6.4
-[17:03:18] [Server thread/INFO]: [0;32;1m  ________ [m
-[17:03:18] [Server thread/INFO]: [0;32;1m /  _____/ [m
-[17:03:18] [Server thread/INFO]: [0;32;1m/   \  ___   [0;36;22mGuilds [0;30;1mv3.5.6.4[m
-[17:03:18] [Server thread/INFO]: [0;32;1m\    \_\  \  [0;36;22mServer Version: [0;30;1m3534-Spigot-56be6a8-6c61b73 (MC: 1.19)[m
-[17:03:18] [Server thread/INFO]: [0;32;1m \______  /[m
-[17:03:18] [Server thread/INFO]: [0;32;1m        \/ [m
-[17:03:19] [Server thread/INFO]: Economy Found: EssentialsX Economy
-[17:03:19] [Server thread/INFO]: Permissions Found: LuckPerms
-[17:03:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: guilds [2.1]
-[17:03:20] [Server thread/INFO]: Ready to go! That only took 1246ms
-[17:03:20] [Server thread/INFO]: [BanItem] Enabling BanItem v3.4
-[17:03:20] [Server thread/INFO]: [MoneyFromMobs] Enabling MoneyFromMobs v4.6
-[17:03:20] [ForkJoinPool.commonPool-worker-1/INFO]: [Guilds] Your version of Guilds (3.5.6.4) is up to date!
-[17:03:20] [Server thread/INFO]: [SCore] Enabling SCore v3.1.9
-[17:03:20] [Server thread/INFO]: ================ [SCore] ================[m
-[17:03:20] [Server thread/INFO]: [SCore] ExecutableItems hooked !
-[17:03:20] [Server thread/INFO]: [SCore] PlaceholderAPI hooked !
-[17:03:20] [Server thread/INFO]: [SCore] WorldGuard hooked !
-[17:03:20] [Server thread/INFO]: [SCore] Vault hooked !
-[17:03:20] [Server thread/INFO]: [SCore] ProtocolLib hooked !
-[17:03:20] [Server thread/INFO]: [SCore] Locale setup: EN
-[17:03:20] [Server thread/INFO]: [SCore] Language setup on EN
-[17:03:20] [Server thread/INFO]: [SCore] [SCore] Connexion to the db...
-[17:03:20] [Server thread/INFO]: [SCore] [SCore] Verification of the table SecurityOP...
-[17:03:20] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands...
-[17:03:20] [Server thread/INFO]: [SCore] [SCore] Verification of the table Cooldowns...
-[17:03:20] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Player...
-[17:03:20] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Entity...
-[17:03:20] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Block...
-[17:03:20] [Server thread/INFO]: [SCore] Verification of the table UsePerDay...
-[17:03:21] [TaskChainAsyncQueue Thread 0/INFO]: §6§lFeatures
+[18:21:45] [ServerMain/INFO]: Building unoptimized datafixer
+[18:21:47] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:21:49] [ServerMain/INFO]: Loaded 7 recipes
+[18:21:50] [Server thread/INFO]: Starting minecraft server version 1.19
+[18:21:50] [Server thread/INFO]: Loading properties
+[18:21:51] [Server thread/INFO]: This server is running CraftBukkit version 3534-Spigot-56be6a8-6c61b73 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT)
+[18:21:51] [Server thread/INFO]: Debug logging is disabled
+[18:21:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:21:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:21:51] [Server thread/INFO]: Default game type: SURVIVAL
+[18:21:51] [Server thread/INFO]: Generating keypair
+[18:21:51] [Server thread/INFO]: Starting Minecraft server on 26.119.135.221:25565
+[18:21:51] [Server thread/INFO]: Using default channel type
+[18:21:53] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.41
+[18:21:53] [Server thread/INFO]: [LootChest] Loading LootChest v2.3.3
+[18:21:53] [Server thread/INFO]: [Tim] Loading TimTheEnchanter v2.1
+[18:21:53] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
+[18:21:53] [Server thread/INFO]: [SimpleRTP] Loading SimpleRTP v2.5
+[18:21:53] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[18:21:53] [Server thread/INFO]: [SetSpawn] Loading SetSpawn v4.3
+[18:21:53] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[18:21:53] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b560
+[18:21:55] [Server thread/INFO]: [Chatty] Loading Chatty v2.19.12
+[18:21:55] [Server thread/INFO]: [nLogin] Loading nLogin v10.1.2
+[18:21:55] [Server thread/INFO]: [nLogin] Connecting to the remote server api.nickuc.com...
+[18:21:55] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
+[18:21:55] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[18:21:56] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@76ce6f44]
+[18:21:56] [Server thread/INFO]: [PlayerKits] Loading PlayerKits v2.24.3
+[18:21:56] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4
+[18:21:56] [Server thread/INFO]: [TAB] Loading TAB v3.1.4
+[18:21:56] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.8-beta-01+cbb2ba7
+[18:21:56] [Server thread/INFO]: [Guilds] Loading Guilds v3.5.6.4
+[18:21:56] [Server thread/INFO]: [Guilds] Loading Libraries...
+[18:21:56] [Server thread/INFO]: [Guilds] Note: This might take a few minutes on first run. Kindly ensure internet connectivity.
+[18:21:57] [Server thread/INFO]: [Guilds] Loaded libraries in 0,812 seconds
+[18:21:57] [Server thread/INFO]: [BanItem] Loading BanItem v3.4
+[18:21:57] [Server thread/INFO]: [MoneyFromMobs] Loading MoneyFromMobs v4.6
+[18:21:57] [Server thread/INFO]: [SCore] Loading SCore v3.1.9
+[18:21:57] [Server thread/INFO]: [ExecutableItems] Loading ExecutableItems v5.1.9
+[18:21:57] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.41
+[18:21:58] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[18:21:58] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.41[m
+[18:21:58] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[18:21:58] [Server thread/INFO]: [m
+[18:21:58] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:21:58] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:21:58] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:21:59] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:21:59] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1990ms)
+[18:21:59] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:21:59] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.4 which is not a depend or softdepend of this plugin.
+[18:21:59] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[18:21:59] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:21:59] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:21:59] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[18:21:59] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b560
+[18:21:59] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[18:21:59] [Server thread/INFO]: [nLogin] Enabling nLogin v10.1.2
+[18:21:59] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.43s)
+[18:22:00] [Server thread/INFO]: [0;34;1m          __             _       [m
+[18:22:00] [Server thread/INFO]: [0;34;1m  _ __   / /  ___   __ _(_)_ __  [m
+[18:22:00] [Server thread/INFO]: [0;34;1m | '_ \ / /  / _ \ / _` | | '_ \ [m
+[18:22:00] [Server thread/INFO]: [0;34;1m | | | / /__| (_) | (_| | | | | |[m
+[18:22:00] [Server thread/INFO]: [0;34;1m |_| |_\____/\___/ \__, |_|_| |_|[m
+[18:22:00] [Server thread/INFO]: [0;34;1m                  |___/            [m
+[18:22:00] [Server thread/INFO]: [0;34;1m By: www.nickuc.com - V 10.1.2 DEVELOPMENT[m
+[18:22:00] [Server thread/INFO]: [0;34;1m[m
+[18:22:01] [Server thread/INFO]: [nLogin] nLogin was loaded in 1126ms.
+[18:22:01] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[18:22:01] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:22:01] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[18:22:01] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[18:22:02] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:22:02] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:22:02] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[18:22:02] [Server thread/INFO]: [WorldEdit]   
+[18:22:02] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[18:22:02] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[18:22:02] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[18:22:02] [Server thread/INFO]: [WorldEdit]   
+[18:22:02] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[18:22:02] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[18:22:02] [Server thread/INFO]: [WorldEdit]   
+[18:22:02] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[18:22:02] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[18:22:02] [Server thread/INFO]: [WorldEdit]   
+[18:22:02] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[18:22:02] [Server thread/INFO]: [WorldEdit] ====================================================
+[18:22:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:22:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:22:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:22:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:22:02] [Server thread/INFO]: Preparing level "world"
+[18:22:03] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:22:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:22:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:22:03] [Server thread/INFO]: View Distance: 8
+[18:22:03] [Server thread/INFO]: Simulation Distance: 10
+[18:22:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:22:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:22:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:22:03] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:22:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:22:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[18:22:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:22:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
+[18:22:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:22:03] [Server thread/INFO]: Max TNT Explosions: 100
+[18:22:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:22:03] [Server thread/INFO]: Mob Spawn Range: 6
+[18:22:03] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:22:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:22:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:22:03] [Server thread/INFO]: View Distance: 8
+[18:22:03] [Server thread/INFO]: Simulation Distance: 10
+[18:22:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:22:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:22:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:22:03] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:22:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:22:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:22:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[18:22:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:22:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
+[18:22:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:22:03] [Server thread/INFO]: Max TNT Explosions: 100
+[18:22:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:22:03] [Server thread/INFO]: Mob Spawn Range: 6
+[18:22:04] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:22:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:22:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:22:04] [Server thread/INFO]: View Distance: 8
+[18:22:04] [Server thread/INFO]: Simulation Distance: 10
+[18:22:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:22:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:22:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:22:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:22:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:22:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:22:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:22:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:22:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:22:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:22:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:22:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:22:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:22:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:22:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:22:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:22:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:22:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:22:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:22:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:22:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:22:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[18:22:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[18:22:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
+[18:22:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:22:04] [Server thread/INFO]: Max TNT Explosions: 100
+[18:22:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:22:04] [Server thread/INFO]: Mob Spawn Range: 6
+[18:22:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:22:09] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:22:23] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[18:22:24] [Worker-Main-15/INFO]: Preparing spawn area: 10%
+[18:22:24] [Worker-Main-6/INFO]: Preparing spawn area: 29%
+[18:22:25] [Worker-Main-2/INFO]: Preparing spawn area: 50%
+[18:22:25] [Worker-Main-11/INFO]: Preparing spawn area: 66%
+[18:22:26] [Worker-Main-7/INFO]: Preparing spawn area: 82%
+[18:22:26] [Worker-Main-9/INFO]: Preparing spawn area: 84%
+[18:22:27] [Worker-Main-14/INFO]: Preparing spawn area: 98%
+[18:22:27] [Worker-Main-4/INFO]: Preparing spawn area: 98%
+[18:22:27] [Server thread/INFO]: Time elapsed: 23747 ms
+[18:22:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:22:30] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[18:22:30] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[18:22:30] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[18:22:30] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[18:22:30] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[18:22:30] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[18:22:30] [Worker-Main-1/INFO]: Preparing spawn area: 65%
+[18:22:31] [Server thread/INFO]: Time elapsed: 3230 ms
+[18:22:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:22:32] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[18:22:32] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[18:22:32] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:22:32] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[18:22:33] [Worker-Main-6/INFO]: Preparing spawn area: 72%
+[18:22:33] [Server thread/INFO]: Time elapsed: 2155 ms
+[18:22:33] [Server thread/INFO]: [LootChest] Enabling LootChest v2.3.3
+[18:22:33] [Server thread/INFO]: [LootChest] Server version: 1.19
+[18:22:33] [Server thread/INFO]: [LootChest] Loading config files...
+[18:22:33] [Server thread/INFO]: [LootChest] Checking for update...
+[18:22:33] [Server thread/INFO]: [LootChest] Starting particles...
+[18:22:33] [Server thread/INFO]: [Tim] Enabling TimTheEnchanter v2.1
+[18:22:33] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[18:22:33] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[18:22:33] [Server thread/INFO]: [SimpleRTP] Enabling SimpleRTP v2.5
+[18:22:33] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[18:22:33] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[18:22:33] [Server thread/INFO]: [ClearLag] Loading modules...
+[18:22:33] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_19_R1.MinecraftServer)
+[18:22:33] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[18:22:33] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[18:22:33] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[18:22:33] [Thread-11/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.19]...
+[18:22:33] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v4.3
+[18:22:33] [Server thread/INFO]: [SetSpawn] Enabled!
+[18:22:33] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.12
+[18:22:33] [Server thread/INFO]: [Chatty] Vault has successful hooked.
+[18:22:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: chatty [2.19.12]
+[18:22:33] [Server thread/INFO]: [Chatty] PlaceholderAPI has successful hooked.
+[18:22:33] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
+[18:22:33] [Thread-11/INFO]: [ClearLag] No updates found!
+[18:22:33] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m[m
+[18:22:33] [Server thread/INFO]: [PlayerKits] Enabling PlayerKits v2.24.3
+[18:22:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerkits [2.24.3]
+[18:22:34] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mHas been enabled! [0;37;1mVersion: 2.24.3[m
+[18:22:34] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mThanks for using my plugin!  [0;37;1m~Ajneb97[m
+[18:22:34] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4
+[18:22:34] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[18:22:34] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:22:34] [Server thread/INFO]: No kits found to migrate.
+[18:22:34] [Server thread/WARN]: java.lang.NoSuchMethodException: no such method: net.minecraft.server.MinecraftServer.v()boolean/invokeVirtual
+[18:22:34] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName.makeAccessException(MemberName.java:976)
+[18:22:34] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1117)
+[18:22:34] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:3649)
+[18:22:34] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.findVirtual(MethodHandles.java:2680)
+[18:22:34] [Server thread/WARN]: 	at net.ess3.nms.refl.providers.ReflServerStateProvider.<init>(ReflServerStateProvider.java:20)
+[18:22:34] [Server thread/WARN]: 	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:382)
+[18:22:34] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[18:22:34] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+[18:22:34] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479)
+[18:22:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:520)
+[18:22:34] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:434)
+[18:22:34] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:582)
+[18:22:34] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:401)
+[18:22:34] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:255)
+[18:22:34] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:966)
+[18:22:34] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:291)
+[18:22:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:22:34] [Server thread/WARN]: Caused by: java.lang.NoSuchMethodError: 'boolean net.minecraft.server.MinecraftServer.v()'
+[18:22:34] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandleNatives.resolve(Native Method)
+[18:22:34] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolve(MemberName.java:1085)
+[18:22:34] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1114)
+[18:22:34] [Server thread/WARN]: 	... 15 more
+[18:22:34] [Server thread/INFO]: Loaded 36926 items from items.json.
+[18:22:34] [Server thread/INFO]: Using locale ru
+[18:22:34] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:22:34] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:22:34] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[18:22:34] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[18:22:34] [Server thread/INFO]: [TAB] Enabling TAB v3.1.4
+[18:22:34] [Server thread/INFO]: [TAB] Server version: 1.19 (v1_19_R1)[m
+[18:22:34] [Server thread/INFO]: [TAB] Loaded NMS hook in 26ms[m
+[18:22:35] [Server thread/INFO]: [TAB] [0;32;1mEnabled in 110ms[m
+[18:22:35] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.8-beta-01+cbb2ba7
+[18:22:35] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[18:22:35] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[18:22:35] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[18:22:35] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[18:22:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[18:22:35] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[18:22:35] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[18:22:35] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[18:22:35] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[18:22:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[18:22:35] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[18:22:35] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[18:22:35] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[18:22:35] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[18:22:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[18:22:35] [Server thread/INFO]: [WorldGuard] Loading region data...
+[18:22:35] [Server thread/INFO]: [Guilds] Enabling Guilds v3.5.6.4
+[18:22:35] [Server thread/INFO]: [0;32;1m  ________ [m
+[18:22:35] [Server thread/INFO]: [0;32;1m /  _____/ [m
+[18:22:35] [Server thread/INFO]: [0;32;1m/   \  ___   [0;36;22mGuilds [0;30;1mv3.5.6.4[m
+[18:22:35] [Server thread/INFO]: [0;32;1m\    \_\  \  [0;36;22mServer Version: [0;30;1m3534-Spigot-56be6a8-6c61b73 (MC: 1.19)[m
+[18:22:35] [Server thread/INFO]: [0;32;1m \______  /[m
+[18:22:35] [Server thread/INFO]: [0;32;1m        \/ [m
+[18:22:35] [Server thread/INFO]: Economy Found: EssentialsX Economy
+[18:22:35] [Server thread/INFO]: Permissions Found: LuckPerms
+[18:22:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: guilds [2.1]
+[18:22:37] [Server thread/INFO]: Ready to go! That only took 1225ms
+[18:22:37] [Server thread/INFO]: [BanItem] Enabling BanItem v3.4
+[18:22:37] [Server thread/INFO]: [MoneyFromMobs] Enabling MoneyFromMobs v4.6
+[18:22:37] [ForkJoinPool.commonPool-worker-1/INFO]: [Guilds] Your version of Guilds (3.5.6.4) is up to date!
+[18:22:37] [Server thread/INFO]: [SCore] Enabling SCore v3.1.9
+[18:22:37] [Server thread/INFO]: ================ [SCore] ================[m
+[18:22:37] [Server thread/INFO]: [SCore] ExecutableItems hooked !
+[18:22:37] [Server thread/INFO]: [SCore] PlaceholderAPI hooked !
+[18:22:37] [Server thread/INFO]: [SCore] WorldGuard hooked !
+[18:22:37] [Server thread/INFO]: [SCore] Vault hooked !
+[18:22:37] [Server thread/INFO]: [SCore] ProtocolLib hooked !
+[18:22:37] [Server thread/INFO]: [SCore] Locale setup: EN
+[18:22:37] [Server thread/INFO]: [SCore] Language setup on EN
+[18:22:37] [Server thread/INFO]: [SCore] [SCore] Connexion to the db...
+[18:22:37] [Server thread/INFO]: [SCore] [SCore] Verification of the table SecurityOP...
+[18:22:37] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands...
+[18:22:37] [Server thread/INFO]: [SCore] [SCore] Verification of the table Cooldowns...
+[18:22:37] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Player...
+[18:22:37] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Entity...
+[18:22:37] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Block...
+[18:22:37] [Server thread/INFO]: [SCore] Verification of the table UsePerDay...
+[18:22:37] [TaskChainAsyncQueue Thread 0/INFO]: §6§lFeatures
 §a- Added support for Minecraft 1.19
 
 §6§lBug Fixes
@@ -406,252 +394,129 @@
 §a- I need some people to volunteer testing on a new PR coming that will allow you to use a player's skull in the Guild Members GUI instead of a static item. If you are interested, please let me know.
 
 
-[17:03:21] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW was loaded !
-[17:03:21] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW_NO_GRAVITY was loaded !
-[17:03:21] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW_NO_GRAVITY_SPEED was loaded !
-[17:03:21] [Server thread/INFO]: [SCore] projectile not editable FAIRYTAIL_GRAY_FULLBUSTER_1 was loaded !
-[17:03:21] [Server thread/INFO]: [SCore] projectile not editable FAIRYTAIL_NATSU_DRAGNEEL_1 was loaded !
-[17:03:21] [Server thread/INFO]: [SCore] projectile not editable FATE_ARCHER_1 was loaded !
-[17:03:21] [Server thread/INFO]: [SCore] projectile not editable FATE_ARCHER_2 was loaded !
-[17:03:21] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_1 was loaded !
-[17:03:21] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_2 was loaded !
-[17:03:21] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_3 was loaded !
-[17:03:21] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_1 was loaded !
-[17:03:21] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_2 was loaded !
-[17:03:21] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_3 was loaded !
-[17:03:21] [Server thread/INFO]: [SCore] projectile not editable FATE_RIDER_1 was loaded !
-[17:03:21] [Server thread/INFO]: [SCore] projectile not editable HUNTERXHUNTER_GON_FREECSS_1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable HUNTERXHUNTER_KURAPIKA_1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable MADOKA_HOMURA_AKEMI_1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable MADOKA_MADOKA_KANAME_1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable MADOKA_MAMI_TOMOE_1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable MHA_DENKI_KAMINARI_1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable MHA_IZUKU_MIDORIYA_1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable MHA_MINA_ASHIDO_ACID_1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable MHA_MINA_ASHIDO_ACID_2 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable MHA_SHOTO_TODOROKI_2 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_1_FIRE_FIST was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_2_FIRE_GUN was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_3_FIREFLY was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_002_1_FREEZE_BEAM was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_002_2_FREEZE_BOMB was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_003_1_TELEPORT was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_003_2_LIGHTNING_STRIKE was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_004_1_BLACK_HOLE was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_1_FLIGHT was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_2_FLAME_WALL was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_3_FIREBALL was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable OPM_GENOS_1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable OPM_SPEED_O_SONIC_1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable PACK_2_06 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable PACK_2_12 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile not editable proj_tornado_blade was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile arrow1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile egg1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile enderpearl1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile fireball1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile lingering1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile shulkerbullet1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile snowball1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile trident1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile tridentCustom1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] projectile witherskull1 was loaded !
-[17:03:22] [Server thread/INFO]: [SCore] 0 saved commands loaded !
-[17:03:22] [Server thread/INFO]: ================ [SCore] ================[m
-[17:03:22] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v5.1.9
-[17:03:22] [Server thread/INFO]: ================ [*ExecutableItems*] ================
-[17:03:22] [Server thread/INFO]: [ExecutableItems] PlaceholderAPI hooked !
-[17:03:25] [Server thread/INFO]: [ExecutableItems] [ExecutableItems] Connexion to the db...
-[17:03:25] [Server thread/INFO]: ================ [ExecutableItems] ================
-[17:03:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:03:25] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[17:03:25] [Server thread/INFO]: Done (64.666s)! For help, type "help"
-[17:03:25] [Server thread/INFO]: [LootChest] Loading chests...
-[17:03:25] [Server thread/INFO]: [LootChest] Removed 0 holograms
-[17:03:25] [Server thread/INFO]: [LootChest] Loaded 0 Lootchests in 13 miliseconds
-[17:03:25] [Server thread/INFO]: [LootChest] Starting LootChest timers asynchronously...
-[17:03:25] [Server thread/INFO]: [LootChest] Plugin loaded
-[17:03:25] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[17:03:25] [Craft Scheduler Thread - 10/INFO]: [Essentials] §6Получение информации о версии...
-[17:03:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic [2.0.1]
-[17:03:25] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
-[17:03:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.7.1]
-[17:03:25] [Server thread/INFO]: [0;32;1m2 placeholder hook(s) registered![m
-[17:03:25] [Craft Scheduler Thread - 5/INFO]: [LootChest] §aThe plugin seems up to date.
-[17:03:25] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[17:03:25] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
-[17:03:25] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
-[17:03:25] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
-[17:03:25] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
-[17:03:25] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
-[17:03:25] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[17:03:25] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m[m
-[17:03:25] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
-[17:03:25] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[17:03:25] [Craft Scheduler Thread - 10/WARN]: [Essentials] §4Для скачивания доступна новая версия EssentialsX: §c2.19.7§4.
-[17:03:25] [Craft Scheduler Thread - 10/WARN]: [Essentials] §4Скачайте её отсюда:§c https://essentialsx.net/downloads.html?branch=stable
-[17:03:26] [Server thread/INFO]: [BanItem] Successfully loaded 0 blacklisted & 0 whitelisted item(s).[m
-[17:04:30] [User Authenticator #1/INFO]: UUID of player 2121 is ad7958e4-76d9-37a8-84f4-8c67e317b595
-[17:04:31] [Server thread/INFO]: > [Игрок] 2121 joined the server for the first time!
-[17:04:31] [Server thread/INFO]: 2121[/26.179.133.236:50315] logged in with entity id 357 at ([world]-4.5, 79.0, -0.5)
-[17:04:56] [Craft Scheduler Thread - 13/INFO]: [nLogin] The user 2121 has successfully logged in.
-[17:05:09] [Server thread/INFO]: Made 2121 a server operator
-[17:05:28] [Server thread/INFO]: 2121 issued server command: /tp 0 0
-[17:05:58] [Server thread/INFO]: 2121 issued server command: /tp 00
-[17:07:30] [Server thread/INFO]: 2121 issued server command: /tp -0 0 0
-[17:08:08] [Server thread/INFO]: 2121 issued server command: /tp 0 100 0
-[17:08:23] [Server thread/INFO]: 2121 issued server command: /gamemode creative
-[17:09:06] [Server thread/INFO]: 2121 issued server command: /gamemode survival
-[17:09:46] [Server thread/INFO]: 2121 issued server command: /tp 0 0 0
-[17:10:02] [Server thread/INFO]: 2121 issued server command: /gamemode
-[17:10:15] [Server thread/INFO]: 2121 issued server command: /gamemode creative
-[17:16:58] [Server thread/INFO]: 2121 issued server command: /enchant all
-[17:17:16] [Server thread/INFO]: 2121 issued server command: /gamemode survival
-[17:18:19] [Server thread/INFO]: 2121 issued server command: /enchant all natural
-[17:18:38] [Server thread/INFO]: 2121 issued server command: /gamemode creative
-[17:20:03] [Server thread/INFO]: 2121 issued server command: /enchant all natural
-[17:25:27] [Server thread/INFO]: 2121 issued server command: /help
-[17:26:04] [User Authenticator #2/INFO]: UUID of player Manteecora is 3d5adfea-d973-37c0-bcdc-a42c34be5b7b
-[17:26:04] [Server thread/INFO]: > [Игрок] Manteecora joined the server for the first time!
-[17:26:04] [Server thread/INFO]: Manteecora[/26.119.135.221:57231] logged in with entity id 3941 at ([world]6.5, 79.0, -0.5)
-[17:26:17] [Craft Scheduler Thread - 19/INFO]: [nLogin] The user Manteecora has successfully logged in.
-[17:26:32] [Server thread/INFO]: Manteecora issued server command: /gm spectator
-[17:26:57] [Server thread/INFO]: Manteecora issued server command: /gm creative
-[17:27:16] [Server thread/INFO]: Manteecora issued server command: /tp 0 70 0
-[17:27:52] [Server thread/INFO]: Manteecora issued server command: /spawn set
-[17:27:57] [Server thread/INFO]: 2121 issued server command: /tp 0 100 0
-[17:28:48] [Server thread/INFO]: Manteecora issued server command: /spawn
-[17:28:59] [Server thread/INFO]: 2121 issued server command: /spawn
-[17:32:35] [Server thread/INFO]: 2121 issued server command: /spawn
-[17:33:00] [Server thread/INFO]: Manteecora issued server command: /banitem add Игровой процесс
-[17:33:27] [Server thread/INFO]: Manteecora issued server command: /banitem info
-[17:33:40] [Server thread/INFO]: Made 2121 no longer a server operator
-[17:34:02] [Server thread/INFO]: Manteecora issued server command: /tp 2121
-[17:34:38] [Server thread/INFO]: Manteecora issued server command: /gamemode creative 2121
-[17:34:47] [Server thread/INFO]: Manteecora issued server command: /gamemode survival 2121
-[17:35:29] [Server thread/INFO]: 2121 has made the advancement [Diamonds!]
-[17:35:38] [Server thread/INFO]: 2121 has made the advancement [Ice Bucket Challenge]
-[17:36:25] [Server thread/INFO]: Manteecora issued server command: /banitem add click
-[17:36:39] [Server thread/INFO]: Manteecora issued server command: /banitem add craft
-[17:36:44] [Server thread/INFO]: Manteecora issued server command: /banitem add drop
-[17:36:59] [Server thread/INFO]: Manteecora issued server command: /banitem add pickup
-[17:38:49] [Server thread/INFO]: Manteecora issued server command: /xp give 2121 100
-[17:38:52] [Server thread/INFO]: 2121 has made the advancement [Enchanter]
-[17:38:53] [Server thread/INFO]: Manteecora issued server command: /xp give 2121 10000
-[17:39:16] [Server thread/INFO]: Manteecora issued server command: /banitem add enchant
-[17:39:42] [Server thread/INFO]: Manteecora issued server command: /banitem add fill
-[17:40:27] [Server thread/INFO]: Manteecora issued server command: /banitem add use
-[17:41:24] [Server thread/INFO]: 2121 has made the advancement [Cover Me with Diamonds]
-[17:41:31] [Server thread/INFO]: Manteecora issued server command: /banitem add interact
-[17:42:24] [Server thread/INFO]: Manteecora issued server command: /banitem check
-[17:42:27] [Server thread/INFO]: Manteecora issued server command: /banitem check
-[17:42:37] [Server thread/INFO]: Manteecora issued server command: /banitem check
-[17:42:41] [Server thread/INFO]: Manteecora issued server command: /banitem check
-[17:43:06] [Server thread/INFO]: Manteecora issued server command: /chatclear
-[17:43:24] [Server thread/INFO]: Manteecora issued server command: /give 2121 enchantingtable
-[17:43:33] [Server thread/INFO]: Manteecora issued server command: /banitem check
-[17:45:32] [Server thread/INFO]: Manteecora issued server command: /banitem add transfer
-[17:46:00] [Server thread/INFO]: Manteecora issued server command: /banitem check
-[17:46:07] [Server thread/INFO]: Manteecora issued server command: /clear 2121
-[17:46:26] [Server thread/INFO]: Manteecora issued server command: /ice
-[17:47:08] [Server thread/INFO]: > [Игрок] 2121 died.
-[17:49:25] [Server thread/INFO]: Manteecora issued server command: /enchant all
-[17:49:35] [Server thread/INFO]: > [Игрок] 2121 died.
-[17:49:55] [Server thread/INFO]: Manteecora issued server command: /enchant all 100
-[17:49:59] [Server thread/INFO]: > [Игрок] 2121 died.
-[17:49:59] [Server thread/INFO]: Manteecora has made the advancement [Take Aim]
-[17:50:30] [Server thread/INFO]: Manteecora issued server command: /spawnmob enderdragon
-[17:50:40] [Server thread/INFO]: 2121 has made the advancement [Take Aim]
-[17:51:08] [Server thread/INFO]: Manteecora issued server command: /enchant all 10000
-[17:51:10] [Server thread/INFO]: 2121 has made the advancement [Free the End]
-[17:51:10] [Server thread/INFO]: 2121 has made the advancement [Monster Hunter]
-[17:51:28] [Server thread/INFO]: Manteecora has made the advancement [Cover Me with Diamonds]
-[17:51:36] [Server thread/INFO]: Manteecora issued server command: /enchant all 10000
-[17:52:07] [Server thread/INFO]: Manteecora issued server command: /spawnmob witherskeleton
-[17:52:09] [Server thread/INFO]: 2121 has made the advancement [Spooky Scary Skeleton]
-[17:52:34] [Server thread/INFO]: Manteecora issued server command: /enchant all 10000
-[17:52:34] [Server thread/INFO]: > [Игрок] 2121 died.
-[17:52:35] [Server thread/INFO]: Manteecora has made the advancement [Spooky Scary Skeleton]
-[17:52:54] [Server thread/INFO]: Manteecora issued server command: /enchant all 1000000
-[17:52:57] [Server thread/INFO]: > [Игрок] 2121 died.
-[17:53:11] [Server thread/INFO]: > [Игрок] 2121 died.
-[17:53:33] [Server thread/INFO]: Manteecora issued server command: /spawn set
-[17:53:48] [Server thread/INFO]: Manteecora issued server command: /spawnmob cow
-[17:54:12] [Server thread/INFO]: Manteecora issued server command: /clear 2121
-[17:54:20] [Server thread/INFO]: Manteecora issued server command: /enchant all 100000000
-[17:54:28] [Server thread/INFO]: Manteecora issued server command: /spawnmob cow
-[17:54:47] [Server thread/INFO]: Manteecora issued server command: /enchant all 10000000
-[17:54:56] [Server thread/INFO]: Manteecora issued server command: /spawnmob cow
-[17:55:08] [Server thread/INFO]: Manteecora issued server command: /clear 2121
-[17:55:17] [Server thread/INFO]: Manteecora issued server command: /enchant all 1000000
-[17:55:28] [Server thread/INFO]: Manteecora issued server command: /spawnmob cow
-[17:56:05] [Server thread/INFO]: Manteecora issued server command: /clear 2121
-[17:56:35] [Server thread/INFO]: Manteecora issued server command: /enchant all 9999999
-[17:56:49] [Server thread/INFO]: Manteecora issued server command: /spawnmob cow
-[17:56:59] [Server thread/INFO]: Manteecora issued server command: /clear 2121
-[17:57:06] [Server thread/INFO]: Manteecora issued server command: /enchant all 999999
-[17:57:15] [Server thread/INFO]: Manteecora issued server command: /spawnmob cow
-[17:57:29] [Server thread/INFO]: Manteecora issued server command: /clear 2121
-[17:57:50] [Server thread/INFO]: Manteecora issued server command: /banitem remove
-[17:58:09] [Server thread/INFO]: Manteecora issued server command: /banitem remove
-[17:59:46] [Server thread/INFO]: Manteecora has made the advancement [Monster Hunter]
-[18:00:24] [Server thread/INFO]: Manteecora issued server command: /skin set 2121
-[18:00:56] [Server thread/INFO]: Manteecora issued server command: /skin set https://minecraft-inside.ru/skins/208054-girl-lvadepisolva.html
-[18:02:25] [Server thread/INFO]: Manteecora issued server command: /skin set minecraft-inside.ru/skins/208054-girl-lvadepisolva.html
-[18:03:12] [Server thread/INFO]: Manteecora issued server command: /skin set Kastat
-[18:04:49] [Server thread/INFO]: > [Игрок] 2121 died.
-[18:07:18] [Server thread/INFO]: Manteecora issued server command: /enchant all 999999
-[18:07:19] [Server thread/INFO]: > [Игрок] 2121 died.
-[18:07:40] [Server thread/INFO]: Manteecora issued server command: /tp 0 100 0
-[18:07:40] [Server thread/WARN]: Manteecora moved too quickly! 9.308623295043919,10.0,-8.24774652408655
-[18:07:59] [Server thread/INFO]: Manteecora issued server command: /spawnpoint
-[18:07:59] [Server thread/INFO]: [Manteecora: Set spawn point to 0, 87, 0 [0.0] in minecraft:overworld for Manteecora]
-[18:08:10] [Server thread/INFO]: Manteecora issued server command: /spawn set
-[18:08:16] [Server thread/INFO]: Manteecora issued server command: /tp 0 100 0
-[18:08:16] [Server thread/WARN]: Manteecora moved too quickly! 0.44718599533243764,10.883498632071877,-3.2814362639909924
-[18:08:20] [Server thread/INFO]: Manteecora issued server command: /enchant all 999999
-[18:08:23] [Server thread/INFO]: > [Игрок] 2121 died.
-[18:08:30] [Server thread/INFO]: > [Игрок] 2121 died.
-[18:08:38] [Server thread/INFO]: > [Игрок] 2121 died.
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/INFO]: 2121 lost connection: Flying is not enabled on this server
-[18:08:42] [Server thread/INFO]: > [Игрок] 2121 left the server.
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:42] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:43] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:43] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:43] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:08:43] [Server thread/WARN]: 2121 was kicked for floating too long!
-[18:09:12] [User Authenticator #3/INFO]: UUID of player 2121 is ad7958e4-76d9-37a8-84f4-8c67e317b595
-[18:09:12] [Server thread/INFO]: > [Игрок] 2121 joined the server.
-[18:09:12] [Server thread/INFO]: 2121[/26.179.133.236:62478] logged in with entity id 9644 at ([world]0.6398177289961637, 87.0, 0.5017441338672852)
-[18:09:29] [Craft Scheduler Thread - 33/INFO]: [nLogin] The user 2121 has successfully logged in.
-[18:10:19] [Server thread/INFO]: Manteecora issued server command: /give hp 10musicdisk
-[18:11:02] [Server thread/INFO]: > [Игрок] 2121 died.
-[18:11:09] [Server thread/INFO]: Manteecora issued server command: /enchant all 999999
-[18:11:18] [Server thread/INFO]: Manteecora issued server command: /enchant all 100
-[18:11:26] [Server thread/INFO]: > [Игрок] 2121 died.
-[18:12:01] [Server thread/INFO]: Manteecora issued server command: /enchant all 100
-[18:12:15] [Server thread/INFO]: Manteecora issued server command: /papi ecloud download Player
-[18:12:16] [placeholderapi-io-#1/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[18:12:22] [Server thread/INFO]: Manteecora issued server command: /tab reload
-[18:12:22] [Server thread/INFO]: [TAB] [0;32;1mDisabled in 2ms[m
-[18:12:22] [Server thread/INFO]: [TAB] [0;32;1mEnabled in 18ms[m
-[18:13:05] [Server thread/INFO]: Manteecora issued server command: /enchant all 100
-[18:13:09] [Server thread/INFO]: Manteecora has made the advancement [Ol' Betsy]
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW_NO_GRAVITY was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW_NO_GRAVITY_SPEED was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable FAIRYTAIL_GRAY_FULLBUSTER_1 was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable FAIRYTAIL_NATSU_DRAGNEEL_1 was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable FATE_ARCHER_1 was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable FATE_ARCHER_2 was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_1 was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_2 was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_3 was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_1 was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_2 was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_3 was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable FATE_RIDER_1 was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable HUNTERXHUNTER_GON_FREECSS_1 was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable HUNTERXHUNTER_KURAPIKA_1 was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable MADOKA_HOMURA_AKEMI_1 was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable MADOKA_MADOKA_KANAME_1 was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable MADOKA_MAMI_TOMOE_1 was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable MHA_DENKI_KAMINARI_1 was loaded !
+[18:22:38] [Server thread/INFO]: [SCore] projectile not editable MHA_IZUKU_MIDORIYA_1 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable MHA_MINA_ASHIDO_ACID_1 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable MHA_MINA_ASHIDO_ACID_2 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable MHA_SHOTO_TODOROKI_2 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_1_FIRE_FIST was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_2_FIRE_GUN was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_3_FIREFLY was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_002_1_FREEZE_BEAM was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_002_2_FREEZE_BOMB was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_003_1_TELEPORT was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_003_2_LIGHTNING_STRIKE was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_004_1_BLACK_HOLE was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_1_FLIGHT was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_2_FLAME_WALL was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_3_FIREBALL was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable OPM_GENOS_1 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable OPM_SPEED_O_SONIC_1 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable PACK_2_06 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable PACK_2_12 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile not editable proj_tornado_blade was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile arrow1 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile egg1 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile enderpearl1 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile fireball1 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile lingering1 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile shulkerbullet1 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile snowball1 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile trident1 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile tridentCustom1 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] projectile witherskull1 was loaded !
+[18:22:39] [Server thread/INFO]: [SCore] 0 saved commands loaded !
+[18:22:39] [Server thread/INFO]: ================ [SCore] ================[m
+[18:22:39] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v5.1.9
+[18:22:39] [Server thread/INFO]: ================ [*ExecutableItems*] ================
+[18:22:39] [Server thread/INFO]: [ExecutableItems] PlaceholderAPI hooked !
+[18:22:42] [Server thread/INFO]: [ExecutableItems] [ExecutableItems] Connexion to the db...
+[18:22:42] [Server thread/INFO]: ================ [ExecutableItems] ================
+[18:22:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:22:42] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[18:22:42] [Server thread/INFO]: Done (39.618s)! For help, type "help"
+[18:22:42] [Server thread/INFO]: [LootChest] Loading chests...
+[18:22:42] [Server thread/INFO]: [LootChest] Removed 0 holograms
+[18:22:42] [Server thread/INFO]: [LootChest] Loaded 0 Lootchests in 10 miliseconds
+[18:22:42] [Server thread/INFO]: [LootChest] Starting LootChest timers asynchronously...
+[18:22:42] [Server thread/INFO]: [LootChest] Plugin loaded
+[18:22:42] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[18:22:42] [Craft Scheduler Thread - 10/INFO]: [Essentials] §6Получение информации о версии...
+[18:22:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.3]
+[18:22:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic [2.0.1]
+[18:22:42] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
+[18:22:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.7.1]
+[18:22:42] [Server thread/INFO]: [0;32;1m3 placeholder hook(s) registered![m
+[18:22:42] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[18:22:42] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[18:22:42] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+[18:22:42] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+[18:22:42] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
+[18:22:42] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[18:22:42] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[18:22:42] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m[m
+[18:22:42] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
+[18:22:42] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[18:22:42] [Craft Scheduler Thread - 10/WARN]: [Essentials] §4Для скачивания доступна новая версия EssentialsX: §c2.19.7§4.
+[18:22:42] [Craft Scheduler Thread - 10/WARN]: [Essentials] §4Скачайте её отсюда:§c https://essentialsx.net/downloads.html?branch=stable
+[18:22:42] [Craft Scheduler Thread - 5/INFO]: [LootChest] §aThe plugin seems up to date.
+[18:22:43] [Server thread/INFO]: [BanItem] Successfully loaded 0 blacklisted & 0 whitelisted item(s).[m
+[18:23:05] [User Authenticator #1/INFO]: UUID of player Manteecora is 3d5adfea-d973-37c0-bcdc-a42c34be5b7b
+[18:23:06] [Server thread/INFO]: > [Игрок] Manteecora joined the server.
+[18:23:06] [Server thread/INFO]: Manteecora[/26.119.135.221:63717] logged in with entity id 272 at ([world]-3.7557983428733324, 88.0, 2.4598764589569977)
+[18:23:12] [Craft Scheduler Thread - 5/INFO]: [nLogin] The user Manteecora has successfully logged in.
+[18:23:13] [User Authenticator #2/INFO]: UUID of player 2121 is ad7958e4-76d9-37a8-84f4-8c67e317b595
+[18:23:13] [Server thread/INFO]: > [Игрок] 2121 joined the server.
+[18:23:13] [Server thread/INFO]: 2121[/26.179.133.236:51056] logged in with entity id 274 at ([world]-38.009493476995715, 69.16610926093821, -34.90646896687413)
+[18:23:32] [Craft Scheduler Thread - 5/INFO]: [nLogin] The user 2121 has successfully logged in.
+[18:26:03] [Server thread/INFO]: > [Игрок] 2121 died.
+[18:26:13] [Server thread/INFO]: Manteecora issued server command: /enchant 1111
+[18:26:18] [Server thread/INFO]: Manteecora issued server command: /enchant all 1111
+[18:26:22] [Server thread/INFO]: > [Игрок] 2121 died.
+[18:26:31] [Server thread/INFO]: > [Игрок] 2121 died.
+[18:26:44] [Server thread/INFO]: > [Игрок] 2121 died.
+[18:27:03] [Server thread/INFO]: Manteecora issued server command: /xp give Manteecora 100
+[18:27:07] [Server thread/INFO]: > [Игрок] 2121 died.
+[18:27:24] [Server thread/INFO]: Manteecora issued server command: /god 2121
+[18:27:51] [Server thread/INFO]: Manteecora issued server command: /enchant all 1111
+[18:28:21] [Server thread/INFO]: Manteecora issued server command: /god 2121
+[18:28:30] [Server thread/INFO]: Manteecora issued server command: /gm spectator 2121
+[18:28:37] [Server thread/INFO]: Manteecora issued server command: /gm survival 2121
+[18:28:47] [Server thread/INFO]: Manteecora issued server command: /tp 2121 Manteecora
+[18:28:54] [Server thread/INFO]: 2121 lost connection: Disconnected
+[18:28:54] [Server thread/INFO]: > [Игрок] 2121 left the server.
+[18:29:02] [User Authenticator #3/INFO]: UUID of player 2121 is ad7958e4-76d9-37a8-84f4-8c67e317b595
+[18:29:02] [Server thread/INFO]: > [Игрок] 2121 joined the server.
+[18:29:02] [Server thread/INFO]: 2121[/26.179.133.236:56489] logged in with entity id 886 at ([world]-6.749496945965471, 88.0, 3.250503054034529)
+[18:29:08] [Server thread/INFO]: Manteecora issued server command: /enchant all 30
+[18:29:16] [Server thread/INFO]: Manteecora issued server command: /gm 0
+[18:29:33] [Craft Scheduler Thread - 5/INFO]: [nLogin] The user 2121 has successfully logged in.
+[18:29:48] [Server thread/INFO]: Manteecora issued server command: /spawnmob zombie
+[18:30:07] [Server thread/INFO]: > [Игрок] 2121 died.
+[18:30:29] [Server thread/INFO]: Manteecora issued server command: /gm 1
+[18:30:48] [Server thread/INFO]: Manteecora issued server command: /enchant all 500
+[18:31:02] [Server thread/INFO]: Manteecora issued server command: /gm 0
+[18:31:23] [Server thread/INFO]: > [Игрок] 2121 died.
+[18:31:23] [Server thread/WARN]: Manteecora moved wrongly!
+[18:31:56] [Server thread/INFO]: Manteecora issued server command: /enchant all 500
+[18:34:56] [Server thread/INFO]: Manteecora lost connection: Disconnected
+[18:34:56] [Server thread/INFO]: > [Игрок] Manteecora left the server.
