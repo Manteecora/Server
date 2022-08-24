@@ -129,8 +129,8 @@ NoEventRunningMessage: '&cThere is no Money Multiplier Event to stop.'
 # Amount: 10% = Player drops 10% of their balance. Doesn't have to be a percentage
 PLAYER:
   Enabled: true
-  Amount: 10%
-  DropChance: 100
+  Amount: 15%
+  DropChance: 20
   NumberOfDrops: 5
   OnlyOnKill: false
   # TakeMoneyFromKilledPlayer: setting to false means killed player doesn't lose money but killer can still earn money (e.g. kitpvp servers)
@@ -144,247 +144,247 @@ PLAYER:
 # Max = Highest amount of money to be dropped.
 CHICKEN:
   Enabled: true
-  Min: 5
-  Max: 50
-  DropChance: 100
+  Min: 0.1
+  Max: 1
+  DropChance: 90
   NumberOfDrops: 1-3
   OnlyOnKill: true
 PIG:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.1
+  Max: 1
+  DropChance: 90
   NumberOfDrops: 1-3
   OnlyOnKill: true
 SHEEP:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.1
+  Max: 1
+  DropChance: 90
   NumberOfDrops: 1-3
   OnlyOnKill: true
 COW:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.3
+  Max: 1.5
+  DropChance: 80
   NumberOfDrops: 1-3
   OnlyOnKill: true
 MUSHROOM_COW:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.5
+  Max: 2
+  DropChance: 80
   NumberOfDrops: 1-3
   OnlyOnKill: true
 PARROT:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.02
+  Max: 0.2
+  DropChance: 100
   NumberOfDrops: 1-3
   OnlyOnKill: true
 SQUID:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.2
+  Max: 1
+  DropChance: 100
   NumberOfDrops: 1-3
   OnlyOnKill: true
 BAT:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 15
+  Max: 15
+  DropChance: 10
   NumberOfDrops: 1-3
   OnlyOnKill: true
 OCELOT:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.2
+  Max: 1
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 CAT:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.2
+  Max: 1
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 PANDA:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.5
+  Max: 2
+  DropChance: 80
   NumberOfDrops: 1-3
   OnlyOnKill: true
 HORSE:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.3
+  Max: 1.2
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 SKELETON_HORSE:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 15
+  Max: 15
+  DropChance: 15
   NumberOfDrops: 1-3
   OnlyOnKill: true
 ZOMBIE_HORSE:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 15
+  Max: 15
+  DropChance: 15
   NumberOfDrops: 1-3
   OnlyOnKill: true
 DONKEY:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.1
+  Max: 1
+  DropChance: 90
   NumberOfDrops: 1-3
   OnlyOnKill: true
 MULE:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.1
+  Max: 1
+  DropChance: 90
   NumberOfDrops: 1-3
   OnlyOnKill: true
 LLAMA:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.1
+  Max: 1
+  DropChance: 90
   NumberOfDrops: 1-3
   OnlyOnKill: true
 TRADER_LLAMA:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.35
+  Max: 1.25
+  DropChance: 75
   NumberOfDrops: 1-3
   OnlyOnKill: true
 FOX:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.2
+  Max: 1.12
+  DropChance: 75
   NumberOfDrops: 1-3
   OnlyOnKill: true
 RABBIT:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.2
+  Max: 1.12
+  DropChance: 75
   NumberOfDrops: 1-3
   OnlyOnKill: true
 TURTLE:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.2
+  Max: 1.12
+  DropChance: 75
   NumberOfDrops: 1-3
   OnlyOnKill: true
 POLAR_BEAR:
   Enabled: true
-  Min: 5
+  Min: 1.3
   Max: 5
-  DropChance: 25
+  DropChance: 75
   NumberOfDrops: 1-3
   OnlyOnKill: true
 COD:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.01
+  Max: 1
+  DropChance: 35
   NumberOfDrops: 1-3
   OnlyOnKill: true
 SALMON:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.01
+  Max: 1
+  DropChance: 35
   NumberOfDrops: 1-3
   OnlyOnKill: true
 PUFFERFISH:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.1
+  Max: 1.5
+  DropChance: 70
   NumberOfDrops: 1-3
   OnlyOnKill: true
 TROPICAL_FISH:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.01
+  Max: 1
+  DropChance: 35
   NumberOfDrops: 1-3
   OnlyOnKill: true
 DOLPHIN:
   Enabled: true
-  Min: 5
-  Max: 5
+  Min: 1
+  Max: 2
   DropChance: 25
   NumberOfDrops: 1-3
   OnlyOnKill: true
 BEE:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.1
+  Max: 0.2
+  DropChance: 100
   NumberOfDrops: 1-3
   OnlyOnKill: true
 WOLF:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.5
+  Max: 1
+  DropChance: 40
   NumberOfDrops: 1-3
   OnlyOnKill: true
 SNOWMAN:
   Enabled: true
   Min: 5
   Max: 5
-  DropChance: 25
+  DropChance: 0.1
   NumberOfDrops: 1-3
   OnlyOnKill: true
 GOAT:
   Enabled: true
-  Min: 5
-  Max: 5
+  Min: 1
+  Max: 2
   DropChance: 25
   NumberOfDrops: 1-3
   OnlyOnKill: true
 GLOW_SQUID:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 10
+  Max: 15
+  DropChance: 30
   NumberOfDrops: 1-3
   OnlyOnKill: true
 AXOLOTL:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 1
+  Max: 2
+  DropChance: 30
   NumberOfDrops: 1-3
   OnlyOnKill: true
 TADPOLE:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 0.1
+  Max: 0.2
+  DropChance: 100
   NumberOfDrops: 1-3
   OnlyOnKill: true
 FROG:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 1
+  Max: 1.5
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
   
@@ -392,258 +392,258 @@ FROG:
 ########## HOSTILE OVERWORLD MOBS ##########
 ZOMBIE:
   Enabled: true
-  Min: 10
-  Max: 10
-  DropChance: 25
+  Min: 3
+  Max: 6
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 ZOMBIE_VILLAGER:
   Enabled: true
-  Min: 10
-  Max: 10
-  DropChance: 25
+  Min: 5
+  Max: 7
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 DROWNED:
   Enabled: true
-  Min: 10
-  Max: 10
-  DropChance: 25
+  Min: 8
+  Max: 11
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 HUSK:
   Enabled: true
-  Min: 10
-  Max: 10
-  DropChance: 25
+  Min: 5
+  Max: 7
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 STRAY:
   Enabled: true
-  Min: 10
+  Min: 7
   Max: 10
-  DropChance: 25
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 GIANT:
   Enabled: true
-  Min: 10
-  Max: 10
-  DropChance: 25
+  Min: 1
+  Max: 1
+  DropChance: 1
   NumberOfDrops: 1-3
   OnlyOnKill: true
 SPIDER:
   Enabled: true
-  Min: 10
-  Max: 10
-  DropChance: 25
+  Min: 3
+  Max: 6
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 CAVE_SPIDER:
   Enabled: true
-  Min: 10
-  Max: 10
-  DropChance: 25
+  Min: 4
+  Max: 6
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 SKELETON:
   Enabled: true
-  Min: 10
-  Max: 10
-  DropChance: 25
+  Min: 3
+  Max: 6
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 GUARDIAN:
   Enabled: true
-  Min: 10
-  Max: 10
-  DropChance: 25
+  Min: 15
+  Max: 20
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 ELDER_GUARDIAN:
   Enabled: true
-  Min: 10
-  Max: 10
-  DropChance: 25
+  Min: 25
+  Max: 35
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 SLIME:
   Enabled: true
-  Min: 10
-  Max: 10
-  DropChance: 25
+  Min: 0.5
+  Max: 2
+  DropChance: 70
   NumberOfDrops: 1-3
   OnlyOnKill: true
 SILVERFISH:
   Enabled: true
-  Min: 10
-  Max: 10
-  DropChance: 25
+  Min: 1.2
+  Max: 1.5
+  DropChance: 30
   NumberOfDrops: 1-3
   OnlyOnKill: true
 WITCH:
   Enabled: true
-  Min: 10
-  Max: 10
-  DropChance: 25
+  Min: 5
+  Max: 8
+  DropChance: 40
   NumberOfDrops: 1-3
   OnlyOnKill: true
 CREEPER:
   Enabled: true
-  Min: 10
-  Max: 10
-  DropChance: 25
+  Min: 5
+  Max: 8
+  DropChance: 40
   NumberOfDrops: 1-3
   OnlyOnKill: true
 PHANTOM:
   Enabled: true
   Min: 10
   Max: 10
-  DropChance: 25
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 
 ########## VILLAGERS / ILLAGERS ##########
 VILLAGER:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 1
+  Max: 1
+  DropChance: 1
   NumberOfDrops: 1-3
   OnlyOnKill: true
 WANDERING_TRADER:
   Enabled: true
-  Min: 5
-  Max: 5
+  Min: 10
+  Max: 10
   DropChance: 25
   NumberOfDrops: 1-3
   OnlyOnKill: true
 ALLAY:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 1
+  Max: 1
+  DropChance: 1
   NumberOfDrops: 1-3
   OnlyOnKill: true
 IRON_GOLEM:
   Enabled: true
-  Min: 10
+  Min: 3
   Max: 10
   DropChance: 25
   NumberOfDrops: 1-3
   OnlyOnKill: true
 VINDICATOR:
   Enabled: true
-  Min: 10
-  Max: 10
-  DropChance: 25
+  Min: 5
+  Max: 8
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 EVOKER:
   Enabled: true
   Min: 10
-  Max: 10
-  DropChance: 25
+  Max: 13
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 PILLAGER:
   Enabled: true
-  Min: 10
+  Min: 8
   Max: 10
-  DropChance: 25
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 RAVAGER:
   Enabled: true
-  Min: 10
-  Max: 10
-  DropChance: 25
+  Min: 50
+  Max: 100
+  DropChance: 20
   NumberOfDrops: 1-3
   OnlyOnKill: true
 VEX:
   Enabled: true
-  Min: 5
-  Max: 5
-  DropChance: 25
+  Min: 7
+  Max: 15
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 
 ########## NETHER MOBS ##########
 WITHER_SKELETON:
   Enabled: true
-  Min: 15
+  Min: 10
   Max: 15
-  DropChance: 25
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 STRIDER:
   Enabled: true
   Min: 15
-  Max: 15
-  DropChance: 25
+  Max: 20
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 PIG_ZOMBIE:
   Enabled: true
-  Min: 15
-  Max: 15
-  DropChance: 25
+  Min: 5
+  Max: 10
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 PIGLIN:
   Enabled: true
-  Min: 15
-  Max: 15
-  DropChance: 25
+  Min: 5
+  Max: 10
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 PIGLIN_BRUTE:
   Enabled: true
-  Min: 15
+  Min: 10
   Max: 15
-  DropChance: 25
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 ZOMBIFIED_PIGLIN:
   Enabled: true
-  Min: 15
+  Min: 10
   Max: 15
-  DropChance: 25
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 HOGLIN:
   Enabled: true
-  Min: 15
-  Max: 15
-  DropChance: 25
+  Min: 9
+  Max: 14
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 ZOGLIN:
   Enabled: true
-  Min: 15
-  Max: 15
-  DropChance: 25
+  Min: 9
+  Max: 14
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 MAGMA_CUBE:
   Enabled: true
-  Min: 15
-  Max: 15
-  DropChance: 25
+  Min: 3
+  Max: 6
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 BLAZE:
   Enabled: true
-  Min: 15
+  Min: 10
   Max: 15
   DropChance: 25
   NumberOfDrops: 1-3
   OnlyOnKill: true
 GHAST:
   Enabled: true
-  Min: 15
-  Max: 15
-  DropChance: 25
+  Min: 30
+  Max: 35
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 
@@ -651,44 +651,44 @@ GHAST:
 ENDERMAN:
   Enabled: true
   Min: 20
-  Max: 20
-  DropChance: 25
+  Max: 30
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 ENDERMITE:
   Enabled: true
-  Min: 20
+  Min: 10
   Max: 20
-  DropChance: 25
+  DropChance: 50
   NumberOfDrops: 1-3
   OnlyOnKill: true
 SHULKER:
   Enabled: true
-  Min: 20
-  Max: 20
-  DropChance: 25
+  Min: 25
+  Max: 40
+  DropChance: 70
   NumberOfDrops: 1-3
   OnlyOnKill: true
 
 ########## BOSSES ##########
 ENDER_DRAGON:
   Enabled: true
-  Min: 500
-  Max: 500
+  Min: 1000
+  Max: 2000
   DropChance: 100
   NumberOfDrops: 1-3
   OnlyOnKill: true
 WITHER:
   Enabled: true
   Min: 500
-  Max: 500
+  Max: 1000
   DropChance: 100
   NumberOfDrops: 1-3
   OnlyOnKill: true
 WARDEN:
   Enabled: true
-  Min: 500
-  Max: 500
+  Min: 1000
+  Max: 2000
   DropChance: 100
   NumberOfDrops: 1-3
   OnlyOnKill: true

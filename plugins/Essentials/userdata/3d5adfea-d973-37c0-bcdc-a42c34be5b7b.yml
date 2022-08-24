@@ -11,14 +11,14 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1661279849819
+  lastteleport: 1661323401995
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1661283889520
-  login: 1661322028452
-money: '35.0'
+  login: 1661322822297
+money: '0'
 last-account-name: Manteecora
 logoutlocation:
   world: cc86c9b0-7439-49ea-ab13-891eb84dafb2
@@ -29,10 +29,10 @@ logoutlocation:
   yaw: -99.0684814453125
   pitch: 12.749832153320312
 lastlocation:
-  world: afe7c4bc-48f8-422a-9483-ac659d8908c2
+  world: cc86c9b0-7439-49ea-ab13-891eb84dafb2
   world-name: world
-  x: 63.98682060580465
-  y: 169.709665692007
-  z: -239.1368631458984
-  yaw: -65.53033447265625
-  pitch: 3.9003608226776123
+  x: 11.526932525400133
+  y: 64.0
+  z: -24.387215862637316
+  yaw: -170.85037231445312
+  pitch: 1.9499858617782593
