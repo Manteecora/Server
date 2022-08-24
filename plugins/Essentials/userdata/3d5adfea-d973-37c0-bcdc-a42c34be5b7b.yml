@@ -1,6 +1,6 @@
 teleportenabled: true
 teleportauto: false
-godmode: true
+godmode: false
 muted: false
 jailed: false
 ip-address: 26.119.135.221
@@ -16,26 +16,26 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1661283889520
-  login: 1661326654682
+  logout: 1661342498910
+  login: 1661341496185
 money: '3333333333.001'
 last-account-name: Manteecora
 logoutlocation:
   world: cc86c9b0-7439-49ea-ab13-891eb84dafb2
   world-name: world
-  x: -154.23258708175263
-  y: 73.30569527715333
-  z: 66.60400876862758
-  yaw: -99.0684814453125
-  pitch: 12.749832153320312
+  x: 5.49803029992567
+  y: 77.34171211245032
+  z: -173.33863073861326
+  yaw: -23.42454719543457
+  pitch: 35.10071563720703
 lastlocation:
   world: cc86c9b0-7439-49ea-ab13-891eb84dafb2
   world-name: world
-  x: -430.7912843878635
-  y: 128.49314823739232
-  z: -4.002868077310037
-  yaw: 162.879150390625
-  pitch: 42.29953384399414
+  x: -484.7114828943161
+  y: 147.62863510374916
+  z: 42.69999998807907
+  yaw: -18.019622802734375
+  pitch: 28.500770568847656
 homes:
   home:
     world: cc86c9b0-7439-49ea-ab13-891eb84dafb2
