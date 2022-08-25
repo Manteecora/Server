@@ -1,373 +1,372 @@
-[11:19:17] [ServerMain/INFO]: Building unoptimized datafixer
-[11:19:19] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:19:21] [ServerMain/INFO]: Loaded 7 recipes
-[11:19:23] [Server thread/INFO]: Starting minecraft server version 1.19
-[11:19:23] [Server thread/INFO]: Loading properties
-[11:19:23] [Server thread/INFO]: This server is running CraftBukkit version 3534-Spigot-56be6a8-6c61b73 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT)
-[11:19:24] [Server thread/INFO]: Debug logging is disabled
-[11:19:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:19:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:19:24] [Server thread/INFO]: Default game type: SURVIVAL
-[11:19:24] [Server thread/INFO]: Generating keypair
-[11:19:24] [Server thread/INFO]: Starting Minecraft server on 26.119.135.221:25565
-[11:19:24] [Server thread/INFO]: Using default channel type
-[11:19:26] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.41
-[11:19:26] [Server thread/INFO]: [LootChest] Loading LootChest v2.3.3
-[11:19:26] [Server thread/INFO]: [Tim] Loading TimTheEnchanter v2.1
-[11:19:26] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
-[11:19:26] [Server thread/INFO]: [SimpleRTP] Loading SimpleRTP v2.5
-[11:19:26] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
-[11:19:26] [Server thread/INFO]: [SetSpawn] Loading SetSpawn v4.3
-[11:19:26] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[11:19:26] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b560
-[11:19:28] [Server thread/INFO]: [Chatty] Loading Chatty v2.19.12
-[11:19:28] [Server thread/INFO]: [nLogin] Loading nLogin v10.1.2
-[11:19:28] [Server thread/INFO]: [nLogin] Connecting to the remote server api.nickuc.com...
-[11:19:28] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
-[11:19:28] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
-[11:19:29] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@aba239a]
-[11:19:29] [Server thread/INFO]: [PlayerKits] Loading PlayerKits v2.24.3
-[11:19:29] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4
-[11:19:29] [Server thread/INFO]: [TAB] Loading TAB v3.1.4
-[11:19:29] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.8-beta-01+cbb2ba7
-[11:19:29] [Server thread/INFO]: [Guilds] Loading Guilds v3.5.6.4
-[11:19:29] [Server thread/INFO]: [Guilds] Loading Libraries...
-[11:19:29] [Server thread/INFO]: [Guilds] Note: This might take a few minutes on first run. Kindly ensure internet connectivity.
-[11:19:30] [Server thread/INFO]: [Guilds] Loaded libraries in 0,915 seconds
-[11:19:30] [Server thread/INFO]: [BanItem] Loading BanItem v3.4
-[11:19:30] [Server thread/INFO]: [MoneyFromMobs] Loading MoneyFromMobs v4.6
-[11:19:30] [Server thread/INFO]: [SCore] Loading SCore v3.1.9
-[11:19:30] [Server thread/INFO]: [ExecutableItems] Loading ExecutableItems v5.1.9
-[11:19:30] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.41
-[11:19:30] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
-[11:19:30] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.41[m
-[11:19:30] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
-[11:19:30] [Server thread/INFO]: [m
-[11:19:30] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[11:19:31] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[11:19:31] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[11:19:31] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[11:19:31] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1393ms)
-[11:19:31] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[11:19:31] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.4 which is not a depend or softdepend of this plugin.
-[11:19:31] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[11:19:31] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[11:19:31] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[11:19:31] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[11:19:31] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b560
-[11:19:31] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
-[11:19:31] [Server thread/INFO]: [nLogin] Enabling nLogin v10.1.2
-[11:19:32] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.31s)
-[11:19:32] [Server thread/INFO]: [0;34;1m          __             _       [m
-[11:19:32] [Server thread/INFO]: [0;34;1m  _ __   / /  ___   __ _(_)_ __  [m
-[11:19:32] [Server thread/INFO]: [0;34;1m | '_ \ / /  / _ \ / _` | | '_ \ [m
-[11:19:32] [Server thread/INFO]: [0;34;1m | | | / /__| (_) | (_| | | | | |[m
-[11:19:32] [Server thread/INFO]: [0;34;1m |_| |_\____/\___/ \__, |_|_| |_|[m
-[11:19:32] [Server thread/INFO]: [0;34;1m                  |___/            [m
-[11:19:32] [Server thread/INFO]: [0;34;1m By: www.nickuc.com - V 10.1.2 DEVELOPMENT[m
-[11:19:32] [Server thread/INFO]: [0;34;1m[m
-[11:19:33] [Server thread/INFO]: [nLogin] nLogin was loaded in 989ms.
-[11:19:33] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
-[11:19:33] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[11:19:33] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[11:19:33] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
-[11:19:34] [Server thread/INFO]: [WorldEdit] ====================================================
-[11:19:34] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[11:19:34] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[11:19:34] [Server thread/INFO]: [WorldEdit]   
-[11:19:34] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[11:19:34] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[11:19:34] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[11:19:34] [Server thread/INFO]: [WorldEdit]   
-[11:19:34] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[11:19:34] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[11:19:34] [Server thread/INFO]: [WorldEdit]   
-[11:19:34] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[11:19:34] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[11:19:34] [Server thread/INFO]: [WorldEdit]   
-[11:19:34] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[11:19:34] [Server thread/INFO]: [WorldEdit] ====================================================
-[11:19:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:19:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:19:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:19:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:19:34] [Server thread/INFO]: Preparing level "world"
-[11:19:34] [Server thread/INFO]: -------- World Settings For [world] --------
-[11:19:34] [Server thread/INFO]: Mob Spawn Range: 6
-[11:19:34] [Server thread/INFO]: Simulation Distance: 10
-[11:19:34] [Server thread/INFO]: View Distance: 8
-[11:19:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:19:34] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:19:34] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:19:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:19:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:19:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:19:34] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:19:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:19:34] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:19:34] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:19:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:19:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:19:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:19:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:19:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:19:34] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:19:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:19:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:19:34] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:19:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:19:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:19:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:19:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:19:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
-[11:19:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[11:19:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[11:19:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:19:34] [Server thread/INFO]: Max TNT Explosions: 100
-[11:19:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:19:35] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[11:19:35] [Server thread/INFO]: Mob Spawn Range: 6
-[11:19:35] [Server thread/INFO]: Simulation Distance: 10
-[11:19:35] [Server thread/INFO]: View Distance: 8
-[11:19:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:19:35] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:19:35] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:19:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:19:35] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:19:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:19:35] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:19:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
-[11:19:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[11:19:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[11:19:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:19:35] [Server thread/INFO]: Max TNT Explosions: 100
-[11:19:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:19:35] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[11:19:35] [Server thread/INFO]: Mob Spawn Range: 6
-[11:19:35] [Server thread/INFO]: Simulation Distance: 10
-[11:19:35] [Server thread/INFO]: View Distance: 8
-[11:19:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:19:35] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:19:35] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:19:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:19:35] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[11:19:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:19:35] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:19:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Potato Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Vine Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[11:19:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
-[11:19:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[11:19:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[11:19:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[11:19:35] [Server thread/INFO]: Max TNT Explosions: 100
-[11:19:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:19:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:19:38] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[11:19:38] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[11:19:38] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:19:38] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[11:19:38] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[11:19:38] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:19:38] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[11:19:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[11:19:52] [Worker-Main-10/INFO]: Preparing spawn area: 13%
-[11:19:53] [Worker-Main-9/INFO]: Preparing spawn area: 41%
-[11:19:53] [Worker-Main-7/INFO]: Preparing spawn area: 67%
-[11:19:54] [Worker-Main-8/INFO]: Preparing spawn area: 83%
-[11:19:54] [Worker-Main-12/INFO]: Preparing spawn area: 93%
-[11:19:55] [Worker-Main-3/INFO]: Preparing spawn area: 98%
-[11:19:55] [Server thread/INFO]: Time elapsed: 19760 ms
-[11:19:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:19:57] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[11:19:57] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[11:19:57] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[11:19:57] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[11:19:57] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[11:19:57] [Worker-Main-7/INFO]: Preparing spawn area: 1%
-[11:19:58] [Worker-Main-15/INFO]: Preparing spawn area: 85%
-[11:19:58] [Server thread/INFO]: Time elapsed: 3076 ms
-[11:19:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:19:59] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[11:19:59] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[11:19:59] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[11:19:59] [Worker-Main-5/INFO]: Preparing spawn area: 42%
-[11:20:00] [Server thread/INFO]: Time elapsed: 1800 ms
-[11:20:00] [Server thread/INFO]: [LootChest] Enabling LootChest v2.3.3
-[11:20:00] [Server thread/INFO]: [LootChest] Server version: 1.19
-[11:20:00] [Server thread/INFO]: [LootChest] Loading config files...
-[11:20:00] [Server thread/INFO]: [LootChest] Checking for update...
-[11:20:00] [Server thread/INFO]: [LootChest] Starting particles...
-[11:20:00] [Server thread/INFO]: [Tim] Enabling TimTheEnchanter v2.1
-[11:20:00] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
-[11:20:00] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[11:20:00] [Server thread/INFO]: [SimpleRTP] Enabling SimpleRTP v2.5
-[11:20:00] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[11:20:00] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[11:20:00] [Server thread/INFO]: [ClearLag] Loading modules...
-[11:20:00] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_19_R1.MinecraftServer)
-[11:20:00] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[11:20:00] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[11:20:00] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[11:20:00] [Thread-12/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.19]...
-[11:20:00] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v4.3
-[11:20:00] [Server thread/INFO]: [SetSpawn] Enabled!
-[11:20:00] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.12
-[11:20:00] [Server thread/INFO]: [Chatty] Vault has successful hooked.
-[11:20:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: chatty [2.19.12]
-[11:20:00] [Server thread/INFO]: [Chatty] PlaceholderAPI has successful hooked.
-[11:20:00] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
-[11:20:00] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m[m
-[11:20:00] [Thread-12/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
-[11:20:00] [Thread-12/WARN]: java.lang.NullPointerException: Cannot invoke "org.json.simple.JSONObject.get(Object)" because "line" is null
-[11:20:00] [Thread-12/WARN]: 	at me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:59)
-[11:20:00] [Thread-12/WARN]: 	at me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
-[11:20:00] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[11:20:00] [Server thread/INFO]: [PlayerKits] Enabling PlayerKits v2.24.3
-[11:20:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerkits [2.24.3]
-[11:20:01] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mHas been enabled! [0;37;1mVersion: 2.24.3[m
-[11:20:01] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mThanks for using my plugin!  [0;37;1m~Ajneb97[m
-[11:20:01] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4
-[11:20:01] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[11:20:02] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[11:20:02] [Server thread/INFO]: No kits found to migrate.
-[11:20:02] [Server thread/WARN]: java.lang.NoSuchMethodException: no such method: net.minecraft.server.MinecraftServer.v()boolean/invokeVirtual
-[11:20:02] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName.makeAccessException(MemberName.java:976)
-[11:20:02] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1117)
-[11:20:02] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:3649)
-[11:20:02] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.findVirtual(MethodHandles.java:2680)
-[11:20:02] [Server thread/WARN]: 	at net.ess3.nms.refl.providers.ReflServerStateProvider.<init>(ReflServerStateProvider.java:20)
-[11:20:02] [Server thread/WARN]: 	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:382)
-[11:20:02] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
-[11:20:02] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
-[11:20:02] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479)
-[11:20:02] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:520)
-[11:20:02] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:434)
-[11:20:02] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:582)
-[11:20:02] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:401)
-[11:20:02] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:255)
-[11:20:02] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:966)
-[11:20:02] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:291)
-[11:20:02] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[11:20:02] [Server thread/WARN]: Caused by: java.lang.NoSuchMethodError: 'boolean net.minecraft.server.MinecraftServer.v()'
-[11:20:02] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandleNatives.resolve(Native Method)
-[11:20:02] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolve(MemberName.java:1085)
-[11:20:02] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1114)
-[11:20:02] [Server thread/WARN]: 	... 15 more
-[11:20:02] [Server thread/INFO]: Loaded 36926 items from items.json.
-[11:20:02] [Server thread/INFO]: Using locale ru
-[11:20:02] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[11:20:02] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[11:20:02] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[11:20:02] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[11:20:02] [Server thread/INFO]: [TAB] Enabling TAB v3.1.4
-[11:20:02] [Server thread/INFO]: [TAB] Server version: 1.19 (v1_19_R1)[m
-[11:20:02] [Server thread/INFO]: [TAB] Loaded NMS hook in 27ms[m
-[11:20:02] [Server thread/INFO]: [TAB] [0;32;1mEnabled in 106ms[m
-[11:20:02] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.8-beta-01+cbb2ba7
-[11:20:03] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[11:20:03] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[11:20:03] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[11:20:03] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[11:20:03] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[11:20:03] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[11:20:03] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[11:20:03] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[11:20:03] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[11:20:03] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[11:20:03] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[11:20:03] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[11:20:03] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[11:20:03] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[11:20:03] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[11:20:03] [Server thread/INFO]: [WorldGuard] Loading region data...
-[11:20:03] [Server thread/INFO]: [Guilds] Enabling Guilds v3.5.6.4
-[11:20:03] [Server thread/INFO]: [0;32;1m  ________ [m
-[11:20:03] [Server thread/INFO]: [0;32;1m /  _____/ [m
-[11:20:03] [Server thread/INFO]: [0;32;1m/   \  ___   [0;36;22mGuilds [0;30;1mv3.5.6.4[m
-[11:20:03] [Server thread/INFO]: [0;32;1m\    \_\  \  [0;36;22mServer Version: [0;30;1m3534-Spigot-56be6a8-6c61b73 (MC: 1.19)[m
-[11:20:03] [Server thread/INFO]: [0;32;1m \______  /[m
-[11:20:03] [Server thread/INFO]: [0;32;1m        \/ [m
-[11:20:03] [Server thread/INFO]: Economy Found: EssentialsX Economy
-[11:20:03] [Server thread/INFO]: Permissions Found: LuckPerms
-[11:20:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: guilds [2.1]
-[11:20:04] [Server thread/INFO]: Ready to go! That only took 1257ms
-[11:20:04] [Server thread/INFO]: [BanItem] Enabling BanItem v3.4
-[11:20:04] [Server thread/INFO]: [MoneyFromMobs] Enabling MoneyFromMobs v4.6
-[11:20:05] [ForkJoinPool.commonPool-worker-1/INFO]: [Guilds] Your version of Guilds (3.5.6.4) is up to date!
-[11:20:06] [Server thread/INFO]: [SCore] Enabling SCore v3.1.9
-[11:20:06] [Server thread/INFO]: ================ [SCore] ================[m
-[11:20:06] [Server thread/INFO]: [SCore] ExecutableItems hooked !
-[11:20:06] [Server thread/INFO]: [SCore] PlaceholderAPI hooked !
-[11:20:06] [Server thread/INFO]: [SCore] WorldGuard hooked !
-[11:20:06] [Server thread/INFO]: [SCore] Vault hooked !
-[11:20:06] [Server thread/INFO]: [SCore] ProtocolLib hooked !
-[11:20:06] [Server thread/INFO]: [SCore] Locale setup: EN
-[11:20:06] [Server thread/INFO]: [SCore] Language setup on EN
-[11:20:06] [Server thread/INFO]: [SCore] [SCore] Connexion to the db...
-[11:20:06] [Server thread/INFO]: [SCore] [SCore] Verification of the table SecurityOP...
-[11:20:06] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands...
-[11:20:06] [Server thread/INFO]: [SCore] [SCore] Verification of the table Cooldowns...
-[11:20:06] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Player...
-[11:20:06] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Entity...
-[11:20:06] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Block...
-[11:20:06] [Server thread/INFO]: [SCore] Verification of the table UsePerDay...
-[11:20:07] [TaskChainAsyncQueue Thread 0/INFO]: §6§lFeatures
+[14:43:40] [ServerMain/INFO]: Building unoptimized datafixer
+[14:43:41] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:43:44] [ServerMain/INFO]: Loaded 7 recipes
+[14:43:45] [Server thread/INFO]: Starting minecraft server version 1.19
+[14:43:45] [Server thread/INFO]: Loading properties
+[14:43:45] [Server thread/INFO]: This server is running CraftBukkit version 3534-Spigot-56be6a8-6c61b73 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT)
+[14:43:46] [Server thread/INFO]: Debug logging is disabled
+[14:43:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:43:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:43:46] [Server thread/INFO]: Default game type: SURVIVAL
+[14:43:46] [Server thread/INFO]: Generating keypair
+[14:43:46] [Server thread/INFO]: Starting Minecraft server on 26.119.135.221:25565
+[14:43:46] [Server thread/INFO]: Using default channel type
+[14:43:48] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.41
+[14:43:48] [Server thread/INFO]: [LootChest] Loading LootChest v2.3.3
+[14:43:48] [Server thread/INFO]: [Tim] Loading TimTheEnchanter v2.1
+[14:43:48] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
+[14:43:48] [Server thread/INFO]: [SimpleRTP] Loading SimpleRTP v2.5
+[14:43:48] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[14:43:48] [Server thread/INFO]: [SetSpawn] Loading SetSpawn v4.3
+[14:43:48] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[14:43:48] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b560
+[14:43:50] [Server thread/INFO]: [Chatty] Loading Chatty v2.19.12
+[14:43:50] [Server thread/INFO]: [nLogin] Loading nLogin v10.1.2
+[14:43:50] [Server thread/INFO]: [nLogin] Connecting to the remote server api.nickuc.com...
+[14:43:50] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
+[14:43:50] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[14:43:51] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@67bc2b87]
+[14:43:51] [Server thread/INFO]: [PlayerKits] Loading PlayerKits v2.24.3
+[14:43:51] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4
+[14:43:51] [Server thread/INFO]: [TAB] Loading TAB v3.1.4
+[14:43:51] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.8-beta-01+cbb2ba7
+[14:43:51] [Server thread/INFO]: [Guilds] Loading Guilds v3.5.6.4
+[14:43:51] [Server thread/INFO]: [Guilds] Loading Libraries...
+[14:43:51] [Server thread/INFO]: [Guilds] Note: This might take a few minutes on first run. Kindly ensure internet connectivity.
+[14:43:52] [Server thread/INFO]: [Guilds] Loaded libraries in 0,772 seconds
+[14:43:52] [Server thread/INFO]: [BanItem] Loading BanItem v3.4
+[14:43:52] [Server thread/INFO]: [MoneyFromMobs] Loading MoneyFromMobs v4.6
+[14:43:52] [Server thread/INFO]: [SCore] Loading SCore v3.1.9
+[14:43:52] [Server thread/INFO]: [ExecutableItems] Loading ExecutableItems v5.1.9
+[14:43:52] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.41
+[14:43:52] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[14:43:52] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.41[m
+[14:43:52] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[14:43:52] [Server thread/INFO]: [m
+[14:43:52] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:43:53] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[14:43:53] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:43:53] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:43:53] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1839ms)
+[14:43:53] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[14:43:54] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.4 which is not a depend or softdepend of this plugin.
+[14:43:54] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[14:43:54] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:43:54] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[14:43:54] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[14:43:54] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b560
+[14:43:54] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[14:43:54] [Server thread/INFO]: [nLogin] Enabling nLogin v10.1.2
+[14:43:54] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.40s)
+[14:43:54] [Server thread/INFO]: [0;34;1m          __             _       [m
+[14:43:54] [Server thread/INFO]: [0;34;1m  _ __   / /  ___   __ _(_)_ __  [m
+[14:43:54] [Server thread/INFO]: [0;34;1m | '_ \ / /  / _ \ / _` | | '_ \ [m
+[14:43:54] [Server thread/INFO]: [0;34;1m | | | / /__| (_) | (_| | | | | |[m
+[14:43:54] [Server thread/INFO]: [0;34;1m |_| |_\____/\___/ \__, |_|_| |_|[m
+[14:43:54] [Server thread/INFO]: [0;34;1m                  |___/            [m
+[14:43:54] [Server thread/INFO]: [0;34;1m By: www.nickuc.com - V 10.1.2 DEVELOPMENT[m
+[14:43:54] [Server thread/INFO]: [0;34;1m[m
+[14:43:55] [Server thread/INFO]: [nLogin] nLogin was loaded in 1028ms.
+[14:43:55] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[14:43:55] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:43:55] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[14:43:55] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[14:43:57] [Server thread/INFO]: [WorldEdit] ====================================================
+[14:43:57] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[14:43:57] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[14:43:57] [Server thread/INFO]: [WorldEdit]   
+[14:43:57] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[14:43:57] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[14:43:57] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[14:43:57] [Server thread/INFO]: [WorldEdit]   
+[14:43:57] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[14:43:57] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[14:43:57] [Server thread/INFO]: [WorldEdit]   
+[14:43:57] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[14:43:57] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[14:43:57] [Server thread/INFO]: [WorldEdit]   
+[14:43:57] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[14:43:57] [Server thread/INFO]: [WorldEdit] ====================================================
+[14:43:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:43:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:43:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:43:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:43:57] [Server thread/INFO]: Preparing level "world"
+[14:43:57] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:43:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:43:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:43:57] [Server thread/INFO]: View Distance: 8
+[14:43:57] [Server thread/INFO]: Simulation Distance: 10
+[14:43:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:43:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:43:57] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:43:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:43:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:43:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:43:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:43:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:43:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:43:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:43:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:43:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:43:57] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:43:57] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:43:57] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:43:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:43:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:43:57] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:43:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:43:57] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:43:57] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:43:57] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:43:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:43:57] [Server thread/INFO]: Max TNT Explosions: 100
+[14:43:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:43:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
+[14:43:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:43:57] [Server thread/INFO]: Mob Spawn Range: 6
+[14:43:58] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:43:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:43:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:43:58] [Server thread/INFO]: View Distance: 8
+[14:43:58] [Server thread/INFO]: Simulation Distance: 10
+[14:43:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:43:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:43:58] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:43:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:43:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:43:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:43:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:43:58] [Server thread/INFO]: Max TNT Explosions: 100
+[14:43:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:43:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
+[14:43:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:43:58] [Server thread/INFO]: Mob Spawn Range: 6
+[14:43:58] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:43:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:43:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:43:58] [Server thread/INFO]: View Distance: 8
+[14:43:58] [Server thread/INFO]: Simulation Distance: 10
+[14:43:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:43:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:43:58] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:43:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:43:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:43:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:43:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:43:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:43:58] [Server thread/INFO]: Max TNT Explosions: 100
+[14:43:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:43:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 32 / Mo 32 / Mi 16 / Other 64
+[14:43:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:43:58] [Server thread/INFO]: Mob Spawn Range: 6
+[14:43:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:44:02] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[14:44:02] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[14:44:02] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[14:44:02] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[14:44:02] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[14:44:02] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[14:44:02] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[14:44:02] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[14:44:02] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[14:44:15] [Worker-Main-15/INFO]: Preparing spawn area: 9%
+[14:44:16] [Worker-Main-13/INFO]: Preparing spawn area: 34%
+[14:44:16] [Worker-Main-2/INFO]: Preparing spawn area: 56%
+[14:44:17] [Worker-Main-5/INFO]: Preparing spawn area: 67%
+[14:44:17] [Worker-Main-2/INFO]: Preparing spawn area: 86%
+[14:44:18] [Worker-Main-10/INFO]: Preparing spawn area: 86%
+[14:44:18] [Worker-Main-5/INFO]: Preparing spawn area: 96%
+[14:44:19] [Server thread/INFO]: Time elapsed: 20775 ms
+[14:44:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:44:21] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[14:44:21] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[14:44:21] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[14:44:21] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:44:21] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:44:21] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:44:22] [Worker-Main-10/INFO]: Preparing spawn area: 83%
+[14:44:22] [Server thread/INFO]: Time elapsed: 3131 ms
+[14:44:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:44:23] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[14:44:23] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[14:44:23] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[14:44:23] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[14:44:24] [Worker-Main-7/INFO]: Preparing spawn area: 75%
+[14:44:24] [Server thread/INFO]: Time elapsed: 2165 ms
+[14:44:24] [Server thread/INFO]: [LootChest] Enabling LootChest v2.3.3
+[14:44:24] [Server thread/INFO]: [LootChest] Server version: 1.19
+[14:44:24] [Server thread/INFO]: [LootChest] Loading config files...
+[14:44:24] [Server thread/INFO]: [LootChest] Checking for update...
+[14:44:24] [Server thread/INFO]: [LootChest] Starting particles...
+[14:44:24] [Server thread/INFO]: [Tim] Enabling TimTheEnchanter v2.1
+[14:44:24] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[14:44:24] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[14:44:24] [Server thread/INFO]: [SimpleRTP] Enabling SimpleRTP v2.5
+[14:44:24] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[14:44:24] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[14:44:24] [Server thread/INFO]: [ClearLag] Loading modules...
+[14:44:24] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_19_R1.MinecraftServer)
+[14:44:24] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[14:44:24] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[14:44:24] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[14:44:24] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.19]...
+[14:44:24] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v4.3
+[14:44:24] [Server thread/INFO]: [SetSpawn] Enabled!
+[14:44:24] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.12
+[14:44:24] [Server thread/INFO]: [Chatty] Vault has successful hooked.
+[14:44:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: chatty [2.19.12]
+[14:44:24] [Server thread/INFO]: [Chatty] PlaceholderAPI has successful hooked.
+[14:44:24] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
+[14:44:24] [Thread-10/INFO]: [ClearLag] No updates found!
+[14:44:24] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m[m
+[14:44:25] [Server thread/INFO]: [PlayerKits] Enabling PlayerKits v2.24.3
+[14:44:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerkits [2.24.3]
+[14:44:25] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mHas been enabled! [0;37;1mVersion: 2.24.3[m
+[14:44:25] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mThanks for using my plugin!  [0;37;1m~Ajneb97[m
+[14:44:25] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4
+[14:44:25] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[14:44:25] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[14:44:25] [Server thread/INFO]: No kits found to migrate.
+[14:44:25] [Server thread/WARN]: java.lang.NoSuchMethodException: no such method: net.minecraft.server.MinecraftServer.v()boolean/invokeVirtual
+[14:44:25] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName.makeAccessException(MemberName.java:976)
+[14:44:25] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1117)
+[14:44:25] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:3649)
+[14:44:25] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandles$Lookup.findVirtual(MethodHandles.java:2680)
+[14:44:25] [Server thread/WARN]: 	at net.ess3.nms.refl.providers.ReflServerStateProvider.<init>(ReflServerStateProvider.java:20)
+[14:44:25] [Server thread/WARN]: 	at com.earth2me.essentials.Essentials.onEnable(Essentials.java:382)
+[14:44:25] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[14:44:25] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+[14:44:25] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479)
+[14:44:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:520)
+[14:44:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:434)
+[14:44:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:582)
+[14:44:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:401)
+[14:44:25] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:255)
+[14:44:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:966)
+[14:44:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:291)
+[14:44:25] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[14:44:25] [Server thread/WARN]: Caused by: java.lang.NoSuchMethodError: 'boolean net.minecraft.server.MinecraftServer.v()'
+[14:44:25] [Server thread/WARN]: 	at java.base/java.lang.invoke.MethodHandleNatives.resolve(Native Method)
+[14:44:25] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolve(MemberName.java:1085)
+[14:44:25] [Server thread/WARN]: 	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:1114)
+[14:44:25] [Server thread/WARN]: 	... 15 more
+[14:44:25] [Server thread/INFO]: Loaded 36926 items from items.json.
+[14:44:25] [Server thread/INFO]: Using locale ru
+[14:44:25] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[14:44:26] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[14:44:26] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[14:44:26] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[14:44:26] [Server thread/INFO]: [TAB] Enabling TAB v3.1.4
+[14:44:26] [Server thread/INFO]: [TAB] Server version: 1.19 (v1_19_R1)[m
+[14:44:26] [Server thread/INFO]: [TAB] Loaded NMS hook in 27ms[m
+[14:44:26] [Server thread/INFO]: [TAB] [0;32;1mEnabled in 102ms[m
+[14:44:26] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.8-beta-01+cbb2ba7
+[14:44:26] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[14:44:26] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[14:44:26] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[14:44:26] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[14:44:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[14:44:26] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[14:44:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[14:44:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[14:44:26] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[14:44:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[14:44:26] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[14:44:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[14:44:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[14:44:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[14:44:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[14:44:26] [Server thread/INFO]: [WorldGuard] Loading region data...
+[14:44:26] [Server thread/INFO]: [Guilds] Enabling Guilds v3.5.6.4
+[14:44:26] [Server thread/INFO]: [0;32;1m  ________ [m
+[14:44:26] [Server thread/INFO]: [0;32;1m /  _____/ [m
+[14:44:26] [Server thread/INFO]: [0;32;1m/   \  ___   [0;36;22mGuilds [0;30;1mv3.5.6.4[m
+[14:44:26] [Server thread/INFO]: [0;32;1m\    \_\  \  [0;36;22mServer Version: [0;30;1m3534-Spigot-56be6a8-6c61b73 (MC: 1.19)[m
+[14:44:26] [Server thread/INFO]: [0;32;1m \______  /[m
+[14:44:26] [Server thread/INFO]: [0;32;1m        \/ [m
+[14:44:27] [Server thread/INFO]: Economy Found: EssentialsX Economy
+[14:44:27] [Server thread/INFO]: Permissions Found: LuckPerms
+[14:44:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: guilds [2.1]
+[14:44:28] [Server thread/INFO]: Ready to go! That only took 1205ms
+[14:44:28] [Server thread/INFO]: [BanItem] Enabling BanItem v3.4
+[14:44:28] [Server thread/INFO]: [MoneyFromMobs] Enabling MoneyFromMobs v4.6
+[14:44:28] [ForkJoinPool.commonPool-worker-1/INFO]: [Guilds] Your version of Guilds (3.5.6.4) is up to date!
+[14:44:28] [Server thread/INFO]: [SCore] Enabling SCore v3.1.9
+[14:44:28] [Server thread/INFO]: ================ [SCore] ================[m
+[14:44:28] [Server thread/INFO]: [SCore] ExecutableItems hooked !
+[14:44:28] [Server thread/INFO]: [SCore] PlaceholderAPI hooked !
+[14:44:28] [Server thread/INFO]: [SCore] WorldGuard hooked !
+[14:44:28] [Server thread/INFO]: [SCore] Vault hooked !
+[14:44:28] [Server thread/INFO]: [SCore] ProtocolLib hooked !
+[14:44:28] [Server thread/ERROR]: [SCore] Invalid locale name: RU
+[14:44:28] [Server thread/INFO]: [SCore] Language setup on EN
+[14:44:28] [Server thread/INFO]: [SCore] [SCore] Connexion to the db...
+[14:44:28] [Server thread/INFO]: [SCore] [SCore] Verification of the table SecurityOP...
+[14:44:28] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands...
+[14:44:28] [Server thread/INFO]: [SCore] [SCore] Verification of the table Cooldowns...
+[14:44:28] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Player...
+[14:44:28] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Entity...
+[14:44:28] [Server thread/INFO]: [SCore] [SCore] Verification of the table Commands Block...
+[14:44:28] [Server thread/INFO]: [SCore] Verification of the table UsePerDay...
+[14:44:28] [TaskChainAsyncQueue Thread 0/INFO]: §6§lFeatures
 §a- Added support for Minecraft 1.19
 
 §6§lBug Fixes
@@ -389,478 +388,122 @@
 §a- I need some people to volunteer testing on a new PR coming that will allow you to use a player's skull in the Guild Members GUI instead of a static item. If you are interested, please let me know.
 
 
-[11:20:07] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW was loaded !
-[11:20:07] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW_NO_GRAVITY was loaded !
-[11:20:07] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW_NO_GRAVITY_SPEED was loaded !
-[11:20:07] [Server thread/INFO]: [SCore] projectile not editable FAIRYTAIL_GRAY_FULLBUSTER_1 was loaded !
-[11:20:07] [Server thread/INFO]: [SCore] projectile not editable FAIRYTAIL_NATSU_DRAGNEEL_1 was loaded !
-[11:20:07] [Server thread/INFO]: [SCore] projectile not editable FATE_ARCHER_1 was loaded !
-[11:20:07] [Server thread/INFO]: [SCore] projectile not editable FATE_ARCHER_2 was loaded !
-[11:20:07] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_1 was loaded !
-[11:20:07] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_2 was loaded !
-[11:20:07] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_3 was loaded !
-[11:20:07] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_1 was loaded !
-[11:20:07] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_2 was loaded !
-[11:20:07] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_3 was loaded !
-[11:20:07] [Server thread/INFO]: [SCore] projectile not editable FATE_RIDER_1 was loaded !
-[11:20:07] [Server thread/INFO]: [SCore] projectile not editable HUNTERXHUNTER_GON_FREECSS_1 was loaded !
-[11:20:07] [Server thread/INFO]: [SCore] projectile not editable HUNTERXHUNTER_KURAPIKA_1 was loaded !
-[11:20:07] [Server thread/INFO]: [SCore] projectile not editable MADOKA_HOMURA_AKEMI_1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable MADOKA_MADOKA_KANAME_1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable MADOKA_MAMI_TOMOE_1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable MHA_DENKI_KAMINARI_1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable MHA_IZUKU_MIDORIYA_1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable MHA_MINA_ASHIDO_ACID_1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable MHA_MINA_ASHIDO_ACID_2 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable MHA_SHOTO_TODOROKI_2 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_1_FIRE_FIST was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_2_FIRE_GUN was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_3_FIREFLY was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_002_1_FREEZE_BEAM was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_002_2_FREEZE_BOMB was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_003_1_TELEPORT was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_003_2_LIGHTNING_STRIKE was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_004_1_BLACK_HOLE was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_1_FLIGHT was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_2_FLAME_WALL was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_3_FIREBALL was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable OPM_GENOS_1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable OPM_SPEED_O_SONIC_1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable PACK_2_06 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable PACK_2_12 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile not editable proj_tornado_blade was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile arrow1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile egg1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile enderpearl1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile fireball1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile lingering1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile shulkerbullet1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile snowball1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile trident1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile tridentCustom1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] projectile witherskull1 was loaded !
-[11:20:08] [Server thread/INFO]: [SCore] 0 saved commands loaded !
-[11:20:08] [Server thread/INFO]: ================ [SCore] ================[m
-[11:20:08] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v5.1.9
-[11:20:08] [Server thread/INFO]: ================ [*ExecutableItems*] ================
-[11:20:08] [Server thread/INFO]: [ExecutableItems] PlaceholderAPI hooked !
-[11:20:11] [Server thread/INFO]: [ExecutableItems] [ExecutableItems] Connexion to the db...
-[11:20:11] [Server thread/INFO]: ================ [ExecutableItems] ================
-[11:20:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:20:11] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[11:20:11] [Server thread/INFO]: Done (37.102s)! For help, type "help"
-[11:20:11] [Server thread/INFO]: [LootChest] Loading chests...
-[11:20:11] [Server thread/INFO]: [LootChest] Removed 0 holograms
-[11:20:11] [Server thread/INFO]: [LootChest] Loaded 0 Lootchests in 9 miliseconds
-[11:20:11] [Server thread/INFO]: [LootChest] Starting LootChest timers asynchronously...
-[11:20:11] [Server thread/INFO]: [LootChest] Plugin loaded
-[11:20:11] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[11:20:11] [Craft Scheduler Thread - 10/INFO]: [Essentials] §6Получение информации о версии...
-[11:20:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.3]
-[11:20:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic [2.0.1]
-[11:20:11] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
-[11:20:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.7.1]
-[11:20:11] [Server thread/INFO]: [0;32;1m3 placeholder hook(s) registered![m
-[11:20:12] [Craft Scheduler Thread - 5/INFO]: [LootChest] §aThe plugin seems up to date.
-[11:20:12] [Craft Scheduler Thread - 10/WARN]: [Essentials] §4Для скачивания доступна новая версия EssentialsX: §c2.19.7§4.
-[11:20:12] [Craft Scheduler Thread - 10/WARN]: [Essentials] §4Скачайте её отсюда:§c https://essentialsx.net/downloads.html?branch=stable
-[11:20:12] [Server thread/INFO]: [BanItem] Successfully loaded 0 blacklisted & 0 whitelisted item(s).[m
-[11:20:12] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[11:20:12] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
-[11:20:12] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
-[11:20:12] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
-[11:20:12] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
-[11:20:12] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
-[11:20:12] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[11:20:12] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m[m
-[11:20:12] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
-[11:20:12] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[11:23:12] [User Authenticator #1/INFO]: UUID of player Manteecora is 3d5adfea-d973-37c0-bcdc-a42c34be5b7b
-[11:23:13] [Server thread/INFO]: > [Игрок] Manteecora joined the server.
-[11:23:13] [Server thread/INFO]: Manteecora[/26.119.135.221:51573] logged in with entity id 251 at ([world]-7.096102447560228, 90.0, 11.209238935943278)
-[11:23:14] [User Authenticator #2/INFO]: UUID of player mmmmma is dab13737-6772-35b3-9a47-b1e3bece8a3a
-[11:23:14] [Server thread/INFO]: > [Игрок] mmmmma joined the server for the first time!
-[11:23:14] [Server thread/INFO]: mmmmma[/26.119.135.221:51577] logged in with entity id 256 at ([world]-1.5, 80.0, -5.5)
-[11:23:24] [Craft Scheduler Thread - 12/INFO]: [nLogin] The user mmmmma has successfully logged in.
-[11:23:32] [Craft Scheduler Thread - 12/INFO]: [nLogin] The user Manteecora has successfully logged in.
-[11:23:40] [Server thread/INFO]: Manteecora issued server command: /gm 1
-[11:27:01] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1m&0[&5фенрир&0][0;30;1m)[m
-[11:27:01] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mcreate[m
-[11:28:23] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1m&0[&5фенрир&0][0;30;1m)[m
-[11:28:23] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:28:27] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1madmin[0;30;1m)[m
-[11:28:27] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:28:30] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mbuilder[0;30;1m)[m
-[11:28:30] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:28:34] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mconstellation[0;30;1m)[m
-[11:28:34] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:28:37] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mcoowner[0;30;1m)[m
-[11:28:37] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:28:45] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdeluxe[0;30;1m)[m
-[11:28:45] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:28:49] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdemons[0;30;1m)[m
-[11:28:49] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:28:52] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1melite[0;30;1m)[m
-[11:28:52] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:28:56] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mfly[0;30;1m)[m
-[11:28:56] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:29:00] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mgladmin[0;30;1m)[m
-[11:29:00] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:29:04] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mgod[0;30;1m)[m
-[11:29:04] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:29:07] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mhelper[0;30;1m)[m
-[11:29:07] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:29:10] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mking[0;30;1m)[m
-[11:29:10] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:29:13] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mleader[0;30;1m)[m
-[11:29:13] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:29:16] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlord[0;30;1m)[m
-[11:29:16] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:29:19] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmlmoder[0;30;1m)[m
-[11:29:19] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:29:23] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mmoder[0;30;1m)[m
-[11:29:23] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:29:26] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mowner[0;30;1m)[m
-[11:29:26] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:29:28] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mpapa[0;30;1m)[m
-[11:29:28] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:29:31] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mpremium[0;30;1m)[m
-[11:29:31] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:29:35] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mpremiumplus[0;30;1m)[m
-[11:29:35] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:29:38] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mvip[0;30;1m)[m
-[11:29:38] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:37:13] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mthrael[0;30;1m)[m
-[11:37:13] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mcreate[m
-[11:37:23] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[11:37:23] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mcreate[m
-[11:37:53] [Server thread/INFO]: mmmmma lost connection: Вы были кикнуты за бездействие более 10 минут.
-[11:37:54] [Server thread/INFO]: > [Игрок] mmmmma left the server.
-[11:38:11] [User Authenticator #3/INFO]: UUID of player mmmmma is dab13737-6772-35b3-9a47-b1e3bece8a3a
-[11:38:11] [Server thread/INFO]: > [Игрок] mmmmma joined the server.
-[11:38:12] [Server thread/INFO]: mmmmma[/26.119.135.221:52486] logged in with entity id 1615 at ([world]-1.7097392124319617, 88.0, 2.346473512708767)
-[11:38:22] [Craft Scheduler Thread - 24/INFO]: [nLogin] The user mmmmma has successfully logged in.
-[11:38:56] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlagen[0;30;1m)[m
-[11:38:56] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mcreate[m
-[11:40:30] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mthrael[0;30;1m)[m
-[11:40:30] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mdelete[m
-[11:40:45] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mstabkerl[0;30;1m)[m
-[11:40:45] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mcreate[m
-[11:41:09] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mgodi[0;30;1m)[m
-[11:41:09] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mcreate[m
-[11:42:00] [luckperms-worker-5/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mgodi[0;30;1m)[m
-[11:42:00] [luckperms-worker-5/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor delete[m
-[11:42:54] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mhevding[0;30;1m)[m
-[11:42:54] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mcreate[m
-[11:44:01] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[11:44:01] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mcreate[m
-[11:44:15] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mjarl[0;30;1m)[m
-[11:44:15] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mcreate[m
-[11:44:50] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mruler[0;30;1m)[m
-[11:44:50] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mcreate[m
-[11:45:57] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mstabkerl[0;30;1m)[m
-[11:45:57] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1msetweight 2[m
-[11:46:15] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[11:46:15] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1msetweight 3[m
-[11:46:32] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlagen[0;30;1m)[m
-[11:46:32] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1msetweight 4[m
-[11:46:50] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mhevding[0;30;1m)[m
-[11:46:50] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1msetweight 5[m
-[11:47:03] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[11:47:03] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1msetweight 6[m
-[11:47:17] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mjarl[0;30;1m)[m
-[11:47:17] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1msetweight 7[m
-[11:47:33] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mruler[0;30;1m)[m
-[11:47:33] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1msetweight 8[m
-[11:48:25] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[11:48:25] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove prefix.1.&8[&7Игрок&8] &7 true[m
-[11:48:26] [Server thread/INFO]: mmmmma lost connection: Вы были кикнуты за бездействие более 10 минут.
-[11:48:26] [Server thread/INFO]: > mmmmma left the server.
-[11:50:50] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[11:50:50] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 1 &8[&7Трели&8] &f[m
-[11:51:44] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mstabkerl[0;30;1m)[m
-[11:51:44] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 2 &7[&fСтабкерл&7] &f[m
-[11:52:19] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mmanteecora[0;30;1m)[m
-[11:52:19] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set stabkerl[m
-[11:54:52] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[11:54:52] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 3 &f[&3Ландбоар&f] &f[m
-[11:56:07] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mmanteecora[0;30;1m)[m
-[11:56:07] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set default[m
-[11:56:25] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mmanteecora[0;30;1m)[m
-[11:56:25] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set stabkerl[m
-[11:56:41] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mmanteecora[0;30;1m)[m
-[11:56:41] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set landboar[m
-[12:00:45] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlagen[0;30;1m)[m
-[12:00:45] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 4 &0[&cЛагман&f] &0[m
-[12:01:00] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlagen[0;30;1m)[m
-[12:01:00] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 4 &0[&cЛагман&f] &0[m
-[12:01:52] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlagen[0;30;1m)[m
-[12:01:52] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 4 &0[&cЛагман&0] &f[m
-[12:02:35] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlagen[0;30;1m)[m
-[12:02:35] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 4 *[m
-[12:03:15] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlagen[0;30;1m)[m
-[12:03:15] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 4 &4[&cЛагман&4] &f[m
-[12:03:33] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mmanteecora[0;30;1m)[m
-[12:03:33] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent add lagen[m
-[12:05:10] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlagen[0;30;1m)[m
-[12:05:10] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 4 *[m
-[12:05:31] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlagen[0;30;1m)[m
-[12:05:31] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 4 &2[&aЛагман&2] &f[m
-[12:05:50] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlagen[0;30;1m)[m
-[12:05:50] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 4 *[m
-[12:06:40] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[12:06:40] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 3 *[m
-[12:07:01] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[12:07:01] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 3 &2[&aЛандбоар&2] &f[m
-[12:07:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[12:07:48] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 3 *[m
-[12:07:56] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[12:07:56] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 3 &a[&2Ландбоар&a] &f[m
-[12:08:45] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlagen[0;30;1m)[m
-[12:08:45] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 4 &b[&3Лагман&b] &f[m
-[12:11:35] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mhevding[0;30;1m)[m
-[12:11:35] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 4 &b[&3Хёвдинг&b] &f[m
-[12:11:44] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[12:11:44] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 4 *[m
-[12:12:12] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mhevding[0;30;1m)[m
-[12:12:12] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 4 &9[&1Хёвдинг&9] &f[m
-[12:12:37] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mmanteecora[0;30;1m)[m
-[12:12:37] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set hevding[m
-[12:14:08] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[12:14:08] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 4 *[m
-[12:14:51] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mhevding[0;30;1m)[m
-[12:14:51] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 4 &b[&9Хёвдинг&b] &f[m
-[12:15:14] [Server thread/INFO]: Manteecora issued server command: /time set day
-[12:15:38] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[12:15:38] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 4 *[m
-[12:17:05] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[12:17:05] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 4 *[m
-[12:17:43] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[12:17:43] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 4 *[m
-[12:17:55] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mhevding[0;30;1m)[m
-[12:17:55] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 4 &1[&9Хёвдинг&1] &f[m
-[12:21:53] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[12:21:53] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 5 &c[&bЛендрман&c] &f[m
-[12:22:04] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[12:22:04] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 5 *[m
-[12:22:53] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[12:22:53] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 5 &c[&4Лендрман&c] &f[m
-[12:23:03] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[12:23:03] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 5 *[m
-[12:23:15] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[12:23:15] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 5 &4[&cЛендрман&4] &f[m
-[12:23:37] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mmanteecora[0;30;1m)[m
-[12:23:37] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set lenderman[m
-[12:24:25] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[12:24:25] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 5 *[m
-[12:24:53] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[12:24:53] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 5 &5[&dЛендрман&5] &f[m
-[12:25:22] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[12:25:22] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 5 *[m
-[12:25:42] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mhevding[0;30;1m)[m
-[12:25:42] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 5 &1[&9Хёвдинг&1] &f[m
-[12:25:54] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[12:25:54] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 6 &5[&dЛендрман&5] &f[m
-[12:26:34] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mmanteecora[0;30;1m)[m
-[12:26:34] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set default[m
-[12:26:44] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mmanteecora[0;30;1m)[m
-[12:26:44] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set stabkerl[m
-[12:26:50] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mmanteecora[0;30;1m)[m
-[12:26:50] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set landboar[m
-[12:26:57] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mmanteecora[0;30;1m)[m
-[12:26:57] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set lagen[m
-[12:27:06] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mmanteecora[0;30;1m)[m
-[12:27:06] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set landboar[m
-[12:27:12] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mmanteecora[0;30;1m)[m
-[12:27:12] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set hevding[m
-[12:27:22] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mmanteecora[0;30;1m)[m
-[12:27:22] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set lenderman[m
-[12:28:14] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mjarl[0;30;1m)[m
-[12:28:14] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 7 &5[&dЛендрман&5] &f[m
-[12:28:23] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[12:28:23] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 7 &5[&dЛендрман&5] &f[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mjarl[0;30;1m)[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove prefix.7.&5[&dЛендрман&5] &f true[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove prefix.5.&4[&cЛендрман&4] &f true[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove prefix.5.&5[&dЛендрман&5] &f true[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove prefix.5.&c[&4Лендрман&c] &f true[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove prefix.5.&c[&bЛендрман&c] &f true[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove prefix.7.&5[&dЛендрман&5] &f true[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mhevding[0;30;1m)[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove prefix.4.&1[&9Хёвдинг&1] &f true[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mhevding[0;30;1m)[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove prefix.4.&9[&1Хёвдинг&9] &f true[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mhevding[0;30;1m)[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove prefix.4.&b[&3Хёвдинг&b] &f true[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mhevding[0;30;1m)[m
-[12:29:47] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove prefix.4.&b[&9Хёвдинг&b] &f true[m
-[12:31:18] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mjarl[0;30;1m)[m
-[12:31:18] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 7 &5[&dЯрл&5] &f[m
-[12:31:42] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mjarl[0;30;1m)[m
-[12:31:42] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 7 *[m
-[12:31:58] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mjarl[0;30;1m)[m
-[12:31:58] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 7 &4[&cЯрл&4] &f[m
-[12:32:19] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mmanteecora[0;30;1m)[m
-[12:32:19] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set jarl[m
-[12:32:39] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mjarl[0;30;1m)[m
-[12:32:39] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 7 *[m
-[12:32:55] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mjarl[0;30;1m)[m
-[12:32:55] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 7 &e[&6Ярл&e] &f[m
-[12:34:41] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mruler[0;30;1m)[m
-[12:34:41] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 8 &c[&4Конунг&c] &f[m
-[12:35:02] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mruler[0;30;1m)[m
-[12:35:02] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta removeprefix 8 &c[&4Конунг&c] &f[m
-[12:35:14] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mruler[0;30;1m)[m
-[12:35:14] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mmeta addprefix 8 &4[&cКонунг&4] &f[m
-[12:35:30] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mU[0;30;1m][m [0;30;1m([0;36;1mmanteecora[0;30;1m)[m
-[12:35:30] [luckperms-command-executor/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mparent set ruler[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mruler[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.lagen true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mruler[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.default true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mruler[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.lenderman true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mruler[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.stabkerl true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mruler[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.landboar true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mruler[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.hevding true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mruler[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.jarl true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mjarl[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.lagen true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mjarl[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.default true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mjarl[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.lenderman true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mjarl[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.stabkerl true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mjarl[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.landboar true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mjarl[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.hevding true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.lagen true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.default true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.stabkerl true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.landboar true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlenderman[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.hevding true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mhevding[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.lagen true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mhevding[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.default true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mhevding[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.stabkerl true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mhevding[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.landboar true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlagen[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.default true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlagen[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.stabkerl true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlagen[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.landboar true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.default true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mlandboar[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.stabkerl true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mstabkerl[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add group.default true[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add default[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add stabkerl[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add landboar[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add lagen[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add hevding[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add lenderman[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add jarl[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add ruler[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove fly[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove vip[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove builder[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove elite[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove premium[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove premiumplus[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove deluxe[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove leader[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove lord[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove king[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove papa[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove god[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove demons[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove helper[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove mlmoder[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove moder[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove admin[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove gladmin[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove coowner[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove owner[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:40:16] [luckperms-worker-13/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor delete[m
-[12:42:53] [Server thread/INFO]: Manteecora issued server command: /kits
-[12:43:10] [User Authenticator #4/INFO]: UUID of player mmmmma is dab13737-6772-35b3-9a47-b1e3bece8a3a
-[12:43:11] [Server thread/INFO]: > [Трели] mmmmma joined the server.
-[12:43:11] [Server thread/INFO]: mmmmma[/26.119.135.221:53922] logged in with entity id 7532 at ([world]1.8470817986948167, 87.0, 1.346901253138143)
-[12:43:20] [Craft Scheduler Thread - 52/INFO]: [nLogin] The user mmmmma has successfully logged in.
-[12:43:28] [Server thread/INFO]: mmmmma issued server command: /kit
-[12:46:08] [Server thread/INFO]: Manteecora issued server command: /kit edit Eat
-[12:47:42] [Server thread/INFO]: > [Трели] mmmmma died.
-[12:50:33] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:50:33] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add default[m
-[12:50:33] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:50:33] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add stabkerl[m
-[12:50:33] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:50:33] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add landboar[m
-[12:50:33] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:50:33] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add lagen[m
-[12:50:33] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:50:33] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add hevding[m
-[12:50:33] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:50:33] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add lenderman[m
-[12:50:33] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:50:33] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add jarl[m
-[12:50:33] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mT[0;30;1m][m [0;30;1m([0;36;1mdonat[0;30;1m)[m
-[12:50:33] [luckperms-worker-10/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add ruler[m
-[12:53:12] [luckperms-worker-15/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
-[12:53:12] [luckperms-worker-15/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove playerkits true[m
-[12:53:40] [Server thread/INFO]: mmmmma issued server command: /kit
-[12:53:51] [Server thread/INFO]: mmmmma lost connection: Disconnected
-[12:53:51] [Server thread/INFO]: > [Трели] mmmmma left the server.
-[12:53:53] [Server thread/INFO]: Manteecora lost connection: Disconnected
-[12:53:53] [Server thread/INFO]: > [Конунг] Manteecora left the server.
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW_NO_GRAVITY was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable DEFAULT_INVISIBLE_ARROW_NO_GRAVITY_SPEED was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable FAIRYTAIL_GRAY_FULLBUSTER_1 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable FAIRYTAIL_NATSU_DRAGNEEL_1 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable FATE_ARCHER_1 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable FATE_ARCHER_2 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_1 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_2 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable FATE_CASTER_3 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_1 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_2 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable FATE_GILGAMESH_3 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable FATE_RIDER_1 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable HUNTERXHUNTER_GON_FREECSS_1 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable HUNTERXHUNTER_KURAPIKA_1 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable MADOKA_HOMURA_AKEMI_1 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable MADOKA_MADOKA_KANAME_1 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable MADOKA_MAMI_TOMOE_1 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable MHA_DENKI_KAMINARI_1 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable MHA_IZUKU_MIDORIYA_1 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable MHA_MINA_ASHIDO_ACID_1 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable MHA_MINA_ASHIDO_ACID_2 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable MHA_SHOTO_TODOROKI_2 was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_1_FIRE_FIST was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_2_FIRE_GUN was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_001_3_FIREFLY was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_002_1_FREEZE_BEAM was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_002_2_FREEZE_BOMB was loaded !
+[14:44:29] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_003_1_TELEPORT was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_003_2_LIGHTNING_STRIKE was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_004_1_BLACK_HOLE was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_1_FLIGHT was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_2_FLAME_WALL was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile not editable ONEPIECE_005_3_FIREBALL was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile not editable OPM_GENOS_1 was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile not editable OPM_SPEED_O_SONIC_1 was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile not editable PACK_2_06 was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile not editable PACK_2_12 was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile not editable proj_tornado_blade was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile arrow1 was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile egg1 was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile enderpearl1 was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile fireball1 was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile lingering1 was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile shulkerbullet1 was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile snowball1 was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile trident1 was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile tridentCustom1 was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] projectile witherskull1 was loaded !
+[14:44:30] [Server thread/INFO]: [SCore] 0 saved commands loaded !
+[14:44:30] [Server thread/INFO]: ================ [SCore] ================[m
+[14:44:30] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v5.1.9
+[14:44:30] [Server thread/INFO]: ================ [*ExecutableItems*] ================
+[14:44:30] [Server thread/INFO]: [ExecutableItems] PlaceholderAPI hooked !
+[14:44:33] [Server thread/INFO]: [ExecutableItems] [ExecutableItems] Connexion to the db...
+[14:44:33] [Server thread/INFO]: ================ [ExecutableItems] ================
+[14:44:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:44:33] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[14:44:33] [Server thread/INFO]: Done (36.224s)! For help, type "help"
+[14:44:33] [Server thread/INFO]: [LootChest] Loading chests...
+[14:44:33] [Server thread/INFO]: [LootChest] Removed 0 holograms
+[14:44:33] [Server thread/INFO]: [LootChest] Loaded 0 Lootchests in 9 miliseconds
+[14:44:33] [Server thread/INFO]: [LootChest] Starting LootChest timers asynchronously...
+[14:44:33] [Server thread/INFO]: [LootChest] Plugin loaded
+[14:44:33] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[14:44:33] [Craft Scheduler Thread - 10/INFO]: [Essentials] §6Получение информации о версии...
+[14:44:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.3]
+[14:44:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic [2.0.1]
+[14:44:33] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
+[14:44:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.7.1]
+[14:44:33] [Server thread/INFO]: [0;32;1m3 placeholder hook(s) registered![m
+[14:44:33] [Craft Scheduler Thread - 5/INFO]: [LootChest] §aThe plugin seems up to date.
+[14:44:33] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[14:44:33] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[14:44:33] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+[14:44:33] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+[14:44:33] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
+[14:44:33] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+[14:44:33] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[14:44:33] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m[m
+[14:44:33] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
+[14:44:33] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+[14:44:33] [Craft Scheduler Thread - 10/WARN]: [Essentials] §4Для скачивания доступна новая версия EssentialsX: §c2.19.7§4.
+[14:44:33] [Craft Scheduler Thread - 10/WARN]: [Essentials] §4Скачайте её отсюда:§c https://essentialsx.net/downloads.html?branch=stable
+[14:44:34] [Server thread/INFO]: [BanItem] Successfully loaded 0 blacklisted & 0 whitelisted item(s).[m
+[14:48:27] [User Authenticator #1/INFO]: UUID of player mmmmma is dab13737-6772-35b3-9a47-b1e3bece8a3a
+[14:48:28] [Server thread/INFO]: > [Трели] mmmmma joined the server.
+[14:48:28] [Server thread/INFO]: mmmmma[/26.119.135.221:64393] logged in with entity id 260 at ([world]0.1727323402859723, 87.0, 1.699999988079071)
+[14:48:35] [Craft Scheduler Thread - 10/INFO]: [nLogin] The user mmmmma has successfully logged in.
+[14:48:43] [Server thread/INFO]: mmmmma lost connection: Disconnected
+[14:48:43] [Server thread/INFO]: > [Трели] mmmmma left the server.
+[14:48:52] [User Authenticator #2/INFO]: UUID of player Manteecora is 3d5adfea-d973-37c0-bcdc-a42c34be5b7b
+[14:48:53] [Server thread/INFO]: > [Конунг] Manteecora joined the server.
+[14:48:53] [Server thread/INFO]: Manteecora[/26.119.135.221:64406] logged in with entity id 297 at ([world]-1.1347326243566929, 93.70006637286731, 3.629270968865679)
+[14:48:59] [Craft Scheduler Thread - 13/INFO]: [nLogin] The user Manteecora has successfully logged in.
+[14:49:23] [Server thread/INFO]: Manteecora issued server command: /kit
+[14:49:36] [User Authenticator #3/INFO]: UUID of player mmmmma is dab13737-6772-35b3-9a47-b1e3bece8a3a
+[14:49:36] [Server thread/INFO]: > [Трели] mmmmma joined the server.
+[14:49:36] [Server thread/INFO]: mmmmma[/26.119.135.221:64422] logged in with entity id 370 at ([world]-0.30880472652595603, 87.0, 3.4190104589870334)
+[14:49:45] [Server thread/INFO]: Manteecora issued server command: /kit edit diamond
+[14:50:06] [Craft Scheduler Thread - 14/INFO]: [nLogin] The user mmmmma has successfully logged in.
+[14:50:11] [Server thread/INFO]: mmmmma issued server command: /kit
+[14:50:20] [Server thread/INFO]: mmmmma has made the advancement [Isn't It Iron Pick]
+[14:51:22] [Server thread/INFO]: Manteecora issued server command: /kit
+[14:51:28] [Server thread/INFO]: Manteecora issued server command: /kit edit iron
+[14:51:55] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
+[14:51:55] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor add playerkits.kit.diamond true[m
+[14:52:03] [Server thread/INFO]: mmmmma issued server command: /kit
+[14:52:13] [Server thread/INFO]: Manteecora issued server command: /kit edit
+[14:52:19] [Server thread/INFO]: Manteecora issued server command: /kit edit diamond
+[14:53:26] [Server thread/INFO]: mmmmma issued server command: /kit
+[14:53:34] [Server thread/INFO]: CONSOLE issued server command: /bc &6mmmmma &ejust claimed a &aDIAMOND KIT&e!
+[14:54:46] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;30;1m([0;33;1mManteecora[0;30;1m)[m [0;30;1m[[0;32;1mG[0;30;1m][m [0;30;1m([0;36;1mdefault[0;30;1m)[m
+[14:54:46] [luckperms-worker-9/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m][m [0;36;22mLOG[m [0;36;22m[21m>[m [0;37;1mwebeditor remove playerkits.kit.diamond true[m
+[14:54:52] [Server thread/INFO]: Manteecora lost connection: Disconnected
+[14:54:53] [Server thread/INFO]: > [Конунг] Manteecora left the server.
+[14:54:53] [Server thread/INFO]: mmmmma lost connection: Disconnected
+[14:54:53] [Server thread/INFO]: > [Трели] mmmmma left the server.
