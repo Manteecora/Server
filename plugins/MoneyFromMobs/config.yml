@@ -86,10 +86,10 @@ HopperGivesMoneyTo: KILLER
 # Usable Placeholders: %amount% , %balance% and %balance_0dp%
 ShowMessageInChat:
   Enabled: false
-  Message: '&aYou picked up $%amount%!'
+  Message: '&7Ты поднял монетку &c$%amount%!'
 ShowMessageInActionBar:
   Enabled: true
-  Message: '&aТы поднял монетку $%amount%!'
+  Message: '&7Ты поднял монетку &c$%amount%!'
 ShowMessageAsFloatingText:
   Enabled: true
   Message: '&a+$%amount%!'

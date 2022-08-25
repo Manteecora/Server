@@ -132,10 +132,11 @@ scoreboard:
       title: "Server name"
       lines:
         - "%animation:MyAnimation1%"
-        - "&2• &9&lУровень &6%player_level%"
+        - "&2• &9&lУровень: &6%player_level%"
+        - "&2• &9&lДо повышения: %player_exp_to_level%"
+        - ""
         - "&2• &b&lУбийства&7: &f%statistic_player_kills%"
         - "&2• &b&lСмерти&7: &f%statistic_deaths%"
-        - "&2• &b&lБаланс&7: &f%vault_eco_balance%"
         - "&2• &b&lTPS&7: %tps%"
         - "%animation:MyAnimation1%"
     scoreboard1:
@@ -143,9 +144,10 @@ scoreboard:
       lines:
         - "%animation:MyAnimation1%"
         - "&2• &9&lУровень &6%player_level%"
+        - "&2• &9&lДо повышения: %player_exp_to_level%"
+        - ""
         - "&2• &b&lУбийства&7: &f%statistic_player_kills%"
         - "&2• &b&lСмерти&7: &f%statistic_deaths%"
-        - "&2• &b&lБаланс&7: &f%vault_eco_balance%"
         - "%animation:MyAnimation1%"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Ping-Spoof

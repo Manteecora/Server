@@ -84,7 +84,7 @@ chats:
   local:
     enable: true
     display-name: 'Local'
-    format: '&e[&6Local&e] &r{prefix}{player}{suffix}&8: &f{message}'
+    format: '&e[&6L&e] &r{prefix}{player}{suffix}&8: &f{message}'
     range: 100
     cooldown: -1
     command: 'localchat'
@@ -93,7 +93,7 @@ chats:
   global:
     enable: true
     display-name: 'Global'
-    format: '&e[&aGlobal&e] &r{prefix}{player}{suffix}&8: &f{message}'
+    format: '&e[&aG&e] &r{prefix}{player}{suffix}&8: &f{message}'
     range: -1
     symbol: '!'
     cooldown: -1
