@@ -29,4 +29,4 @@ Kits:
       display_lore:
       - '&cУ вас нет прав требовать этот кит'
       - '&cthis kit.'
-    permission: vip
+    permission: eda
