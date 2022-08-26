@@ -131,24 +131,35 @@ scoreboard:
       display-condition: "permission:tab.scoreboard.admin"
       title: "Server name"
       lines:
-        - "%animation:MyAnimation1%"
-        - "&2• &9&lУровень: &6%player_level%"
-        - "&2• &9&lДо повышения: %player_exp_to_level%"
         - ""
-        - "&2• &b&lУбийства&7: &f%statistic_player_kills%"
-        - "&2• &b&lСмерти&7: &f%statistic_deaths%"
-        - "&2• &b&lTPS&7: %tps%"
-        - "%animation:MyAnimation1%"
+        - "&2• &f&lНик: &c%player_name%"
+        - "&2• &f&lУровень: &6%player_level%"  
+        - "&2• &f&lДо уровня: &6%player_exp_to_level%"
+        - "&2• &f&lГильдия: %guilds_name%"
+        - ""
+        - "&2• &f&lМонеты: &a%vault_eco_balance% "
+        - ""
+        - "&2• &f&lУбийства: &4%statistic_player_kills%"
+        - "&2• &f&lСмерти: &4%statistic_deaths%"
+        - "&2• &f&lНаиграно: &4%player_time% ⌛"
+        - ""
+        
+
     scoreboard1:
       title: "Server name"
       lines:
-        - "%animation:MyAnimation1%"
-        - "&2• &9&lУровень &6%player_level%"
-        - "&2• &9&lДо повышения: %player_exp_to_level%"
         - ""
-        - "&2• &b&lУбийства&7: &f%statistic_player_kills%"
-        - "&2• &b&lСмерти&7: &f%statistic_deaths%"
-        - "%animation:MyAnimation1%"
+        - "&2• &f&lНик: &c%player_name%"
+        - "&2• &f&lУровень: &6%player_level%"  
+        - "&2• &f&lДо уровня: &6%player_exp_to_level%"
+        - "&2• &f&lГильдия: %guilds_name%"
+        - ""
+        - "&2• &f&lМонеты: &a%vault_eco_balance% "
+        - ""
+        - "&2• &f&lУбийства: &4%statistic_player_kills%"
+        - "&2• &f&lСмерти: &4%statistic_deaths%"
+        - "&2• &f&lНаиграно: &4%player_time% ⌛"
+        - ""
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Ping-Spoof
 ping-spoof:
