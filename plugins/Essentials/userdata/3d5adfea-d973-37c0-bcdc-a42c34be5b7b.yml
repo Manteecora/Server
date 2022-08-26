@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1661351696512
-  login: 1661350986169
+  logout: 1661424892991
+  login: 1661424533355
 money: '1944.0'
 last-account-name: Manteecora
 logoutlocation:
   world: 801d197e-402b-4259-a4e0-faa9234d3e2a
   world-name: world
-  x: -7.096102447560228
-  y: 90.0
-  z: 11.209238935943278
-  yaw: -65.55148315429688
-  pitch: 28.650131225585938
+  x: -11.338136988832817
+  y: 96.11650136792812
+  z: 6.065140205519645
+  yaw: 5.30401611328125
+  pitch: 24.599655151367188
 lastlocation:
   world: 801d197e-402b-4259-a4e0-faa9234d3e2a
   world-name: world
