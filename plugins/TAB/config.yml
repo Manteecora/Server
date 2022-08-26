@@ -10,7 +10,7 @@ header-footer:
     - ""
   footer:
     - ""
-    - "%animation:MyAnimation1%"
+    - "&fДата &4%date%"
     - ""
     - "&7Магазин  %animation:web%"
 

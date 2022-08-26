@@ -80,6 +80,9 @@ time:
   - '&7> Time &b%time% &7<'
   - '&7>> Time &b%time% &7<<'
   - '&7>>> Time &b%time% &7<<<'
+date:
+  change-interval: 900
+  texts:
   - '&7Date &b%date%'
   - '&7> Date &b%date% &7<'
   - '&7>> Date &b%date% &7<<'
