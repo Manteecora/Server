@@ -6,14 +6,14 @@ header-footer:
   header:
     - "&3&lServer name"
     - "%animation:MyAnimation1%"
-    - "&7Онлайн: &f%online%"
+    - "&fОнлайн: &4%online%  &fПинг &4%animation:ping%" 
     - ""
-    - "%animation:MyAnimation1%"
   footer:
-    - "%animation:MyAnimation1%"
-    - "%animation:ping%"
     - ""
-    - "&7Наш сайт  %animation:web%"
+    - "%animation:MyAnimation1%"
+    - ""
+    - "&7Магазин  %animation:web%"
+
   per-world:
     world1:
       header:
@@ -139,8 +139,8 @@ scoreboard:
         - ""
         - "&2• &f&lМонеты: &a%vault_eco_balance% "
         - ""
-        - "&2• &f&lУбийства: &4%statistic_player_kills%"
-        - "&2• &f&lСмерти: &4%statistic_deaths%"
+        - "&2• &f&lУбийства: &4%statistic_player_kills% ⚔️"
+        - "&2• &f&lСмерти: &4%statistic_deaths% 💀"
         - "&2• &f&lНаиграно: &4%player_time% ⌛"
         - ""
         
@@ -156,8 +156,8 @@ scoreboard:
         - ""
         - "&2• &f&lМонеты: &a%vault_eco_balance% "
         - ""
-        - "&2• &f&lУбийства: &4%statistic_player_kills%"
-        - "&2• &f&lСмерти: &4%statistic_deaths%"
+        - "&2• &f&lУбийства: &4%statistic_player_kills% ⚔️"
+        - "&2• &f&lСмерти: &4%statistic_deaths% 💀"
         - "&2• &f&lНаиграно: &4%player_time% ⌛"
         - ""
 
