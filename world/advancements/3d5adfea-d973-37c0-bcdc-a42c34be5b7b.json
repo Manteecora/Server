@@ -47,6 +47,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2022-08-27 10:46:03 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2022-08-24 18:27:17 +0400"
@@ -73,12 +79,17 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2022-08-27 10:50:08 +0400",
       "minecraft:taiga": "2022-08-24 17:28:19 +0400",
+      "minecraft:frozen_river": "2022-08-27 10:43:21 +0400",
+      "minecraft:river": "2022-08-27 10:46:00 +0400",
       "minecraft:snowy_taiga": "2022-08-24 17:28:05 +0400",
       "minecraft:grove": "2022-08-24 17:26:04 +0400",
       "minecraft:jagged_peaks": "2022-08-24 17:29:31 +0400",
       "minecraft:forest": "2022-08-24 17:50:58 +0400",
-      "minecraft:old_growth_spruce_taiga": "2022-08-24 17:28:36 +0400"
+      "minecraft:lush_caves": "2022-08-27 10:50:34 +0400",
+      "minecraft:old_growth_spruce_taiga": "2022-08-24 17:28:36 +0400",
+      "minecraft:deep_dark": "2022-08-27 10:51:14 +0400"
     },
     "done": false
   },
@@ -118,6 +129,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-08-27 11:01:36 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2022-08-24 18:09:29 +0400"
@@ -145,6 +162,12 @@
   "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
       "has_spider_eye": "2022-08-24 18:25:30 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2022-08-27 11:01:36 +0400"
     },
     "done": true
   },
@@ -181,6 +204,18 @@
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2022-08-24 18:09:29 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2022-08-27 10:46:03 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2022-08-27 11:01:00 +0400"
     },
     "done": true
   },
@@ -222,6 +257,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2022-08-27 10:44:25 +0400",
       "minecraft:spider": "2022-08-24 18:25:29 +0400",
       "minecraft:zombie": "2022-08-24 17:59:46 +0400"
     },
@@ -305,6 +341,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2022-08-27 10:46:03 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_stick": "2022-08-24 17:59:49 +0400"
@@ -338,6 +380,12 @@
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2022-08-24 17:54:06 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2022-08-27 11:01:36 +0400"
     },
     "done": true
   },
