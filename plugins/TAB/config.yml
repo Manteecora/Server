@@ -134,7 +134,6 @@ scoreboard:
         - ""
         - "&2• &f&lНик: &c%player_name%"
         - "&2• &f&lУровень: &6%player_level%"  
-        - "&2• &f&lДо уровня: &6%player_exp_to_level%"
         - "&2• &f&lГильдия: %guilds_name%"
         - ""
         - "&2• &f&lМонеты: &a%vault_eco_balance% "
@@ -142,7 +141,6 @@ scoreboard:
         - "&2• &f&lУбийства: &4%statistic_player_kills% ⚔️"
         - "&2• &f&lСмерти: &4%statistic_deaths% ☠️"
         - ""
-        
 
     scoreboard1:
       title: "Server name"
@@ -150,7 +148,6 @@ scoreboard:
         - ""
         - "&2• &f&lНик: &c%player_name%"
         - "&2• &f&lУровень: &6%player_level%"  
-        - "&2• &f&lДо уровня: &6%player_exp_to_level%"
         - "&2• &f&lГильдия: %guilds_name%"
         - ""
         - "&2• &f&lМонеты: &a%vault_eco_balance% "
