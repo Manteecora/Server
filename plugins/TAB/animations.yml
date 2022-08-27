@@ -90,7 +90,7 @@ date:
 ping:
   change-interval: 5000
   texts:
-  - '&aPing: &2&n%ping%&r &ams'
+  - '&2&n%ping%&r &ams'
 tps:
   change-interval: 5000
   texts:
