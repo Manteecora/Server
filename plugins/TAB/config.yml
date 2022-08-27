@@ -6,11 +6,11 @@ header-footer:
   header:
     - "&3&lServer name"
     - "%animation:MyAnimation1%"
-    - "&fОнлайн: &4%online%  &fПинг &4%animation:ping%" 
+    - "&fОнлайн: &4%online%  &fПинг: &2%animation:ping%" 
     - ""
   footer:
     - ""
-    - "&fДата &4%date%"
+    - "&fДата &2%date%"
     - ""
     - "&7Магазин  %animation:web%"
 
@@ -140,8 +140,7 @@ scoreboard:
         - "&2• &f&lМонеты: &a%vault_eco_balance% "
         - ""
         - "&2• &f&lУбийства: &4%statistic_player_kills% ⚔️"
-        - "&2• &f&lСмерти: &4%statistic_deaths% 💀"
-        - "&2• &f&lНаиграно: &4%player_time% ⌛"
+        - "&2• &f&lСмерти: &4%statistic_deaths% ☠️"
         - ""
         
 
@@ -157,8 +156,7 @@ scoreboard:
         - "&2• &f&lМонеты: &a%vault_eco_balance% "
         - ""
         - "&2• &f&lУбийства: &4%statistic_player_kills% ⚔️"
-        - "&2• &f&lСмерти: &4%statistic_deaths% 💀"
-        - "&2• &f&lНаиграно: &4%player_time% ⌛"
+        - "&2• &f&lСмерти: &4%statistic_deaths% ☠️"
         - ""
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Ping-Spoof
