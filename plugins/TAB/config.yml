@@ -4,9 +4,8 @@ header-footer:
   disable-in-worlds:
     - disabledworld
   header:
-    - "&3&lServer name"
-    - "%animation:MyAnimation1%"
-    - "&fОнлайн: &4%online%  &fПинг: &2%animation:ping%" 
+    - "&bHidemura&3RPG"
+    - "&fОнлайн: &2%online%  &fПинг: &2%animation:ping%" 
     - ""
   footer:
     - ""
@@ -129,31 +128,31 @@ scoreboard:
     admin:
       # Only players with tab.scoreboard.admin can see this scoreboard, others will see scoreboard1
       display-condition: "permission:tab.scoreboard.admin"
-      title: "Server name"
+      title: "&bHidemura&3RPG"
       lines:
         - ""
         - "&2• &f&lНик: &c%player_name%"
-        - "&2• &f&lУровень: &6%player_level%"  
+        - "&2• &f&lКвест: &6%quests_player_current_stage_number_<quest>%"  
         - "&2• &f&lГильдия: %guilds_name%"
         - ""
         - "&2• &f&lМонеты: &a%vault_eco_balance% "
         - ""
-        - "&2• &f&lУбийства: &4%statistic_player_kills% ⚔️ "
-        - "&2• &f&lСмерти: &4%statistic_deaths% ☠️ "
+        - "&2• &f&lУбийства: &4%statistic_player_kills% "
+        - "&2• &f&lСмерти: &4%statistic_deaths% "
         - ""
 
     scoreboard1:
-      title: "Server name"
+      title: "&bHidemura&3RPG"
       lines:
         - ""
         - "&2• &f&lНик: &c%player_name%"
-        - "&2• &f&lУровень: &6%player_level%"  
+        - "&2• &f&lКвест: &6%quests_player_current_stage_number_<quest>%"  
         - "&2• &f&lГильдия: %guilds_name%"
         - ""
         - "&2• &f&lМонеты: &a%vault_eco_balance% "
         - ""
-        - "&2• &f&lУбийства: &4%statistic_player_kills% ⚔️"
-        - "&2• &f&lСмерти: &4%statistic_deaths% ☠️"
+        - "&2• &f&lУбийства: &4%statistic_player_kills% "
+        - "&2• &f&lСмерти: &4%statistic_deaths% "
         - ""
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Ping-Spoof
