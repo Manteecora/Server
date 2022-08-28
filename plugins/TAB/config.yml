@@ -74,7 +74,6 @@ belowname-objective:
   enabled: true
   number: "%health%"
   text: "&4❤"
-    - "%guilds_name%"
   disable-in-worlds:
     - disabledworld
 
