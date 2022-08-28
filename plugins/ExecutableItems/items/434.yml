@@ -1,0 +1,206 @@
+name: '333'
+lore:
+- §7Fire Protection 666
+- §7Sharpness 666
+- §7Flame 666
+- §7Soul Speed 666
+- §7Aqua Affinity 666
+- §7Punch 666
+- §7Loyalty 666
+- §7Depth Strider 666
+- §cCurse of Vanishing
+- §7Unbreaking 666
+- §7Knockback 666
+- §7Luck of The Sea 666
+- §cCurse of Binding
+- §7Fortune 666
+- §7Protection 666
+- §7Efficiency 666
+- §7Mending 666
+- §7Frost Walker 666
+- §7Lure 666
+- §7Looting 666
+- §7Piercing 666
+- §7Blast Protection 666
+- §7Smite 666
+- §7Multishot 666
+- §7Swift Sneak 666
+- §7Fire Aspect 666
+- §7Channeling 666
+- §7Sweeping Edge 666
+- §7Thorns 666
+- §7Bane of Arthropods 666
+- §7Respiration 666
+- §7Riptide 666
+- §7Silk Touch 666
+- §7Quick Charge 666
+- §7Projectile Protection 666
+- §7Impaling 666
+- §7Feather Falling 666
+- §7Power 666
+- §7Infinity 666
+material: STONE_PICKAXE
+glow: true
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: true
+usage: 1
+usageLimit: -1
+durability: 1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments:
+  enchantment11:
+    enchantment: luck_of_the_sea
+    level: 666
+  enchantment33:
+    enchantment: quick_charge
+    level: 666
+  enchantment10:
+    enchantment: knockback
+    level: 666
+  enchantment32:
+    enchantment: silk_touch
+    level: 666
+  enchantment31:
+    enchantment: riptide
+    level: 666
+  enchantment30:
+    enchantment: respiration
+    level: 666
+  enchantment15:
+    enchantment: efficiency
+    level: 666
+  enchantment37:
+    enchantment: power
+    level: 666
+  enchantment14:
+    enchantment: protection
+    level: 666
+  enchantment36:
+    enchantment: feather_falling
+    level: 666
+  enchantment13:
+    enchantment: fortune
+    level: 666
+  enchantment35:
+    enchantment: impaling
+    level: 666
+  enchantment12:
+    enchantment: binding_curse
+    level: 666
+  enchantment34:
+    enchantment: projectile_protection
+    level: 666
+  enchantment19:
+    enchantment: looting
+    level: 666
+  enchantment18:
+    enchantment: lure
+    level: 666
+  enchantment17:
+    enchantment: frost_walker
+    level: 666
+  enchantment16:
+    enchantment: mending
+    level: 666
+  enchantment38:
+    enchantment: infinity
+    level: 666
+  enchantment7:
+    enchantment: depth_strider
+    level: 666
+  enchantment8:
+    enchantment: vanishing_curse
+    level: 666
+  enchantment9:
+    enchantment: unbreaking
+    level: 666
+  enchantment22:
+    enchantment: smite
+    level: 666
+  enchantment21:
+    enchantment: blast_protection
+    level: 666
+  enchantment20:
+    enchantment: piercing
+    level: 666
+  enchantment26:
+    enchantment: channeling
+    level: 666
+  enchantment0:
+    enchantment: flame
+    level: 666
+  enchantment25:
+    enchantment: fire_aspect
+    level: 666
+  enchantment1:
+    enchantment: fire_protection
+    level: 666
+  enchantment24:
+    enchantment: swift_sneak
+    level: 666
+  enchantment2:
+    enchantment: sharpness
+    level: 666
+  enchantment23:
+    enchantment: multishot
+    level: 666
+  enchantment3:
+    enchantment: soul_speed
+    level: 666
+  enchantment4:
+    enchantment: aqua_affinity
+    level: 666
+  enchantment29:
+    enchantment: bane_of_arthropods
+    level: 666
+  enchantment5:
+    enchantment: punch
+    level: 666
+  enchantment28:
+    enchantment: thorns
+    level: 666
+  enchantment6:
+    enchantment: loyalty
+    level: 666
+  enchantment27:
+    enchantment: sweeping
+    level: 666
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_KNOCKBACK
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: HAND
+    uuid: f62f790c-79d8-4e19-8fff-92e4930929f0
+  attribute0:
+    attribute: GENERIC_MOVEMENT_SPEED
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: HAND
+    uuid: 5cb0a448-3a50-49b5-8f34-ab2e5cd0bdf7

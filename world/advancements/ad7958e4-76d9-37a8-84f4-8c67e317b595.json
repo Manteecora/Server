@@ -17,6 +17,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2022-08-28 19:53:08 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2022-08-28 19:53:08 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2022-08-24 17:17:18 +0400"
@@ -89,6 +101,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2022-08-28 20:06:07 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2022-08-24 17:17:18 +0400"
@@ -143,6 +161,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2022-08-28 19:47:42 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2022-08-24 17:35:29 +0400"
@@ -170,6 +194,12 @@
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2022-08-24 17:38:17 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2022-08-28 19:59:19 +0400"
     },
     "done": true
   },
@@ -215,6 +245,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2022-08-28 19:53:08 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
       "has_gunpowder": "2022-08-24 18:25:49 +0400"
@@ -253,13 +289,20 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "sweet_berries": "2022-08-28 12:32:45 +0400"
+      "sweet_berries": "2022-08-28 12:32:45 +0400",
+      "enchanted_golden_apple": "2022-08-28 20:29:38 +0400"
     },
     "done": false
   },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2022-08-24 17:10:31 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2022-08-28 19:53:08 +0400"
     },
     "done": true
   },
@@ -272,6 +315,18 @@
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2022-08-24 17:52:09 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2022-08-28 19:53:08 +0400"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2022-08-28 20:27:47 +0400"
     },
     "done": true
   },
@@ -335,6 +390,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_axe": "2022-08-28 20:27:47 +0400"
+    },
+    "done": true
+  },
   "minecraft:nether/get_wither_skull": {
     "criteria": {
       "wither_skull": "2022-08-24 17:52:09 +0400"
@@ -374,6 +435,24 @@
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2022-08-24 17:35:29 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2022-08-28 19:53:08 +0400"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2022-08-28 19:53:08 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2022-08-28 19:53:08 +0400"
     },
     "done": true
   },
@@ -433,6 +512,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2022-08-28 19:53:08 +0400"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2022-08-28 12:32:45 +0400"
@@ -445,6 +530,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2022-08-28 19:53:08 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/barrel": {
     "criteria": {
       "has_planks": "2022-08-24 17:38:17 +0400"
@@ -454,6 +545,12 @@
   "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
       "has_snowball": "2022-08-28 12:07:54 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2022-08-28 19:53:08 +0400"
     },
     "done": true
   },
@@ -472,6 +569,12 @@
   "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
       "has_spider_eye": "2022-08-24 18:25:31 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2022-08-28 19:53:08 +0400"
     },
     "done": true
   },
@@ -517,6 +620,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2022-08-28 19:53:08 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2022-08-24 17:17:18 +0400"
@@ -559,6 +668,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2022-08-28 19:53:08 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2022-08-24 17:09:33 +0400"
@@ -568,6 +683,12 @@
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2022-08-24 17:38:17 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2022-08-28 19:51:02 +0400"
     },
     "done": true
   },
@@ -594,7 +715,8 @@
       "minecraft:creeper": "2022-08-24 18:25:48 +0400",
       "minecraft:wither_skeleton": "2022-08-24 17:52:08 +0400",
       "minecraft:ender_dragon": "2022-08-24 17:51:10 +0400",
-      "minecraft:zombie": "2022-08-24 18:25:44 +0400"
+      "minecraft:zombie": "2022-08-24 18:25:44 +0400",
+      "minecraft:zombie_villager": "2022-08-28 19:51:01 +0400"
     },
     "done": false
   },
@@ -607,6 +729,12 @@
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2022-08-24 17:38:52 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2022-08-28 20:29:28 +0400"
     },
     "done": true
   },
@@ -634,6 +762,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_axe": "2022-08-28 20:27:47 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
       "has_planks": "2022-08-24 17:38:17 +0400"
@@ -655,6 +789,12 @@
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2022-08-24 17:35:29 +0400"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2022-08-28 19:47:42 +0400"
     },
     "done": true
   },
@@ -688,6 +828,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2022-08-28 19:53:08 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_candle": {
     "criteria": {
       "has_black_dye": "2022-08-28 12:04:20 +0400"
@@ -697,6 +843,12 @@
   "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
     "criteria": {
       "has_black_dye": "2022-08-28 12:04:20 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2022-08-28 20:06:07 +0400"
     },
     "done": true
   },

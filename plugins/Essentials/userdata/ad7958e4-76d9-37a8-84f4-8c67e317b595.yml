@@ -1,6 +1,6 @@
 teleportenabled: true
 teleportauto: false
-godmode: false
+godmode: true
 muted: false
 jailed: false
 ip-address: 26.179.133.236
@@ -16,23 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1661351334068
-  login: 1661700727228
-money: '12722.55'
+  logout: 1661704000493
+  login: 1661704012354
+money: '0'
 last-account-name: '2121'
 logoutlocation:
   world: 801d197e-402b-4259-a4e0-faa9234d3e2a
   world-name: world
-  x: -6.699999988079071
-  y: 87.0
-  z: 3.300000011920929
-  yaw: -43.22444152832031
-  pitch: -20.400056838989258
+  x: -7.675672742662205
+  y: 64.0
+  z: -53.483072260908095
+  yaw: 93.5251693725586
+  pitch: 15.449251174926758
 lastlocation:
   world: 801d197e-402b-4259-a4e0-faa9234d3e2a
   world-name: world
-  x: -0.699999988079071
-  y: 81.0
-  z: 17.347389974383933
-  yaw: -131.7698974609375
-  pitch: 5.099925994873047
+  x: 17.099644839786322
+  y: 69.02442408821369
+  z: -83.46618681257183
+  yaw: -104.3214111328125
+  pitch: 4.649257183074951

@@ -1,0 +1,56 @@
+name: еретик
+lore:
+- '&b&oDefault lore'
+material: TIPPED_ARROW
+glow: true
+disableStack: true
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments:
+  enchantment0:
+    enchantment: multishot
+    level: 1
+  enchantment1:
+    enchantment: depth_strider
+    level: 1
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+attributes:
+  attribute1:
+    attribute: GENERIC_FLYING_SPEED
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: HAND
+    uuid: e4dd5e81-0850-4320-b7fb-635c33b5e7b5
+  attribute0:
+    attribute: GENERIC_ARMOR
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: HAND
+    uuid: 7c3ce256-5765-4ae0-8344-d028dfc7dec6

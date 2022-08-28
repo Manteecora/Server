@@ -6,8 +6,20 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "095f7954-6e4f-375b-8065-159a252b036c",
+    "name": "Prostoy_Neprost",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "3d5adfea-d973-37c0-bcdc-a42c34be5b7b",
     "name": "Manteecora",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ad7958e4-76d9-37a8-84f4-8c67e317b595",
+    "name": "2121",
     "level": 4,
     "bypassesPlayerLimit": false
   }

@@ -1,0 +1,46 @@
+{
+  "id": "cc51c3e3-739d-4ebb-8f3c-dc8b8ff5ceee",
+  "name": "Piskak§5eek2ke2§2",
+  "prefix": "Piskak§5eek2ke2§2",
+  "guildMaster": {
+    "uuid": "095f7954-6e4f-375b-8065-159a252b036c",
+    "role": {
+      "level": 0
+    },
+    "joinDate": 1661703525558,
+    "lastLogin": 1661704132430
+  },
+  "guildSkull": {
+    "serialized": "e3RleHR1cmVzOntTS0lOOnt1cmw6IiJ9fX0\u003d"
+  },
+  "status": "Private",
+  "tier": {
+    "level": 1
+  },
+  "balance": 0.0,
+  "members": [
+    {
+      "uuid": "095f7954-6e4f-375b-8065-159a252b036c",
+      "role": {
+        "level": 0
+      },
+      "joinDate": 1661703525558,
+      "lastLogin": 1661704132430
+    },
+    {
+      "uuid": "3d5adfea-d973-37c0-bcdc-a42c34be5b7b",
+      "role": {
+        "level": 3
+      },
+      "joinDate": 1661703560520,
+      "lastLogin": 1661705513918
+    }
+  ],
+  "invitedMembers": [],
+  "allies": [],
+  "pendingAllies": [],
+  "codes": [],
+  "vaults": [],
+  "lastDefended": 0,
+  "creationDate": 1661703525558
+}
