@@ -570,7 +570,7 @@ miscellaneous:
       enable: true
 
       # Automatically appends a substring after prefix.
-      after-prefix: ' '
+      after-prefix: ' %guilds_name% ' 
 
       # Limits prefix length (inclusive "after-prefix")
       length-limit:
@@ -637,7 +637,7 @@ miscellaneous:
         sound-pitch: 1.0
 
     quit:
-      enable: true
+      enable: false
 
       # Set to '' if you want to make it hidden.
       message: '&8> &e{prefix}{player}{suffix} &eleft the server.'
