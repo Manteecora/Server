@@ -1,0 +1,47 @@
+name: '&eDefault name'
+lore:
+- '&b&oDefault lore'
+material: STONE_AXE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments:
+  enchantment0:
+    enchantment: flame
+    level: 21
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+attributes:
+  attribute0:
+    attribute: GENERIC_MAX_HEALTH
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: HAND
+    uuid: 5cb0a448-3a50-49b5-8f34-ab2e5cd0bdf7

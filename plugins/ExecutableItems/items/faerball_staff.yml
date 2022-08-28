@@ -1,0 +1,56 @@
+name: огненеая палка
+lore:
+- '&b&oDefault lore'
+material: TORCH
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+attributes:
+  attribute1:
+    attribute: GENERIC_ARMOR
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: HAND
+    uuid: bdf8db9c-ec4d-4798-adfd-73d4fccdb366
+  attribute0:
+    attribute: GENERIC_KNOCKBACK_RESISTANCE
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: HAND
+    uuid: b793ad85-0ba2-4be7-be6a-908920cac338
+  attribute2:
+    attribute: GENERIC_ARMOR
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: HAND
+    uuid: 7265157a-ca26-4d7c-9721-af23a09a1ff5

@@ -46,21 +46,11 @@ Kits:
     - bc &6%player% &ejust claimed a &aDIAMOND KIT&e!
     slot: 11
     display_item: DIAMOND_SWORD
-    display_name: '&6&lDiamond &aKit'
+    display_name: алмазик
     display_lore:
-    - '&eThis kit includes:'
-    - '&8- &7x1 Diamond Axe'
-    - '&8- &7x1 Diamond Pickaxe'
-    - '&8- &7x1 Diamond Sword'
-    - ''
-    - '&7Cooldown: &c12 hours'
-    - '&7Price: &a$5000'
-    - ''
-    - '&aLeft Click to buy!'
-    - '&bRight Click to preview!'
+    - выфва
     display_item_glowing: true
     cooldown: 43200
-    price: '0'
     permission: playerkits.kit.diamond
     noPermissionsItem:
       display_item: BARRIER

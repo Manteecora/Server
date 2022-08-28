@@ -1,0 +1,51 @@
+name: эксперемент 666
+lore:
+- '&b&oDefault lore'
+material: TRIDENT
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments:
+  enchantment0:
+    enchantment: feather_falling
+    level: 6
+  enchantment1:
+    enchantment: unbreaking
+    level: 1
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+attributes:
+  attribute0:
+    attribute: ZOMBIE_SPAWN_REINFORCEMENTS
+    operation: MULTIPLY_SCALAR_1
+    amount: 1.0
+    slot: HAND
+    name: посох хз что это просто тест
+    uuid: 4d48957c-d283-4f97-bef1-27cb6339d283
