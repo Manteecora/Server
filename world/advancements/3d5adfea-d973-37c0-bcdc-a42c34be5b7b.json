@@ -47,6 +47,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2022-08-28 20:47:27 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2022-08-28 12:13:44 +0400"
@@ -185,6 +191,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2022-08-28 20:47:18 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2022-08-28 12:13:43 +0400"
@@ -215,6 +227,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2022-08-28 20:01:03 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2022-08-24 17:52:35 +0400"
@@ -230,6 +248,12 @@
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2022-08-28 12:13:44 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2022-08-28 20:35:23 +0400"
     },
     "done": true
   },
@@ -260,6 +284,12 @@
   "minecraft:adventure/throw_trident": {
     "criteria": {
       "shot_trident": "2022-08-28 12:50:33 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2022-08-28 19:56:33 +0400"
     },
     "done": true
   },
@@ -413,6 +443,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2022-08-28 20:47:27 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2022-08-28 12:13:35 +0400"
@@ -434,6 +470,12 @@
   "minecraft:nether/get_wither_skull": {
     "criteria": {
       "wither_skull": "2022-08-24 17:52:35 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2022-08-28 19:56:33 +0400"
     },
     "done": true
   },
@@ -566,6 +608,12 @@
   "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2022-08-24 17:49:20 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2022-08-28 19:53:36 +0400"
     },
     "done": true
   },
@@ -705,6 +753,7 @@
     "criteria": {
       "minecraft:skeleton": "2022-08-27 10:44:25 +0400",
       "minecraft:spider": "2022-08-24 18:25:29 +0400",
+      "minecraft:creeper": "2022-08-28 19:56:33 +0400",
       "minecraft:zombie": "2022-08-24 17:59:46 +0400",
       "minecraft:drowned": "2022-08-28 12:04:47 +0400"
     },
@@ -788,6 +837,12 @@
     },
     "done": true
   },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2022-08-28 20:47:18 +0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2022-08-24 17:49:20 +0400"
@@ -809,6 +864,12 @@
   "minecraft:recipes/building_blocks/red_wool": {
     "criteria": {
       "has_white_wool": "2022-08-28 13:18:29 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2022-08-28 19:53:36 +0400"
     },
     "done": true
   },

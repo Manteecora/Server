@@ -1,0 +1,56 @@
+name: какоето дерьмо навязанное разрабами
+lore:
+- '&b&oDefault lore'
+material: STONE_HOE
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments:
+  enchantment0:
+    enchantment: depth_strider
+    level: 8
+  enchantment1:
+    enchantment: piercing
+    level: 10000000
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+attributes:
+  attribute1:
+    attribute: GENERIC_FLYING_SPEED
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: HAND
+    uuid: f47d618c-4a7e-44de-946e-e3e9e8a561f0
+  attribute0:
+    attribute: GENERIC_ATTACK_KNOCKBACK
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: HAND
+    uuid: d2c0213c-8119-4c61-992b-773c78d55a12
