@@ -1,0 +1,50 @@
+name: огненеая палка
+lore:
+- '&b&oDefault lore'
+material: CARROT_ON_A_STICK
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+attributes:
+  attribute1:
+    attribute: GENERIC_ARMOR
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: HAND
+    uuid: 7c0a7536-ada3-4425-b6f8-36e6cc71a4df
+  attribute0:
+    attribute: GENERIC_MOVEMENT_SPEED
+    operation: MULTIPLY_SCALAR_1
+    amount: 3.0
+    slot: HAND
+    uuid: 1f987c58-6f05-447c-a96c-1fe0f67fd6ff
