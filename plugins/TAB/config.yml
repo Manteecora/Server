@@ -74,6 +74,7 @@ belowname-objective:
   enabled: true
   number: "%health%"
   text: "&4❤"
+    - "%guilds_name%"
   disable-in-worlds:
     - disabledworld
 
@@ -138,8 +139,8 @@ scoreboard:
         - ""
         - "&2• &f&lМонеты: &a%vault_eco_balance% "
         - ""
-        - "&2• &f&lУбийства: &4%statistic_player_kills% ⚔️ "
-        - "&2• &f&lСмерти: &4%statistic_deaths% ☠️ "
+        - "&2• &f&lУбийства: &4%statistic_player_kills% ⚔️"
+        - "&2• &f&lСмерти: &4%statistic_deaths% ☠️"
         - ""
 
     scoreboard1:
@@ -152,8 +153,8 @@ scoreboard:
         - ""
         - "&2• &f&lМонеты: &a%vault_eco_balance% "
         - ""
-        - "&2• &f&lУбийства: &4%statistic_player_kills% ⚔️ "
-        - "&2• &f&lСмерти: &4%statistic_deaths% ☠️ "
+        - "&2• &f&lУбийства: &4%statistic_player_kills% ⚔️"
+        - "&2• &f&lСмерти: &4%statistic_deaths% ☠️"
         - ""
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Ping-Spoof
