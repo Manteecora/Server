@@ -1,7 +1,7 @@
 {
   "last-pm-interlocutor": {
-    "Prostoy_Neprost": "2121",
-    "Manteecora": "2121",
-    "2121": "§4Manteecora§r"
+    "2121": "§4Manteecora§r",
+    "Prostoy_Neprost": "Manteecora",
+    "Manteecora": "§4Prostoy_Neprost§r"
   }
 }

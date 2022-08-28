@@ -6,14 +6,14 @@ header-footer:
   header:
     - "&3&lServer name"
     - "%animation:MyAnimation1%"
-    - "&7Онлайн: &f%online%"
+    - "&fОнлайн: &4%online%  &fПинг: &2%animation:ping%" 
     - ""
-    - "%animation:MyAnimation1%"
   footer:
-    - "%animation:MyAnimation1%"
-    - "%animation:ping%"
     - ""
-    - "&7Наш сайт  %animation:web%"
+    - "&fДата &2%date%"
+    - ""
+    - "&7Магазин  %animation:web%"
+
   per-world:
     world1:
       header:
@@ -131,24 +131,30 @@ scoreboard:
       display-condition: "permission:tab.scoreboard.admin"
       title: "Server name"
       lines:
-        - "%animation:MyAnimation1%"
-        - "&2• &9&lУровень: &6%player_level%"
-        - "&2• &9&lДо повышения: %player_exp_to_level%"
         - ""
-        - "&2• &b&lУбийства&7: &f%statistic_player_kills%"
-        - "&2• &b&lСмерти&7: &f%statistic_deaths%"
-        - "&2• &b&lTPS&7: %tps%"
-        - "%animation:MyAnimation1%"
+        - "&2• &f&lНик: &c%player_name%"
+        - "&2• &f&lУровень: &6%player_level%"  
+        - "&2• &f&lГильдия: %guilds_name%"
+        - ""
+        - "&2• &f&lМонеты: &a%vault_eco_balance% "
+        - ""
+        - "&2• &f&lУбийства: &4%statistic_player_kills% ⚔️"
+        - "&2• &f&lСмерти:   &4%statistic_deaths% ☠️"
+        - ""
+
     scoreboard1:
       title: "Server name"
       lines:
-        - "%animation:MyAnimation1%"
-        - "&2• &9&lУровень &6%player_level%"
-        - "&2• &9&lДо повышения: %player_exp_to_level%"
         - ""
-        - "&2• &b&lУбийства&7: &f%statistic_player_kills%"
-        - "&2• &b&lСмерти&7: &f%statistic_deaths%"
-        - "%animation:MyAnimation1%"
+        - "&2• &f&lНик: &c%player_name%"
+        - "&2• &f&lУровень: &6%player_level%"  
+        - "&2• &f&lГильдия: %guilds_name%"
+        - ""
+        - "&2• &f&lМонеты: &a%vault_eco_balance% "
+        - ""
+        - "&2• &f&lУбийства: &4%statistic_player_kills% ⚔️"
+        - "&2• &f&lСмерти: &4%statistic_deaths% ☠️"
+        - ""
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Ping-Spoof
 ping-spoof:
