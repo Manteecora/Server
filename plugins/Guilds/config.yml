@@ -385,11 +385,11 @@ timers:
             time: 3
 cost:
     # How much should it cost to create a guild?
-    creation: 0.0
+    creation: 100000.0
     # How much should it cost to rename a guild? (Leave at 0.0 to disable)
-    rename: 0.0
+    rename: 50000.0
     # How much should it cost to set the cost of the guild home?
-    sethome: 0.0
+    sethome: 10000.0
 # This section of the config will allow you to handle guild land claiming.
 # Remember that the enable / disable for this is the WorldGuard Hook at the TOP of the config.
 # There are multiple options when it comes to guild claims. For the time being, all guilds will only get one claim.
