@@ -1,5 +1,5 @@
 Messages:
-  prefix: '&8[&4Стартовый комплект&8] '
+  prefix: '&8[&6Стартовый комплект&8] '
   noPermissions: '&cУ вас нет на это разрешений.'
   commandCreateError: '&cВам нужно использовать: &7/kit create <name>'
   commandDeleteError: '&cВам нужно использовать: &7/kit delete <name>'

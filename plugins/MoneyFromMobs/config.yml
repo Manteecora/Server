@@ -187,14 +187,14 @@ PARROT:
 SQUID:
   Enabled: true
   Min: 0.2
-  Max: 1
+  Max: 0.5
   DropChance: 100
   NumberOfDrops: 1-3
   OnlyOnKill: true
 BAT:
   Enabled: true
-  Min: 15
-  Max: 15
+  Min: 0.2
+  Max: 1.5
   DropChance: 10
   NumberOfDrops: 1-3
   OnlyOnKill: true
@@ -228,15 +228,15 @@ HORSE:
   OnlyOnKill: true
 SKELETON_HORSE:
   Enabled: true
-  Min: 15
-  Max: 15
+  Min: 1.5
+  Max: 1.5
   DropChance: 15
   NumberOfDrops: 1-3
   OnlyOnKill: true
 ZOMBIE_HORSE:
   Enabled: true
-  Min: 15
-  Max: 15
+  Min: 1.5
+  Max: 1.5
   DropChance: 15
   NumberOfDrops: 1-3
   OnlyOnKill: true
@@ -361,8 +361,8 @@ GOAT:
   OnlyOnKill: true
 GLOW_SQUID:
   Enabled: true
-  Min: 10
-  Max: 15
+  Min: 1.0
+  Max: 1.5
   DropChance: 30
   NumberOfDrops: 1-3
   OnlyOnKill: true

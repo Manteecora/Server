@@ -11,3 +11,9 @@ Players:
       one_time: false
   3d5adfea-d973-37c0-bcdc-a42c34be5b7b:
     name: Manteecora
+  095f7954-6e4f-375b-8065-159a252b036c:
+    name: Prostoy_Neprost
+    iron:
+      cooldown: 1661585907086
+      buyed: false
+      one_time: false
